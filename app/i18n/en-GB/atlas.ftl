@@ -102,7 +102,7 @@ window-close-protection-title = Close Zeropti Manager with protection turned off
 window-close-protection-message = Some protection in Windows Security is still off: { $switches }. If you're not going to finish installing Zeropti OS, turn it back on before you close. If you are, Zeropti OS continues your setup when you open it again.
 # The Open button of the file picker for an Atlas package (.apbx) file, on Get ready and the
 # ISO page. It's a button label, so keep it short.
-file-dialog-open-package = Open an Zeropti OS package (.apbx)
+file-dialog-open-package = Open a Zeropti OS package (.apbx)
 # Message Windows shows in its restart notification.
 shutdown-comment = Zeropti OS is installed. Restarting Windows to finish setup.
 # Message Windows shows in its restart notification when "Get ready" restarts
@@ -261,7 +261,7 @@ ready-banner-blocked-title = Your PC isn't ready yet
 ready-banner-blocked-message = Fix the items marked in PC checks, then choose Check again.
 ready-banner-no-package-title = Download Zeropti OS to continue
 # "Installation files" is package-title, the first card; "Open package file" is package-open-file.
-ready-banner-no-package-message = Download Zeropti OS in Installation files, or choose Open package file if you already have an Zeropti OS package (.apbx).
+ready-banner-no-package-message = Download Zeropti OS in Installation files, or choose Open package file if you already have a Zeropti OS package (.apbx).
 # Tester build: the bundled Atlas package couldn't be unpacked.
 ready-banner-no-package-bundled-title = Prepare the bundled Zeropti OS package to continue
 ready-banner-no-package-bundled-message = The Zeropti OS package bundled with this test build isn't ready yet. Check the Installation files card.
@@ -314,7 +314,7 @@ package-unpacking = Unpacking
 package-looking = Checking for the latest Zeropti OS version.
 # Tester build: the bundled Atlas package is being unpacked, nothing is downloaded.
 package-looking-bundled = Preparing the bundled Zeropti OS package.
-package-none = Download Zeropti OS to get the installation files. If you already have an Zeropti OS package (.apbx), open it instead.
+package-none = Download Zeropti OS to get the installation files. If you already have a Zeropti OS package (.apbx), open it instead.
 # The GitHub release check failed. "Download latest version" is package-download-newest,
 # the button offered in this state; it checks again.
 package-release-failed = Zeropti OS couldn't check for the latest version. Check your internet connection, then choose Download latest version, or open a saved Zeropti OS package (.apbx).
@@ -409,7 +409,7 @@ detail-internet-ok = You're connected. Keep this connection available while Zero
 detail-internet-missing = Connect to the internet, then check again.
 detail-power-mains = Your PC is plugged in. Keep it connected until installation finishes.
 detail-power-battery = Plug your PC into a power supply so it stays on throughout installation.
-detail-power-unknown = Zeropti OS couldn't tell whether your PC is plugged in. If it's a laptop, plug it in, then choose Check again. If this keeps happening, choose Send a report.
+detail-power-unknown = Zeropti OS couldn't tell whether your PC is plugged in. If it's a laptop, plug it in, then choose Check again. If this keeps happening, choose Contact support.
 detail-activation-ok = Windows is activated. Zeropti OS won't change this.
 detail-activation-missing = Windows isn't activated. You can continue, but Zeropti OS won't activate Windows for you.
 detail-activation-no-licence = Windows didn't report a licence. You can continue; Zeropti OS won't change your activation status.
@@ -611,27 +611,27 @@ outcome-not-elevated-resumed = Zeropti OS didn't have administrator permission, 
 # update check again; "Check and install updates" is prepare-start, its button in that state.
 outcome-preparation-stale = Zeropti OS couldn't confirm that Windows and Store apps are up to date, so installation stopped before changing Windows. Return to Get ready and choose Check and install updates.
 outcome-preparation-stale-resumed = Zeropti OS couldn't confirm that Windows and Store apps are up to date, so this attempt stopped, but an earlier attempt already started making changes. Return to Get ready and choose Check and install updates.
-outcome-failed-preflight = Installation stopped before changing anything. You can try again. If it stops again, choose Send a report.
-outcome-failed-staging = Installation stopped while preparing files, before changing Windows. You can try again. If it stops again, choose Send a report.
+outcome-failed-preflight = Installation stopped before changing anything. You can try again. If it stops again, choose Contact support.
+outcome-failed-staging = Installation stopped while preparing files, before changing Windows. You can try again. If it stops again, choose Contact support.
 outcome-failed-applying = Some changes may already have been made. You can try again. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
 # The -defender-removed variants replace the advice to turn protections back on once Microsoft
-# Defender has been removed, so there's nothing to turn back on. "Send a report" is report-title, in
+# Defender has been removed, so there's nothing to turn back on. "Contact support" is report-title, in
 # the diagnostics under the bar.
-outcome-failed-applying-defender-removed = Some changes may already have been made. You can try again. If installation stops again, choose Send a report.
+outcome-failed-applying-defender-removed = Some changes may already have been made. You can try again. If installation stops again, choose Contact support.
 outcome-failed-resumed = This attempt stopped early, but an earlier attempt already started making changes. You can try again. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
-outcome-failed-resumed-defender-removed = This attempt stopped early, but an earlier attempt already started making changes. You can try again. If installation stops again, choose Send a report.
+outcome-failed-resumed-defender-removed = This attempt stopped early, but an earlier attempt already started making changes. You can try again. If installation stops again, choose Contact support.
 # The -repeated variants follow a retry of an installation already part-way through that stopped
 # with the same error as the attempt before it, so they point to a report rather than another try.
-# "Send a report" is report-title.
-outcome-failed-repeated = This attempt stopped with the same error as the one before it, and some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Send a report so the Zeropti OS team can find the cause. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
-outcome-failed-repeated-defender-removed = This attempt stopped with the same error as the one before it, and some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Send a report so the Zeropti OS team can find the cause.
+# "Contact support" is report-title.
+outcome-failed-repeated = This attempt stopped with the same error as the one before it, and some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Contact support so the Zeropti OS team can find the cause. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
+outcome-failed-repeated-defender-removed = This attempt stopped with the same error as the one before it, and some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Contact support so the Zeropti OS team can find the cause.
 # $apps holds the package names Windows gives the apps, such as MSTeams (text), joined with list-and.
-outcome-failed-repeated-apps = Windows still wouldn't remove { $apps }, so this attempt stopped with the same error as the one before it. Some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Send a report so the Zeropti OS team can find the cause. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
-outcome-failed-repeated-apps-defender-removed = Windows still wouldn't remove { $apps }, so this attempt stopped with the same error as the one before it. Some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Send a report so the Zeropti OS team can find the cause.
+outcome-failed-repeated-apps = Windows still wouldn't remove { $apps }, so this attempt stopped with the same error as the one before it. Some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Contact support so the Zeropti OS team can find the cause. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
+outcome-failed-repeated-apps-defender-removed = Windows still wouldn't remove { $apps }, so this attempt stopped with the same error as the one before it. Some changes may already have been made. Trying again without changing anything is unlikely to help. Choose Contact support so the Zeropti OS team can find the cause.
 outcome-not-started = The installer didn't start in time. No installation changes were made. You can try again.
 outcome-lost = The installer stopped without reporting a result, and some changes may already have been made. You can try again. If you stop here, turn the protections you turned off back on in Windows Security, if they're still available.
 # Instead of outcome-lost once Defender is gone, as for the -defender-removed variants above.
-outcome-lost-defender-removed = The installer stopped without reporting a result, and some changes may already have been made. You can try again. If it stops again, choose Send a report.
+outcome-lost-defender-removed = The installer stopped without reporting a result, and some changes may already have been made. You can try again. If it stops again, choose Contact support.
 restart-now-message = Windows is restarting to finish setting up Zeropti OS.
 # "Restart later" is restart-dont-now, the button under it.
 restart-countdown =
@@ -658,11 +658,11 @@ preflight-taken-over = Another Zeropti OS window is now using this setup, so ins
 preflight-record-unreadable = Zeropti OS couldn't check whether the previous installation is still running, so it hasn't started another one. Return to Get ready to see what to do next. Details: { $error }
 
 # "Install Atlas" is button-install: after a refusal the footer's button always reads it.
-# "Send a report" is report-title, in the diagnostics under the bar.
-preflight-refused = Couldn't start the installer. No installation changes were made. Choose Install Zeropti OS to try again. If it keeps happening, choose Send a report. Details: { $error }
+# "Contact support" is report-title, in the diagnostics under the bar.
+preflight-refused = Couldn't start the installer. No installation changes were made. Choose Install Zeropti OS to try again. If it keeps happening, choose Contact support. Details: { $error }
 # Instead of preflight-refused when retrying an installation an earlier attempt had already
 # started applying. "Install Atlas" is button-install, as for preflight-refused.
-preflight-refused-resumed = Couldn't start the installer, so this attempt stopped. An earlier attempt already started making changes. Choose Install Zeropti OS to try again. If it keeps happening, choose Send a report. Details: { $error }
+preflight-refused-resumed = Couldn't start the installer, so this attempt stopped. An earlier attempt already started making changes. Choose Install Zeropti OS to try again. If it keeps happening, choose Contact support. Details: { $error }
 go-to-ready = Return to Get ready
 # Button on the preflight banner when the setup choices could not be used; leads to step 2.
 go-to-options = Return to Your choices
@@ -708,7 +708,7 @@ summary-update-path = How Zeropti OS updates
 footer-still-checking = Preparing for installation
 
 footer-fix-items = Fix the items in PC checks to continue
-footer-need-package = Download Zeropti OS or open an Zeropti OS package to continue
+footer-need-package = Download Zeropti OS or open a Zeropti OS package to continue
 # Tester build variant of footer-need-package.
 footer-need-package-bundled = Prepare the bundled Zeropti OS package to continue
 footer-reading-security = Checking the protection switches
@@ -854,8 +854,8 @@ home-intro = Zeropti OS adjusts Windows to reduce background activity and distra
 ## ISO creation (Beta)
 iso-home-title = Windows installation media
 iso-home-description = Create a Windows installation file (ISO) that includes Zeropti OS, then use it to reinstall Windows on this PC or another one.
-iso-open = Create an Zeropti OS ISO
-iso-title = Create an Zeropti OS ISO
+iso-open = Create a Zeropti OS ISO
+iso-title = Create a Zeropti OS ISO
 iso-beta = Beta
 iso-beta-description = Try the ISO in a virtual machine before using it on a PC. Back up your files before installing Windows.
 # "Relaunch as administrator" is common-restart-as-administrator.
@@ -938,12 +938,12 @@ iso-complete = Your ISO is ready
 iso-complete-description = ISO creation is in beta, so test the ISO in a virtual machine first. Then choose Create installation USB, and back up your files before you reinstall Windows.
 iso-open-folder = Show in folder
 iso-failed = Couldn't finish creating the ISO
-# "Create ISO" is iso-create; "Send a report" is report-title.
-iso-failed-description = Make sure your files are still where you chose them and the drive you're saving to is connected, then choose Create ISO. If it keeps failing, choose Send a report.
+# "Create ISO" is iso-create; "Contact support" is report-title.
+iso-failed-description = Make sure your files are still where you chose them and the drive you're saving to is connected, then choose Create ISO. If it keeps failing, choose Contact support.
 # Title while the Check files step fails; the messages below say why.
 iso-check-failed = Couldn't check the files
-# "Check files" is iso-inspect; "Send a report" is report-title.
-iso-check-failed-description = Make sure the ISO and Zeropti OS package are still where you chose them and have finished downloading, then choose Check files. If it keeps failing, choose Send a report.
+# "Check files" is iso-inspect; "Contact support" is report-title.
+iso-check-failed-description = Make sure the ISO and Zeropti OS package are still where you chose them and have finished downloading, then choose Check files. If it keeps failing, choose Contact support.
 # Title of the bar that asks for administrator permission. Its message is iso-admin-description,
 # or elevation-declined after Windows refused the relaunch (UAC declined).
 iso-elevation-title = Zeropti OS needs permission to create an ISO
@@ -982,7 +982,7 @@ prepare-reboot-reasons = Your PC needs to restart to finish installing updates (
 # Under the restart message, before its button, which restarts the PC without a countdown.
 prepare-reboot-save-work = Save your work and close your apps first. Your PC restarts immediately when you choose Restart and continue.
 # Shown instead of another restart when Windows asks for one again right after restarting.
-prepare-restart-persists = Your PC restarted, but Windows still says it needs a restart ({ $reasons }), so restarting again probably won't help. Choose Open Windows Update and finish anything waiting there, then choose Try again. If nothing is waiting, choose Send a report.
+prepare-restart-persists = Your PC restarted, but Windows still says it needs a restart ({ $reasons }), so restarting again probably won't help. Choose Open Windows Update and finish anything waiting there, then choose Try again. If nothing is waiting, choose Contact support.
 # Names of the markers Windows sets when it wants a restart. They complete
 # "Your PC needs to restart to finish installing updates (…)"; keep them short and lower
 # case where the language allows.
@@ -992,8 +992,8 @@ prepare-reason-file-renames = files waiting to be replaced
 prepare-reason-update-agent = the Windows Update service
 prepare-reason-unknown = reason not reported
 # Under prepare-failed-title. "Try again" is common-try-again, the button beside it;
-# "Send a report" is report-title, in the diagnostics under it.
-prepare-failed = Choose Try again. If it fails again, finish the remaining updates in Windows Update or Microsoft Store, or choose Send a report.
+# "Contact support" is report-title, in the diagnostics under it.
+prepare-failed = Choose Try again. If it fails again, finish the remaining updates in Windows Update or Microsoft Store, or choose Contact support.
 # Title of the error bar on the update card; the cause is its message.
 prepare-failed-title = Some updates couldn't finish
 # The update run ended without writing any result, for example after Atlas was closed
@@ -1006,10 +1006,10 @@ prepare-app-in-use = Close { $app }, then try again. Windows can't update it whi
 prepare-install-busy = Another installation or a required restart is blocking updates. Let other installations finish, restart your PC if Windows asks you to, then try again.
 # Updates failed with 0x80073712, and Atlas's own repair of the component store (DISM) didn't
 # fix it. "Try again" is common-try-again; the Atlas ISO is iso-open, the button beside it.
-prepare-failed-component-store = Windows reports damage to its component store that stops updates from installing, and Zeropti OS couldn't repair it. Restart your PC, then choose Try again. If updates still fail, back up your files and reinstall Windows with an Zeropti OS ISO.
+prepare-failed-component-store = Windows reports damage to its component store that stops updates from installing, and Zeropti OS couldn't repair it. Restart your PC, then choose Try again. If updates still fail, back up your files and reinstall Windows with a Zeropti OS ISO.
 # Windows records damage to its component store that it can't repair, so Atlas stops before
 # any update. The Atlas ISO is iso-open, the button beside it.
-prepare-failed-component-store-unrepairable = Windows reports damage to its component store that it can't repair, which stops updates from installing. Back up your files, then reinstall Windows with an Zeropti OS ISO.
+prepare-failed-component-store-unrepairable = Windows reports damage to its component store that it can't repair, which stops updates from installing. Back up your files, then reinstall Windows with a Zeropti OS ISO.
 # Causes the update worker names. The worker's own English message is shown below as a detail.
 prepare-failed-session-owner = Zeropti OS is running as a different account from the one signed in to Windows. Sign in to Windows with an administrator account, open Zeropti Manager from that account, then try again.
 prepare-failed-store-missing = Microsoft Store isn't set up for your account. Open Microsoft Store once, or reinstall it if it's missing, then try again.
@@ -1167,8 +1167,8 @@ install-source-unsupported-any = Zeropti OS { $source } can't be updated directl
 install-source-resume = An installation of Zeropti OS { $target } didn't finish, and only the Zeropti OS { $target } package can finish it. Choose Open package file and select that Zeropti OS package (.apbx). If Zeropti OS downloaded it, it's in { $folder }.
 # Tester build: only the bundled Atlas package can be installed.
 install-source-resume-bundled = An installation of Zeropti OS { $target } didn't finish. This test build can only install its bundled Zeropti OS package, so finish that installation with the Zeropti OS { $target } package in a release build of Zeropti Manager.
-# "Send a report" is report-title, a button offered with this message.
-install-source-unknown = Zeropti OS couldn't confirm what's already installed on this PC, so it won't install anything for now. Choose Send a report so the Zeropti OS team can help.
+# "Contact support" is report-title, a button offered with this message.
+install-source-unknown = Zeropti OS couldn't confirm what's already installed on this PC, so it won't install anything for now. Choose Contact support so the Zeropti OS team can help.
 # $problem is one of the install-source-* messages, or the outcome-* advice for a failed
 # installation; $error is a raw error message or the installer's last error line (text).
 install-source-details = { $problem } Details: { $error }
@@ -1222,7 +1222,7 @@ check-user-account = User account
 detail-user-account-ok = UAC is enabled and your account is ready for installation.
 detail-user-account-not-ready = Turn on User Account Control (UAC), restart your PC, then try again. If you use the built-in Administrator account, sign in with another administrator account.
 detail-user-account-work-or-school = Zeropti OS can't be installed from a work or school (Microsoft Entra ID) account. Sign in with a local account or a Microsoft account, then try again.
-detail-user-account-unknown = Zeropti OS couldn't check your user account. Restart your PC, then reopen Zeropti Manager and check again. If this keeps happening, choose Send a report. Windows reported: { $error }
+detail-user-account-unknown = Zeropti OS couldn't check your user account. Restart your PC, then reopen Zeropti Manager and check again. If this keeps happening, choose Contact support. Windows reported: { $error }
 
 footer-prepare-required = Finish updating Windows and Store apps to continue
 footer-prepare-stopping = Stopping updates after the current step…
@@ -1311,7 +1311,7 @@ install-windows-edition = Zeropti OS { $version } works with Windows 11 Pro, Ent
 # The same, on a version whose security updates end. $date is a date.
 install-windows-edition-ending = Zeropti OS { $version } works with Windows 11 Pro, Enterprise and Education. This PC has { $product }, so Zeropti OS can't install on it. Windows 11, version { $current } stops getting security updates on { $date }. Windows Update can move this PC to a newer version.
 # $releases lists the supported releases, such as "25H2 or 26H2".
-install-windows-no-path = Zeropti OS { $version } needs Windows 11, version { $releases }, and Windows Update can't move this PC there from the Windows it has. To use Zeropti OS { $version }, back up your files and reinstall Windows with an Zeropti OS ISO.
+install-windows-no-path = Zeropti OS { $version } needs Windows 11, version { $releases }, and Windows Update can't move this PC there from the Windows it has. To use Zeropti OS { $version }, back up your files and reinstall Windows with a Zeropti OS ISO.
 
 # Home, when Atlas changed Windows Update settings for an update and hasn't put them back.
 home-update-access-title = Windows Update settings are changed for the Zeropti OS update
@@ -1320,9 +1320,9 @@ home-update-access-not-offered = Zeropti OS turned on Windows Update to move thi
 home-update-access-before = Zeropti OS turned on Windows Update to move this PC to Windows 11, version { $release }, and hasn't finished. Continue the update, or choose Put back settings.
 home-update-access-after = This PC has Windows 11, version { $release }. Finish installing Zeropti OS, or choose Put back settings.
 home-update-access-plain = Zeropti OS turned on Windows Update to install updates and hasn't finished. Continue the update, or choose Put back settings.
-home-update-access-unreadable = Zeropti OS can't read its record of the Windows Update settings it changed, so it won't change or put back anything. Choose Send a report so the Zeropti OS team can help.
+home-update-access-unreadable = Zeropti OS can't read its record of the Windows Update settings it changed, so it won't change or put back anything. Choose Contact support so the Zeropti OS team can help.
 # $error is the raw error.
-home-update-access-failed = Zeropti OS couldn't put the settings back. Try again, or choose Send a report. Details: { $error }
+home-update-access-failed = Zeropti OS couldn't put the settings back. Try again, or choose Contact support. Details: { $error }
 home-update-access-install-active = Finish installing Zeropti OS first. Its last step puts these settings back.
 home-continue-update = Continue update
 home-put-back = Put back settings
@@ -1409,12 +1409,12 @@ prepare-offer-checking-now = Checking now.
 prepare-offer-check-again = Choose Check again to look now.
 # After 2 hours of looking again without an offer.
 prepare-offer-wait-ended-title = Windows Update hasn't offered Windows 11, version { $release } yet
-prepare-offer-wait-ended = Windows Update didn't offer Windows 11, version { $release } within 2 hours, so Zeropti OS stopped waiting and put your Windows Update settings back. Choose Check again later. If you can't wait, back up your files and reinstall Windows with an Zeropti OS ISO.
+prepare-offer-wait-ended = Windows Update didn't offer Windows 11, version { $release } within 2 hours, so Zeropti OS stopped waiting and put your Windows Update settings back. Choose Check again later. If you can't wait, back up your files and reinstall Windows with a Zeropti OS ISO.
 # Instead of the message above when putting the settings back at the end of the wait failed.
 # $error is the raw error.
 prepare-offer-wait-put-back-failed = Windows Update didn't offer Windows 11, version { $release } within 2 hours, and Zeropti OS couldn't put your Windows Update settings back. Choose Put back settings to try again. Details: { $error }
 # $missing lists the hardware this PC lacks, from the two messages below.
-prepare-failed-feature-hardware = This PC doesn't meet the Windows 11 hardware requirements ({ $missing }), so Windows Update won't move it to version { $release }. Your PC still has version { $current }. To use Zeropti OS { $version }, back up your files and reinstall Windows with an Zeropti OS ISO.
+prepare-failed-feature-hardware = This PC doesn't meet the Windows 11 hardware requirements ({ $missing }), so Windows Update won't move it to version { $release }. Your PC still has version { $current }. To use Zeropti OS { $version }, back up your files and reinstall Windows with a Zeropti OS ISO.
 hardware-tpm = TPM 2.0
 hardware-uefi = UEFI firmware
 prepare-failed-feature-hidden = Windows 11, version { $release } is hidden in Windows Update on this PC. Show it again with the tool you used to hide it, then choose Try again.
@@ -1426,14 +1426,14 @@ prepare-failed-feature-managed = This PC gets updates from an organisation's upd
 # NoAutoUpdate or BITS, shown as it is.
 prepare-failed-feature-policy = Something on this PC keeps changing { $setting } back after Zeropti OS changes it, so Zeropti OS can't update Windows. If an organisation manages this PC, ask them. Zeropti OS puts back what it changed when you stop.
 prepare-failed-feature-blocked = A setting Zeropti OS didn't change keeps Windows Update from running: { $setting }. Change it so Windows Update can run, then choose Try again.
-prepare-failed-feature-rolled-back = Windows couldn't finish installing version { $release } during the restart and went back to version { $current }. Your files and apps aren't affected. Choose Try again, or choose Send a report.
-prepare-failed-feature-components-lost = Some of Zeropti OS's changes are gone after the Windows update, and Windows shows no sign of having reinstalled itself, so Zeropti OS can't tell what happened. Zeropti OS { $version } wasn't installed. Choose Send a report so the Zeropti OS team can help.
+prepare-failed-feature-rolled-back = Windows couldn't finish installing version { $release } during the restart and went back to version { $current }. Your files and apps aren't affected. Choose Try again, or choose Contact support.
+prepare-failed-feature-components-lost = Some of Zeropti OS's changes are gone after the Windows update, and Windows shows no sign of having reinstalled itself, so Zeropti OS can't tell what happened. Zeropti OS { $version } wasn't installed. Choose Contact support so the Zeropti OS team can help.
 prepare-failed-feature-build = This PC's Windows version changed while Zeropti OS was updating it. Choose Put back settings, then start again from Home.
-prepare-failed-feature-journal = Zeropti OS can't read its record of the Windows Update settings it changed, so it won't change or put back anything. Choose Send a report so the Zeropti OS team can help.
+prepare-failed-feature-journal = Zeropti OS can't read its record of the Windows Update settings it changed, so it won't change or put back anything. Choose Contact support so the Zeropti OS team can help.
 # $setting is the name of a Windows Update policy value, such as TargetReleaseVersionInfo.
-prepare-failed-feature-pin = A Windows Update policy on this PC, { $setting }, has a value Zeropti OS can't record, so Zeropti OS didn't change anything. Choose Send a report so the Zeropti OS team can help.
+prepare-failed-feature-pin = A Windows Update policy on this PC, { $setting }, has a value Zeropti OS can't record, so Zeropti OS didn't change anything. Choose Contact support so the Zeropti OS team can help.
 prepare-failed-feature-terms = Accept the licence terms for Windows 11, version { $release }, then choose Try again.
-prepare-failed-feature-failed = Windows couldn't install version { $release }. Your PC still has version { $current }. Choose Try again. If it fails again, choose Send a report.
+prepare-failed-feature-failed = Windows couldn't install version { $release }. Your PC still has version { $current }. Choose Try again. If it fails again, choose Contact support.
 prepare-check-again = Check again
 prepare-keep-version = Keep version { $current }
 
@@ -1494,9 +1494,9 @@ prepare-store-updated = Microsoft Store was out of date, so Zeropti OS updated i
 prepare-store-bootstrapped = Microsoft Store couldn't update itself, so Zeropti OS installed the latest App Installer and Microsoft Store from Microsoft.
 prepare-store-repaired = Microsoft Store wasn't working, so Zeropti OS repaired it.
 prepare-store-skipped-removed = Microsoft Store is turned off on this PC, so Zeropti OS skipped Store app updates.
-# "Repair Microsoft Store" is prepare-repair-store; "Send a report" is report-title. The Atlas
+# "Repair Microsoft Store" is prepare-repair-store; "Contact support" is report-title. The Atlas
 # ISO is iso-open, a button beside them.
-prepare-failed-store-repair-failed = Microsoft Store can't install or update apps on this PC, and Zeropti OS couldn't repair it. Zeropti OS needs it working, because installing Zeropti OS while it's broken can leave the Store and its apps broken. Choose Repair Microsoft Store to try again. If it still doesn't work, back up your files and reinstall Windows with an Zeropti OS ISO, or choose Send a report.
+prepare-failed-store-repair-failed = Microsoft Store can't install or update apps on this PC, and Zeropti OS couldn't repair it. Zeropti OS needs it working, because installing Zeropti OS while it's broken can leave the Store and its apps broken. Choose Repair Microsoft Store to try again. If it still doesn't work, back up your files and reinstall Windows with a Zeropti OS ISO, or choose Contact support.
 prepare-repair-store = Repair Microsoft Store
 
 screen-keyboard-title = Keyboard languages

@@ -250,10 +250,10 @@ pub fn init_logging() {
 }
 
 /// The archive's READ-ME.txt.
-const README_TEXT: &str = "Atlas diagnostics\n\nPrepared for a bug report. \"Send a report\" in Atlas Manager shares it privately with the Atlas team; posts in community or development channels are public. Known credential formats and personal account details are automatically redacted; consistent anonymous labels keep related evidence connected.\n\nError details, timestamps, versions, hardware models, application names and operation IDs are kept to help investigate. Nothing is uploaded automatically. See BUG-REPORT.txt for what to include with your report and manifest.json for collection details.\n";
+const README_TEXT: &str = "Zeropti OS diagnostics\n\nPrepared for a bug report. \"Contact support\" in Zeropti Manager opens the Zeropti support on Discord (https://discord.gg/MzxwsmqER); nothing is sent to the AtlasOS team. Share this ZIP only with Zeropti support, and only if you agree; posts in public channels are public. Known credential formats and personal account details are automatically redacted; consistent anonymous labels keep related evidence connected.\n\nError details, timestamps, versions, hardware models, application names and operation IDs are kept to help investigate. Nothing is uploaded automatically. See BUG-REPORT.txt for what to include with your report and manifest.json for collection details.\n";
 
 /// The archive's BUG-REPORT.txt.
-const BUG_REPORT_TEXT: &str = "What were you doing?\nWhat did you expect?\nWhat happened (include exact message)?\nApproximate time and timezone:\nDoes it happen again?\nAttach this ZIP to your report. \"Send a report\" in Atlas Manager shares it privately with the Atlas team; posts in community or development channels are public.\n";
+const BUG_REPORT_TEXT: &str = "What were you doing?\nWhat did you expect?\nWhat happened (include exact message)?\nApproximate time and timezone:\nDoes it happen again?\nAttach this ZIP to your message to Zeropti support only if you agree to share it. \"Contact support\" in Zeropti Manager opens the Zeropti support on Discord; posts in public channels are public.\n";
 
 struct Bundle {
     zip: ZipWriter<File>,

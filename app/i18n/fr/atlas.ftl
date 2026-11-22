@@ -367,7 +367,7 @@ detail-internet-ok = Ce PC est connecté à Internet. Conservez cette connexion 
 detail-internet-missing = Connectez-vous à Internet, puis vérifiez à nouveau.
 detail-power-mains = Votre PC est branché sur le secteur. Laissez-le branché jusqu’à la fin de l’installation.
 detail-power-battery = Branchez votre PC sur le secteur pour qu’il reste allumé pendant toute l’installation.
-detail-power-unknown = Zeropti OS n’a pas pu déterminer si votre PC est branché sur le secteur. S’il s’agit d’un ordinateur portable, branchez-le, puis choisissez Vérifier à nouveau. Si cela se reproduit, choisissez Envoyer un rapport.
+detail-power-unknown = Zeropti OS n’a pas pu déterminer si votre PC est branché sur le secteur. S’il s’agit d’un ordinateur portable, branchez-le, puis choisissez Vérifier à nouveau. Si cela se reproduit, choisissez Contacter le support.
 detail-activation-ok = Windows est activé. Zeropti OS n’y changera rien.
 detail-activation-missing = Windows n’est pas activé. Vous pouvez continuer, mais Zeropti OS n’activera pas Windows à votre place.
 detail-activation-no-licence = Windows n’a signalé aucune licence. Vous pouvez continuer ; Zeropti OS ne modifiera pas l’état d’activation.
@@ -503,19 +503,19 @@ outcome-not-elevated-resumed = Zeropti OS n’avait pas l’autorisation d’adm
 # La vérification du programme d'installation a trouvé des mises à jour Windows ou Store inachevées. L'étape Préparation propose à nouveau la recherche ; « Rechercher et installer les mises à jour » est prepare-start, son bouton dans cet état.
 outcome-preparation-stale = Zeropti OS n’a pas pu confirmer que Windows et les applications du Store sont à jour, l’installation s’est donc arrêtée avant toute modification de Windows. Revenez à l’étape Préparation et choisissez Rechercher et installer les mises à jour.
 outcome-preparation-stale-resumed = Zeropti OS n’a pas pu confirmer que Windows et les applications du Store sont à jour, cette tentative s’est donc arrêtée. Une tentative précédente a toutefois déjà commencé à apporter des modifications. Revenez à l’étape Préparation et choisissez Rechercher et installer les mises à jour.
-outcome-failed-preflight = L’installation s’est arrêtée avant toute modification. Vous pouvez réessayer. Si elle s’arrête de nouveau, choisissez Envoyer un rapport.
-outcome-failed-staging = L’installation s’est arrêtée pendant la préparation des fichiers, avant toute modification de Windows. Vous pouvez réessayer. Si elle s’arrête de nouveau, choisissez Envoyer un rapport.
+outcome-failed-preflight = L’installation s’est arrêtée avant toute modification. Vous pouvez réessayer. Si elle s’arrête de nouveau, choisissez Contacter le support.
+outcome-failed-staging = L’installation s’est arrêtée pendant la préparation des fichiers, avant toute modification de Windows. Vous pouvez réessayer. Si elle s’arrête de nouveau, choisissez Contacter le support.
 outcome-failed-applying = Certaines modifications ont peut-être déjà été appliquées. Vous pouvez réessayer. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
-outcome-failed-applying-defender-removed = Certaines modifications ont peut-être déjà été appliquées. Vous pouvez réessayer. Si l’installation s’arrête de nouveau, choisissez Envoyer un rapport.
+outcome-failed-applying-defender-removed = Certaines modifications ont peut-être déjà été appliquées. Vous pouvez réessayer. Si l’installation s’arrête de nouveau, choisissez Contacter le support.
 outcome-failed-resumed = Cette tentative s’est arrêtée prématurément, mais une tentative précédente a déjà commencé à apporter des modifications. Vous pouvez réessayer. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
-outcome-failed-resumed-defender-removed = Cette tentative s’est arrêtée prématurément, mais une tentative précédente a déjà commencé à apporter des modifications. Vous pouvez réessayer. Si l’installation s’arrête de nouveau, choisissez Envoyer un rapport.
-outcome-failed-repeated = Cette tentative s’est arrêtée sur la même erreur que la précédente, et certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse en trouver la cause. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
-outcome-failed-repeated-defender-removed = Cette tentative s’est arrêtée sur la même erreur que la précédente, et certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse en trouver la cause.
-outcome-failed-repeated-apps = Windows n’a toujours pas supprimé { $apps }, cette tentative s’est donc arrêtée sur la même erreur que la précédente. Certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse en trouver la cause. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
-outcome-failed-repeated-apps-defender-removed = Windows n’a toujours pas supprimé { $apps }, cette tentative s’est donc arrêtée sur la même erreur que la précédente. Certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse en trouver la cause.
+outcome-failed-resumed-defender-removed = Cette tentative s’est arrêtée prématurément, mais une tentative précédente a déjà commencé à apporter des modifications. Vous pouvez réessayer. Si l’installation s’arrête de nouveau, choisissez Contacter le support.
+outcome-failed-repeated = Cette tentative s’est arrêtée sur la même erreur que la précédente, et certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse en trouver la cause. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
+outcome-failed-repeated-defender-removed = Cette tentative s’est arrêtée sur la même erreur que la précédente, et certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse en trouver la cause.
+outcome-failed-repeated-apps = Windows n’a toujours pas supprimé { $apps }, cette tentative s’est donc arrêtée sur la même erreur que la précédente. Certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse en trouver la cause. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
+outcome-failed-repeated-apps-defender-removed = Windows n’a toujours pas supprimé { $apps }, cette tentative s’est donc arrêtée sur la même erreur que la précédente. Certaines modifications ont peut-être déjà été appliquées. Réessayer sans rien changer a peu de chances d’aboutir. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse en trouver la cause.
 outcome-not-started = Le programme d’installation n’a pas démarré à temps. Aucune modification n’a été apportée. Vous pouvez réessayer.
 outcome-lost = Le programme d’installation s’est arrêté sans indiquer de résultat, et certaines modifications ont peut-être déjà été appliquées. Vous pouvez réessayer. Si vous vous arrêtez ici, réactivez dans Sécurité Windows les protections que vous avez désactivées, si elles sont toujours disponibles.
-outcome-lost-defender-removed = Le programme d’installation s’est arrêté sans indiquer de résultat, et certaines modifications ont peut-être déjà été appliquées. Vous pouvez réessayer. S’il s’arrête de nouveau, choisissez Envoyer un rapport.
+outcome-lost-defender-removed = Le programme d’installation s’est arrêté sans indiquer de résultat, et certaines modifications ont peut-être déjà été appliquées. Vous pouvez réessayer. S’il s’arrête de nouveau, choisissez Contacter le support.
 restart-now-message = Windows redémarre pour terminer la configuration de Zeropti OS.
 restart-countdown =
     { $seconds ->
@@ -538,9 +538,9 @@ preflight-busy = Une autre fenêtre Zeropti OS démarre une installation. Patien
 # Affiché avec le bouton home-start-over.
 preflight-taken-over = Une autre fenêtre Zeropti OS utilise désormais cette configuration, l’installation n’a donc pas démarré. Continuez dans cette fenêtre ou choisissez Recommencer pour refaire la configuration ici.
 preflight-record-unreadable = Zeropti OS n’a pas pu vérifier si l’installation précédente est encore en cours et n’en a donc pas démarré une autre. Revenez à l’étape Préparation pour savoir quoi faire ensuite. Détails : { $error }
-preflight-refused = Impossible de démarrer le programme d’installation. Aucune modification n’a été apportée. Choisissez Installer Zeropti OS pour réessayer. Si le problème persiste, choisissez Envoyer un rapport. Détails : { $error }
+preflight-refused = Impossible de démarrer le programme d’installation. Aucune modification n’a été apportée. Choisissez Installer Zeropti OS pour réessayer. Si le problème persiste, choisissez Contacter le support. Détails : { $error }
 # Remplace preflight-refused lors d'une nouvelle tentative d'une installation qu'une tentative précédente avait déjà commencé à appliquer.
-preflight-refused-resumed = Impossible de démarrer le programme d’installation, cette tentative s’est donc arrêtée. Une tentative précédente a déjà commencé à apporter des modifications. Choisissez Installer Zeropti OS pour réessayer. Si le problème persiste, choisissez Envoyer un rapport. Détails : { $error }
+preflight-refused-resumed = Impossible de démarrer le programme d’installation, cette tentative s’est donc arrêtée. Une tentative précédente a déjà commencé à apporter des modifications. Choisissez Installer Zeropti OS pour réessayer. Si le problème persiste, choisissez Contacter le support. Détails : { $error }
 go-to-ready = Revenir à l’étape Préparation
 go-to-options = Revenir à l’étape Vos choix
 # Remplace Continuer sur un choix ouvert depuis un lien Modifier de l'étape Installation, lorsque Continuer y ramène directement.
@@ -767,10 +767,10 @@ iso-complete = Votre ISO est prête
 iso-complete-description = La création d’ISO est en version bêta : testez d’abord l’ISO dans une machine virtuelle. Choisissez ensuite Créer une clé d’installation, et sauvegardez vos fichiers avant de réinstaller Windows.
 iso-open-folder = Afficher dans le dossier
 iso-failed = La création de l’ISO n’a pas pu aboutir
-iso-failed-description = Assurez-vous que vos fichiers se trouvent toujours à l’emplacement choisi et que le disque de destination est connecté, puis choisissez Créer l’ISO. Si l’échec persiste, choisissez Envoyer un rapport.
+iso-failed-description = Assurez-vous que vos fichiers se trouvent toujours à l’emplacement choisi et que le disque de destination est connecté, puis choisissez Créer l’ISO. Si l’échec persiste, choisissez Contacter le support.
 # Titre lorsque l'étape Vérifier les fichiers échoue ; les messages ci-dessous en donnent la raison.
 iso-check-failed = Impossible de vérifier les fichiers
-iso-check-failed-description = Assurez-vous que l’ISO et le package Zeropti OS se trouvent toujours à l’emplacement choisi et que leur téléchargement est terminé, puis choisissez Vérifier les fichiers. Si l’échec persiste, choisissez Envoyer un rapport.
+iso-check-failed-description = Assurez-vous que l’ISO et le package Zeropti OS se trouvent toujours à l’emplacement choisi et que leur téléchargement est terminé, puis choisissez Vérifier les fichiers. Si l’échec persiste, choisissez Contacter le support.
 # Titre lorsque Windows a refusé la relance en administrateur (UAC refusé) ; elevation-declined est le message.
 iso-elevation-title = Zeropti OS a besoin d’une autorisation pour créer une ISO
 # Raisons typées signalées par le processus de traitement de l'image.
@@ -799,7 +799,7 @@ prepare-reboot-reasons = Votre PC doit redémarrer pour terminer l’installatio
 # Sous le message de redémarrage : le bouton redémarre Windows sans compte à rebours.
 prepare-reboot-save-work = Enregistrez d’abord votre travail et fermez vos applications. Votre PC redémarre immédiatement lorsque vous choisissez Redémarrer et continuer.
 # Affiché à la place d'un nouveau redémarrage lorsque Windows en redemande un juste après avoir redémarré.
-prepare-restart-persists = Votre PC a redémarré, mais Windows indique toujours qu’un redémarrage est nécessaire ({ $reasons }) : redémarrer à nouveau n’y changera probablement rien. Choisissez Ouvrir Windows Update et terminez ce qui y est en attente, puis choisissez Réessayer. Si rien n’est en attente, choisissez Envoyer un rapport.
+prepare-restart-persists = Votre PC a redémarré, mais Windows indique toujours qu’un redémarrage est nécessaire ({ $reasons }) : redémarrer à nouveau n’y changera probablement rien. Choisissez Ouvrir Windows Update et terminez ce qui y est en attente, puis choisissez Réessayer. Si rien n’est en attente, choisissez Contacter le support.
 # Noms des marqueurs posés par Windows lorsqu'il demande un redémarrage. Ils complètent
 # « Windows doit redémarrer (…) » ; courts et en minuscules.
 prepare-reason-servicing = la maintenance de Windows
@@ -807,7 +807,7 @@ prepare-reason-windows-update = Windows Update
 prepare-reason-file-renames = des fichiers en attente de remplacement
 prepare-reason-update-agent = le service Windows Update
 prepare-reason-unknown = motif non indiqué
-prepare-failed = Choisissez Réessayer. En cas de nouvel échec, terminez les mises à jour restantes dans Windows Update ou le Microsoft Store, ou choisissez Envoyer un rapport.
+prepare-failed = Choisissez Réessayer. En cas de nouvel échec, terminez les mises à jour restantes dans Windows Update ou le Microsoft Store, ou choisissez Contacter le support.
 prepare-failed-title = Certaines mises à jour n’ont pas pu se terminer
 # La mise à jour s'est terminée sans écrire de résultat, par exemple après la fermeture d'Atlas pendant son exécution. « Rechercher et installer les mises à jour » est prepare-start.
 prepare-ended-unconfirmed = La mise à jour s’est arrêtée sans indiquer de résultat, Zeropti OS ne peut donc pas confirmer que Windows et les applications du Store sont à jour. Choisissez Réessayer pour rechercher les mises à jour.
@@ -932,7 +932,7 @@ install-source-unsupported-any = Zeropti OS { $source } ne peut pas être mis à
 install-source-resume = Une installation de Zeropti OS { $target } ne s’est pas terminée, et seul le package Zeropti OS { $target } permet de l’achever. Choisissez Ouvrir un fichier de package et sélectionnez ce package Zeropti OS (.apbx). Si Zeropti OS l’a téléchargé, il se trouve dans { $folder }.
 # Version de test : seul le package Atlas intégré peut être installé.
 install-source-resume-bundled = Une installation de Zeropti OS { $target } ne s’est pas terminée. Cette version de test ne peut installer que son package Zeropti OS intégré : terminez donc cette installation avec le package Zeropti OS { $target } dans une version publiée d’Zeropti Manager.
-install-source-unknown = Zeropti OS n’a pas pu confirmer ce qui est déjà installé sur ce PC et n’installera donc rien pour le moment. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse vous aider.
+install-source-unknown = Zeropti OS n’a pas pu confirmer ce qui est déjà installé sur ce PC et n’installera donc rien pour le moment. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse vous aider.
 # $problem est l'un des messages install-source-* ; $error est un message d'erreur brut (texte).
 install-source-details = { $problem } Détails : { $error }
 iso-edition-selection = Seules les éditions prises en charge sont incluses. Lors de l’installation de Windows, choisissez une édition pour laquelle vous disposez d’une licence Windows.
@@ -1004,7 +1004,7 @@ check-user-account = Compte utilisateur
 detail-user-account-ok = Le contrôle de compte d’utilisateur est activé et votre compte est prêt pour l’installation.
 detail-user-account-not-ready = Activez le contrôle de compte d’utilisateur (UAC), redémarrez votre PC, puis réessayez. Si vous utilisez le compte Administrateur intégré, connectez-vous avec un autre compte administrateur.
 detail-user-account-work-or-school = Zeropti OS ne peut pas être installé depuis un compte professionnel ou scolaire (Microsoft Entra ID). Connectez-vous avec un compte local ou un compte Microsoft, puis réessayez.
-detail-user-account-unknown = Zeropti OS n’a pas pu vérifier votre compte utilisateur. Redémarrez votre PC, puis rouvrez Zeropti Manager et vérifiez à nouveau. Si cela se reproduit, choisissez Envoyer un rapport. Windows a signalé : { $error }
+detail-user-account-unknown = Zeropti OS n’a pas pu vérifier votre compte utilisateur. Redémarrez votre PC, puis rouvrez Zeropti Manager et vérifiez à nouveau. Si cela se reproduit, choisissez Contacter le support. Windows a signalé : { $error }
 
 footer-prepare-required = Terminez la mise à jour de Windows et des applications du Store pour continuer
 footer-prepare-stopping = Arrêt des mises à jour après l’opération en cours…
@@ -1072,8 +1072,8 @@ home-update-access-not-offered = Zeropti OS a activé Windows Update pour faire 
 home-update-access-before = Zeropti OS a activé Windows Update pour faire passer ce PC à Windows 11, version { $release }, et n’a pas terminé. Poursuivez la mise à jour, ou choisissez Rétablir les paramètres.
 home-update-access-after = Ce PC utilise Windows 11, version { $release }. Terminez l’installation de Zeropti OS, ou choisissez Rétablir les paramètres.
 home-update-access-plain = Zeropti OS a activé Windows Update pour installer des mises à jour et n’a pas terminé. Poursuivez la mise à jour, ou choisissez Rétablir les paramètres.
-home-update-access-unreadable = Zeropti OS ne parvient pas à lire son enregistrement des paramètres Windows Update qu’il a modifiés : il ne modifiera et ne rétablira donc rien. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse vous aider.
-home-update-access-failed = Zeropti OS n’a pas pu rétablir les paramètres. Réessayez ou choisissez Envoyer un rapport. Détails : { $error }
+home-update-access-unreadable = Zeropti OS ne parvient pas à lire son enregistrement des paramètres Windows Update qu’il a modifiés : il ne modifiera et ne rétablira donc rien. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse vous aider.
+home-update-access-failed = Zeropti OS n’a pas pu rétablir les paramètres. Réessayez ou choisissez Contacter le support. Détails : { $error }
 home-update-access-install-active = Terminez d’abord l’installation de Zeropti OS. Elle rétablit ces paramètres à la fin.
 home-continue-update = Reprendre la mise à jour
 home-put-back = Rétablir les paramètres
@@ -1146,13 +1146,13 @@ prepare-failed-feature-servicing = Windows signale que son magasin de composants
 prepare-failed-feature-managed = Ce PC reçoit ses mises à jour du serveur de mise à jour d’une organisation : Zeropti OS ne peut donc pas le faire passer à la version { $release }. Zeropti OS n’a rien modifié.
 prepare-failed-feature-policy = Un élément de ce PC annule sans cesse les modifications que Zeropti OS apporte à { $setting } : Zeropti OS ne peut donc pas mettre à jour Windows. Si ce PC est géré par une organisation, adressez-vous à elle. Zeropti OS rétablit ce qu’il a modifié lorsque vous arrêtez.
 prepare-failed-feature-blocked = Un paramètre que Zeropti OS n’a pas modifié empêche Windows Update de fonctionner : { $setting }. Modifiez-le pour que Windows Update puisse fonctionner, puis choisissez Réessayer.
-prepare-failed-feature-rolled-back = Windows n’a pas pu terminer l’installation de la version { $release } pendant le redémarrage et est revenu à la version { $current }. Vos fichiers et vos applications ne sont pas touchés. Choisissez Réessayer ou Envoyer un rapport.
-prepare-failed-feature-components-lost = Certaines modifications de Zeropti OS ont disparu après la mise à jour de Windows, et rien n’indique que Windows s’est réinstallé : Zeropti OS ne peut donc pas savoir ce qui s’est passé. Zeropti OS { $version } n’a pas été installé. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse vous aider.
+prepare-failed-feature-rolled-back = Windows n’a pas pu terminer l’installation de la version { $release } pendant le redémarrage et est revenu à la version { $current }. Vos fichiers et vos applications ne sont pas touchés. Choisissez Réessayer ou Contacter le support.
+prepare-failed-feature-components-lost = Certaines modifications de Zeropti OS ont disparu après la mise à jour de Windows, et rien n’indique que Windows s’est réinstallé : Zeropti OS ne peut donc pas savoir ce qui s’est passé. Zeropti OS { $version } n’a pas été installé. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse vous aider.
 prepare-failed-feature-build = La version de Windows de ce PC a changé pendant que Zeropti OS la mettait à jour. Choisissez Rétablir les paramètres, puis recommencez depuis l’accueil.
-prepare-failed-feature-journal = Zeropti OS ne parvient pas à lire son enregistrement des paramètres Windows Update qu’il a modifiés : il ne modifiera et ne rétablira donc rien. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse vous aider.
-prepare-failed-feature-pin = Une stratégie Windows Update de ce PC, { $setting }, a une valeur que Zeropti OS ne peut pas enregistrer : Zeropti OS n’a donc rien modifié. Choisissez Envoyer un rapport pour que l’équipe Zeropti OS puisse vous aider.
+prepare-failed-feature-journal = Zeropti OS ne parvient pas à lire son enregistrement des paramètres Windows Update qu’il a modifiés : il ne modifiera et ne rétablira donc rien. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse vous aider.
+prepare-failed-feature-pin = Une stratégie Windows Update de ce PC, { $setting }, a une valeur que Zeropti OS ne peut pas enregistrer : Zeropti OS n’a donc rien modifié. Choisissez Contacter le support pour que l’équipe Zeropti OS puisse vous aider.
 prepare-failed-feature-terms = Acceptez les termes du contrat de licence de Windows 11, version { $release }, puis choisissez Réessayer.
-prepare-failed-feature-failed = Windows n’a pas pu installer la version { $release }. Votre PC utilise toujours la version { $current }. Choisissez Réessayer. En cas de nouvel échec, choisissez Envoyer un rapport.
+prepare-failed-feature-failed = Windows n’a pas pu installer la version { $release }. Votre PC utilise toujours la version { $current }. Choisissez Réessayer. En cas de nouvel échec, choisissez Contacter le support.
 prepare-check-again = Vérifier à nouveau
 prepare-keep-version = Conserver la version { $current }
 stop-update-title = Arrêter la mise à jour vers Zeropti OS { $version } ?
@@ -1225,7 +1225,7 @@ prepare-store-updated = Le Microsoft Store n’était pas à jour : Zeropti OS 
 prepare-store-bootstrapped = Le Microsoft Store n’a pas pu se mettre à jour lui-même : Zeropti OS a donc installé les dernières versions du Programme d’installation d’application et du Microsoft Store, fournies par Microsoft.
 prepare-store-repaired = Le Microsoft Store ne fonctionnait pas : Zeropti OS l’a donc réparé.
 prepare-store-skipped-removed = Le Microsoft Store est désactivé sur ce PC : Zeropti OS a donc ignoré les mises à jour des applications du Store.
-prepare-failed-store-repair-failed = Le Microsoft Store ne peut pas installer ni mettre à jour d’applications sur ce PC, et Zeropti OS n’a pas pu le réparer. Zeropti OS a besoin qu’il fonctionne, car installer Zeropti OS alors qu’il est endommagé peut laisser le Store et ses applications hors d’usage. Choisissez Réparer Microsoft Store pour réessayer. Si le problème persiste, sauvegardez vos fichiers et réinstallez Windows avec une ISO Zeropti OS, ou choisissez Envoyer un rapport.
+prepare-failed-store-repair-failed = Le Microsoft Store ne peut pas installer ni mettre à jour d’applications sur ce PC, et Zeropti OS n’a pas pu le réparer. Zeropti OS a besoin qu’il fonctionne, car installer Zeropti OS alors qu’il est endommagé peut laisser le Store et ses applications hors d’usage. Choisissez Réparer Microsoft Store pour réessayer. Si le problème persiste, sauvegardez vos fichiers et réinstallez Windows avec une ISO Zeropti OS, ou choisissez Contacter le support.
 prepare-repair-store = Réparer Microsoft Store
 
 screen-keyboard-title = Langues du clavier

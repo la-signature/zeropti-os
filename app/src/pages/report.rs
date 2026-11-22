@@ -1188,6 +1188,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "Zeropti OS: navigating to the Report page opens the Zeropti Discord instead"]
     fn opening_the_page_prepares_diagnostics_once_per_visit_unless_a_recent_zip_exists() {
         run_model_test(|mut cx| async move {
             let temp = TempDir::new("report-arrival");
@@ -1356,6 +1357,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "Zeropti OS: navigating to the Report page opens the Zeropti Discord instead"]
     fn a_waiting_report_stays_unsent_when_collecting_fails_or_the_user_leaves() {
         run_model_test(|mut cx| async move {
             let temp = TempDir::new("report-unsent");
@@ -1401,6 +1403,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "Zeropti OS: navigating to the Report page opens the Zeropti Discord instead"]
     fn a_sent_report_shows_until_the_user_leaves() {
         run_model_test(|mut cx| async move {
             let temp = TempDir::new("report-leave");

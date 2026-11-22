@@ -771,8 +771,10 @@ pub fn fixed_reason(fixed: &FixedChoice, label: impl Fn(&str) -> String) -> Opti
 /// The one line playbook.conf repeats on every checkbox page. Only this
 /// exact text is hidden; a package that says anything else, however it
 /// starts, shows its own words.
-const PAGE_BOILERPLATE: &[&str] =
-    &["Select the options you would like to use, they can be changed in the Atlas folder later."];
+const PAGE_BOILERPLATE: &[&str] = &[
+    "Select the options you would like to use, they can be changed in the Atlas folder later.",
+    "Select the options you would like to use, they can be changed in the Zeropti OS folder later.",
+];
 
 pub fn is_page_boilerplate(text: &str) -> bool {
     PAGE_BOILERPLATE.contains(&text.trim())
@@ -1617,7 +1619,7 @@ mod tests {
             assert!(!message.contains("Real-time") && !message.contains("sample"), "{message}");
 
             let left = reminder(ReminderReason::LeftFlow, &reading).unwrap().message();
-            assert!(left.contains("Atlas isn't installing anything"), "{left}");
+            assert!(left.contains("Zeropti OS isn't installing anything"), "{left}");
             assert!(left.contains("Cloud-delivered protection and Tamper Protection"), "{left}");
 
             // Nothing reads off: what couldn't be read is named, without claiming it is off.
