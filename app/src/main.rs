@@ -117,7 +117,7 @@ fn main() {
         if !cfg!(feature = "embedded-playbook")
             && services::settings::read_from(&paths.settings()).settings.draft.is_none()
         {
-            // Installation media stages Atlas.apbx beside AtlasManager.exe.
+            // Installation media stages Atlas.apbx beside ZeroptiManager.exe.
             start.playbook =
                 std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("Atlas.apbx")));
         }

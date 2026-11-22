@@ -470,7 +470,7 @@ mod tests {
         let source = format!(
             "following a preparation worker still running: pid 42 in C:\\Program Files\\Atlas Setup Recovery\\Preparation\\{scope}\\1234-5678\n\
              {{\"job\":\"C:\\\\Program Files\\\\Atlas Setup Recovery\\\\Media\\\\{}\\\\99-1\"}}\n\
-             C:\\Program Files\\Atlas Setup Recovery\\{executable}\\AtlasManager.exe\n",
+             C:\\Program Files\\Atlas Setup Recovery\\{executable}\\ZeroptiManager.exe\n",
             scope.to_uppercase()
         );
         let mut redactor = nameless();
@@ -479,7 +479,7 @@ mod tests {
         assert!(result.contains("Recovery\\Preparation\\anonymous-1\\1234-5678\n"), "{result}");
         assert!(result.contains("Recovery\\\\Media\\\\anonymous-1\\\\99-1"), "{result}");
         // The executable's folder is named by its own digest, which says nothing about anyone.
-        assert!(result.contains(&format!("Recovery\\{executable}\\AtlasManager.exe")), "{result}");
+        assert!(result.contains(&format!("Recovery\\{executable}\\ZeroptiManager.exe")), "{result}");
         assert_eq!(redactor.text(&result), result);
     }
 

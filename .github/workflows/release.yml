@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build:
-    if: github.repository == 'Atlas-OS/Atlas'
+    if: github.repository == 'la-signature/zeropti-os'
     runs-on: windows-latest
     # Room for a cold release build of the app.
     timeout-minutes: 60
@@ -85,12 +85,12 @@ jobs:
           }
 
           # The app takes its version (About, diagnostics, file properties) from app/Cargo.toml.
-          $exe = Get-Item -LiteralPath 'app\target\x86_64-pc-windows-msvc\release\AtlasManager.exe' -ErrorAction Stop
+          $exe = Get-Item -LiteralPath 'app\target\x86_64-pc-windows-msvc\release\ZeroptiManager.exe' -ErrorAction Stop
           if ($exe.VersionInfo.ProductVersion -cne $version) {
-              throw "AtlasManager.exe is version '$($exe.VersionInfo.ProductVersion)', not playbook.conf's '$version'."
+              throw "ZeroptiManager.exe is version '$($exe.VersionInfo.ProductVersion)', not playbook.conf's '$version'."
           }
 
-          $playbookName = "Atlas $tag"
+          $playbookName = "Zeropti OS $tag"
           & .\tools\build\Build-Playbook.ps1 -FileName $playbookName -DontOpenPbLocation
           $apbx = Get-Item -LiteralPath "playbook\$playbookName.apbx" -ErrorAction Stop
           & .\tools\build\Test-Apbx.ps1 -Path $apbx.FullName
@@ -102,7 +102,7 @@ jobs:
 
           # GitHub turns spaces in asset names into dots, which would leave SHA256SUMS.txt
           # naming files the release doesn't have.
-          $assetName = "Atlas-$tag"
+          $assetName = "Zeropti-OS-$tag"
           $apbxCopy = Copy-Item -LiteralPath $apbx.FullName -Destination (Join-Path $bundle "$assetName.apbx") -PassThru -Force
           Copy-Item -LiteralPath $apbx.FullName -Destination $zipContents -Force
           Get-ChildItem -LiteralPath 'tools\release-zip' -File |
@@ -135,7 +135,7 @@ jobs:
           compression-level: 0
 
   attest-promotion:
-    if: github.repository == 'Atlas-OS/Atlas'
+    if: github.repository == 'la-signature/zeropti-os'
     needs: build
     runs-on: windows-latest
     timeout-minutes: 10
@@ -172,7 +172,7 @@ jobs:
           subject-path: ${{ runner.temp }}/atlas-release/*.exe
 
   publish-draft:
-    if: github.repository == 'Atlas-OS/Atlas'
+    if: github.repository == 'la-signature/zeropti-os'
     needs: attest-promotion
     runs-on: windows-latest
     timeout-minutes: 10
@@ -220,9 +220,9 @@ jobs:
           if ($apbxFiles.Count -ne 1 -or $zipFiles.Count -ne 1 -or $exeFiles.Count -ne 1) {
               throw 'The promotion bundle must contain exactly one APBX, one ZIP and one executable.'
           }
-          if ($apbxFiles[0].Name -cne "Atlas-$tag.apbx" -or
-              $zipFiles[0].Name -cne "Atlas-$tag.zip" -or
-              $exeFiles[0].Name -cne 'AtlasManager.exe') {
+          if ($apbxFiles[0].Name -cne "Zeropti-OS-$tag.apbx" -or
+              $zipFiles[0].Name -cne "Zeropti-OS-$tag.zip" -or
+              $exeFiles[0].Name -cne 'ZeroptiManager.exe') {
               throw 'The promotion bundle filenames do not match the release tag.'
           }
 
@@ -246,7 +246,7 @@ jobs:
           }
           if ([string]::Join('|', @($manifestNames | Sort-Object)) -cne
               [string]::Join('|', $expectedNames)) {
-              throw 'SHA256SUMS.txt does not bind exactly the APBX, the release ZIP and AtlasManager.exe.'
+              throw 'SHA256SUMS.txt does not bind exactly the APBX, the release ZIP and ZeroptiManager.exe.'
           }
 
       - name: Create a draft release
@@ -259,11 +259,11 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $tag = $env:ATLAS_TAG
           $bundle = Join-Path $env:RUNNER_TEMP 'atlas-release'
-          $apbx = Get-Item -LiteralPath (Join-Path $bundle "Atlas-$tag.apbx") -ErrorAction Stop
-          $zip = Get-Item -LiteralPath (Join-Path $bundle "Atlas-$tag.zip") -ErrorAction Stop
-          $exe = Get-Item -LiteralPath (Join-Path $bundle 'AtlasManager.exe') -ErrorAction Stop
+          $apbx = Get-Item -LiteralPath (Join-Path $bundle "Zeropti-OS-$tag.apbx") -ErrorAction Stop
+          $zip = Get-Item -LiteralPath (Join-Path $bundle "Zeropti-OS-$tag.zip") -ErrorAction Stop
+          $exe = Get-Item -LiteralPath (Join-Path $bundle 'ZeroptiManager.exe') -ErrorAction Stop
           $hashes = Get-Item -LiteralPath (Join-Path $bundle 'SHA256SUMS.txt') -ErrorAction Stop
-          & gh release create $tag --draft --verify-tag --title "Atlas $tag" `
+          & gh release create $tag --draft --verify-tag --title "Zeropti OS $tag" `
               $apbx.FullName $zip.FullName $exe.FullName $hashes.FullName
           if ($LASTEXITCODE -ne 0) {
               throw "Creating the draft release for '$tag' failed."

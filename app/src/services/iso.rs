@@ -281,7 +281,7 @@ pub fn valid_username(name: &str) -> bool {
 fn staged_settings() -> Option<serde_json::Value> {
     let root = PathBuf::from(std::env::var_os("WINDIR")?).join("AtlasISO");
     if std::env::current_exe().ok()?.canonicalize().ok()?
-        != root.join("AtlasManager.exe").canonicalize().ok()?
+        != root.join("ZeroptiManager.exe").canonicalize().ok()?
     {
         return None;
     }
@@ -768,7 +768,7 @@ mod tests {
             output: dir.join("Atlas.iso"),
             archive: dir.join("Atlas.apbx"),
             package: dir.to_path_buf(),
-            app: dir.join("AtlasManager.exe"),
+            app: dir.join("ZeroptiManager.exe"),
             mode: Mode::Interactive,
             options: vec![],
             supported_builds: vec![26100],

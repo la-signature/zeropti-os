@@ -13,7 +13,7 @@ publish = false
 build = "build.rs"
 
 [[bin]]
-name = "AtlasManager"
+name = "ZeroptiManager"
 path = "src/main.rs"
 
 [dependencies]

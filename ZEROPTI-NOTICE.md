@@ -34,5 +34,8 @@ et la logique d'installation est inchangée.
 - Recherche de mises à jour : versions publiées de ce dépôt (au lieu d'Atlas-OS/Atlas).
 - Rapports : « Envoyer un rapport » n'envoie plus rien au service de l'équipe AtlasOS (reports.atlasos.net) ;
   il ouvre le support Zeropti sur Discord. L'export local du ZIP de diagnostic est conservé.
+- Programme : `AtlasManager.exe` renommé `ZeroptiManager.exe` (cible Cargo, propriétés du fichier, scripts ISO/USB,
+  tests, publication). Versions publiées : `Zeropti-OS-vX.Y.Z.apbx`, `Zeropti-OS-vX.Y.Z.zip`, `ZeroptiManager.exe`
+  (workflow `release.yml`, exécuté seulement dans ce dépôt).
 - Les noms internes (dossiers `AtlasModules`, `AtlasDesktop`, `AtlasOS`, modules PowerShell, identifiants du paquet)
   sont volontairement conservés pour ne pas casser l'installation ni les mises à jour.

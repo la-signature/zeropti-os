@@ -36,7 +36,7 @@ AtlasOS, or Atlas, is an open-source Windows configuration project. It applies p
 
 ## 🚀 Installing Atlas
 
-**Atlas Manager** is the recommended way to install Atlas. It checks your PC, installs Windows and Microsoft Store updates, walks you through your choices and then installs Atlas. It can also create an Atlas ISO and an installation USB (Beta). Download `AtlasManager.exe` from the [latest release](https://github.com/Atlas-OS/Atlas/releases/latest).
+**Atlas Manager** is the recommended way to install Atlas. It checks your PC, installs Windows and Microsoft Store updates, walks you through your choices and then installs Atlas. It can also create an Atlas ISO and an installation USB (Beta). Download `ZeroptiManager.exe` from the [latest release](https://github.com/Atlas-OS/Atlas/releases/latest).
 
 Atlas Manager is new. If it doesn't work for you, use the alternative installer, [AME Wizard](https://amelabs.net), with the Atlas package (`.apbx`) from the same release. AME Wizard calls the package a playbook.
 

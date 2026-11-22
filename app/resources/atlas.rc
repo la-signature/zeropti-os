@@ -16,8 +16,8 @@ BEGIN
             VALUE "FileDescription", "Zeropti Manager\0"
             VALUE "ProductName", "Zeropti Manager\0"
             VALUE "LegalCopyright", "Copyright (c) AtlasOS contributors; Zeropti modifications. GPL-3.0.\0"
-            VALUE "InternalName", "AtlasManager\0"
-            VALUE "OriginalFilename", "AtlasManager.exe\0"
+            VALUE "InternalName", "ZeroptiManager\0"
+            VALUE "OriginalFilename", "ZeroptiManager.exe\0"
             VALUE "FileVersion", "@VERSION@\0"
             VALUE "ProductVersion", "@VERSION@\0"
         END

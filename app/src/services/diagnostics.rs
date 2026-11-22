@@ -195,7 +195,7 @@ pub fn init_logging() {
         open(std::env::temp_dir().join("AtlasDiagnostics"))
     });
     let mut builder =
-        env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("warn,AtlasManager=info"));
+        env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("warn,ZeroptiManager=info"));
     builder.format_timestamp_millis();
     // Keep Atlas's support history even when the launching shell sets a broad
     // RUST_LOG=warn/off filter. Dependency verbosity remains configurable.
@@ -870,7 +870,7 @@ mod tests {
         fs::create_dir(&root).unwrap();
         fs::create_dir(&working).unwrap();
         fs::write(working.join(PARTIAL_REPORT), "1. Machine\nfinished section").unwrap();
-        let exe = Path::new("C:\\Program Files\\Atlas Setup Recovery\\AtlasManager.exe");
+        let exe = Path::new("C:\\Program Files\\Atlas Setup Recovery\\ZeroptiManager.exe");
         super::super::session::write_launcher(&super::super::session::SessionPaths::under(&root), exe)
             .unwrap();
         let collector = "machine collector timed out after 60 seconds in section '2. Slow'";
@@ -885,7 +885,7 @@ mod tests {
             text
         };
         assert_eq!(read(&format!("report/{PARTIAL_REPORT}")), "1. Machine\nfinished section");
-        assert!(read("app/launcher.json").contains("AtlasManager.exe"));
+        assert!(read("app/launcher.json").contains("ZeroptiManager.exe"));
         // The report service refuses an archive whose manifest says otherwise.
         let manifest: Value = serde_json::from_str(&read("manifest.json")).unwrap();
         assert_eq!(manifest["schema"], 2);
