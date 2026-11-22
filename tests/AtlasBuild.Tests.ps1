@@ -851,7 +851,7 @@ Describe 'Package version coherence' {
 
         & $script:setVersionScript -Version $bumpVersion -PlaybookConfPath $conf | Out-Null
         Get-ConfVersion -Path $conf | Should -Be $bumpVersion
-        [IO.File]::ReadAllText($conf) | Should -Match ([regex]::Escape("Atlas v$bumpVersion"))
+        [IO.File]::ReadAllText($conf) | Should -Match ([regex]::Escape("Zeropti OS v$bumpVersion"))
         (Get-UpgradeSource -Path $conf) -join ',' |
             Should -BeExactly ((@($originalSources) + $originalVersion) -join ',')
         $bumpedEntries = Get-OnUpgradeVersion -Path $customYml
