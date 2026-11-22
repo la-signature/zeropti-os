@@ -5,7 +5,7 @@
 // The one place the Windows-only assumption is enforced; no other code needs
 // a `cfg(windows)` guard.
 #[cfg(not(windows))]
-compile_error!("Atlas Manager builds only for Windows.");
+compile_error!("Zeropti Manager builds only for Windows.");
 
 mod assets;
 mod cli;
@@ -178,7 +178,7 @@ fn main() {
                 WindowBounds::Windowed(bounds)
             }),
             titlebar: Some(TitlebarOptions {
-                title: Some("Atlas Manager".into()),
+                title: Some("Zeropti Manager".into()),
                 appears_transparent: true,
                 traffic_light_position: None,
             }),

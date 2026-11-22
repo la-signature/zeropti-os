@@ -1,3 +1,6 @@
+> **Zeropti OS** — ce dépôt est une version modifiée d'AtlasOS (GPLv3), non affiliée au projet AtlasOS.
+> Voir [`ZEROPTI-NOTICE.md`](ZEROPTI-NOTICE.md) pour les modifications, les droits d'auteur et le support.
+
 <h1 align="center">
   <a href="https://atlasos.net" target="_blank"><img src="https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/banners/banner-v3.png" alt="Atlas" width="800"></a>
 </h1>

@@ -77,23 +77,17 @@ fn navigation_goes_only_where_the_window_can_show_the_page() {
 }
 
 #[test]
-fn the_report_page_goes_back_to_where_it_was_opened() {
+fn zeropti_never_opens_the_atlas_report_page() {
     run_model_test(|mut cx| async move {
         let (_temp, _, env) = fixture("report-back");
         let model = new_model(&mut cx, env);
         wait_for(&cx, &model, "startup recovery", |m| !m.recovering).await;
         act(&mut cx, &model, |m, cx| {
-            assert_eq!(m.back_target(), Page::Home);
+            // Zeropti OS: "Send a report" opens the Zeropti Discord support;
+            // the window stays where it was and nothing is sent to Atlas.
             m.navigate(Page::Settings, cx);
             m.navigate(Page::Report, cx);
-            assert_eq!(m.back_target(), Page::Settings);
-            // Desktop setup reports from the install flow and returns to it.
-            m.flow.resume(Step::Options).unwrap();
-            m.navigate(Page::Install, cx);
-            m.navigate(Page::Report, cx);
-            assert_eq!(m.back_target(), Page::Install);
-            // A flow that has ended has no step to return to.
-            m.flow.cancel().unwrap();
+            assert_eq!(m.page, Page::Settings);
             assert_eq!(m.back_target(), Page::Home);
         });
     });

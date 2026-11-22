@@ -17,7 +17,7 @@
 
 ## 共通
 
-app-name = Atlas Manager
+app-name = Zeropti Manager
 common-done = 完了
 common-cancel = キャンセル
 common-back = 戻る
@@ -37,7 +37,7 @@ common-open-windows-security = Windows セキュリティを開く
 # Relaunches the Atlas Manager with administrator rights (UAC). Not a PC restart.
 common-restart-as-administrator = 管理者として再実行
 common-try-again = 再試行
-common-read-the-docs = Atlas のガイドを読む
+common-read-the-docs = Zeropti OS のガイドを読む
 common-show-details = 詳細を表示
 common-hide-details = 詳細を非表示
 # Accessible name of a Show details or Hide details toggle. $action is common-show-details or
@@ -68,10 +68,10 @@ infobar-a11y = { $title }。{ $message }
 
 # Dialog shown when the window is closed while an install runs.
 window-close-title = インストール中にウィンドウを閉じますか?
-window-close-message = インストールはバックグラウンドで続行されます。進行状況と結果を確認するには、Atlas をもう一度開いてください。インストールが終わるまで PC の電源を切らないでください。
+window-close-message = インストールはバックグラウンドで続行されます。進行状況と結果を確認するには、Zeropti OS をもう一度開いてください。インストールが終わるまで PC の電源を切らないでください。
 # Instead of window-close-message when the installation restarts the PC afterwards: only an
 # open Atlas window restarts it, so closing the window cancels that.
-window-close-message-restart = インストールはバックグラウンドで続行されますが、Atlas を閉じている間は PC が自動的に再起動しません。進行状況と結果を確認するには、Atlas をもう一度開いてください。インストールが終わるまで PC の電源を切らないでください。
+window-close-message-restart = インストールはバックグラウンドで続行されますが、Zeropti OS を閉じている間は PC が自動的に再起動しません。進行状況と結果を確認するには、Zeropti OS をもう一度開いてください。インストールが終わるまで PC の電源を切らないでください。
 # The safe answer in every dialog shown when the window is closed, including those for ISO
 # and USB creation, updates and Windows Update access.
 window-close-keep = 開いたままにする
@@ -79,30 +79,30 @@ window-close-close = ウィンドウを閉じる
 # Dialog shown when the window is closed during the final checks, before the
 # installer has started; window-close-keep and window-close-close are its buttons.
 window-close-preparing-title = インストールの開始前に閉じますか?
-window-close-preparing-message = Atlas は PC を確認中で、まだインストールを開始していません。今閉じると、インストールは開始されません。続行するには、Atlas をもう一度開いてください。
+window-close-preparing-message = Zeropti OS は PC を確認中で、まだインストールを開始していません。今閉じると、インストールは開始されません。続行するには、Zeropti OS をもう一度開いてください。
 prepare-close-title = 更新はまだ実行中です
 # "Stop updating" is prepare-stop, the dialog's other button.
-prepare-close-message = 更新の実行中は Atlas を開いたままにしてください。「更新を停止」を選ぶと、現在の手順が終わった時点で更新が停止し、その後 Atlas を閉じられます。
+prepare-close-message = 更新の実行中は Zeropti OS を開いたままにしてください。「更新を停止」を選ぶと、現在の手順が終わった時点で更新が停止し、その後 Zeropti OS を閉じられます。
 # Dialog shown when the window is closed during the restart countdown after a
 # successful install. Its buttons are window-close-keep, restart-now and
 # window-close-restart-close.
-window-close-restart-title = 再起動せずに Atlas を閉じますか?
+window-close-restart-title = 再起動せずに Zeropti OS を閉じますか?
 # "今すぐ再起動" is restart-now, one of this dialog's three buttons.
-window-close-restart-message = Atlas のセットアップを完了するには、PC の再起動が必要です。今 Atlas を閉じると PC は再起動されないため、準備ができたらご自身で再起動してください。「今すぐ再起動」を選ぶ前に作業を保存してください。
+window-close-restart-message = Zeropti OS のセットアップを完了するには、PC の再起動が必要です。今 Zeropti OS を閉じると PC は再起動されないため、準備ができたらご自身で再起動してください。「今すぐ再起動」を選ぶ前に作業を保存してください。
 window-close-restart-close = 再起動せずに閉じる
 # Dialog shown when the window is closed during a setup with Windows Security switches still
 # off. $switches names them as Windows Security does, joined like a list. Its buttons are
 # window-close-keep, common-open-windows-security and window-close-close.
-window-close-protection-title = 保護がオフのまま Atlas を閉じますか?
-window-close-protection-message = Windows セキュリティの一部の保護がまだオフになっています: { $switches }。Atlas のインストールを最後まで行わない場合は、閉じる前に保護をオンに戻してください。インストールを続ける場合は、Atlas をもう一度開くとセットアップを再開します。
+window-close-protection-title = 保護がオフのまま Zeropti OS を閉じますか?
+window-close-protection-message = Windows セキュリティの一部の保護がまだオフになっています: { $switches }。Zeropti OS のインストールを最後まで行わない場合は、閉じる前に保護をオンに戻してください。インストールを続ける場合は、Zeropti OS をもう一度開くとセットアップを再開します。
 # The Open button of the file picker for an Atlas package (.apbx) file, on Get ready and the
 # ISO page. It's a button label, so keep it short.
-file-dialog-open-package = Atlas パッケージ (.apbx) を開く
+file-dialog-open-package = Zeropti OS パッケージ (.apbx) を開く
 # Message Windows shows in its restart notification.
-shutdown-comment = Atlas のインストールが完了しました。セットアップを完了するため、Windows を再起動します。
+shutdown-comment = Zeropti OS のインストールが完了しました。セットアップを完了するため、Windows を再起動します。
 # Message Windows shows in its restart notification when "Get ready" restarts
 # to finish installing Windows updates.
-prepare-shutdown-comment = 更新プログラムのインストールを完了するため、Atlas が Windows を再起動します。
+prepare-shutdown-comment = 更新プログラムのインストールを完了するため、Zeropti OS が Windows を再起動します。
 
 ## システム
 
@@ -111,11 +111,11 @@ system-description = { $product } { $version } (ビルド { $build })
 
 ## ホーム ページ
 
-home-not-installed = Atlas へようこそ
+home-not-installed = Zeropti OS へようこそ
 # The headline when Atlas Manager can't tell what is installed on this PC.
-home-state-unknown = この PC の Atlas
+home-state-unknown = この PC の Zeropti OS
 # The headline when Atlas is installed. $version is text.
-home-version = Atlas { $version }
+home-version = Zeropti OS { $version }
 # $date is a formatted date.
 home-installed-on = インストール日: { $date }
 home-status-checking = 更新プログラムを確認しています
@@ -123,57 +123,57 @@ home-status-checking = 更新プログラムを確認しています
 home-status-recovering = 実行中のインストールを確認しています
 home-status-offline = 更新プログラムを確認できませんでした
 home-status-not-checked = 更新プログラムはまだ確認していません
-home-status-update = Atlas { $version } が利用可能です
+home-status-update = Zeropti OS { $version } が利用可能です
 home-status-up-to-date = 最新の状態です
-home-status-newest = 最新バージョン: Atlas { $version }
+home-status-newest = 最新バージョン: Zeropti OS { $version }
 # An earlier installation of Atlas { $version } stopped before it finished.
-home-status-unfinished = Atlas { $version } のインストールが完了していません
+home-status-unfinished = Zeropti OS { $version } のインストールが完了していません
 home-check-again = もう一度確認
 # Primary button while an install is running or waiting.
 home-show-install = 進行状況を表示
 home-continue-installing = セットアップを続行
-home-update-to = Atlas { $version } に更新
-home-reinstall = Atlas を再インストール
-home-install = Atlas をインストール
-home-finish-install = Atlas { $version } のインストールを完了
+home-update-to = Zeropti OS { $version } に更新
+home-reinstall = Zeropti OS を再インストール
+home-install = Zeropti OS をインストール
+home-finish-install = Zeropti OS { $version } のインストールを完了
 home-start-over = 最初からやり直す
 home-restart-title = PC の再起動が必要です
 home-security-reminder-title = 保護をオンに戻してください
 # Instead of home-security-reminder-title when no switch reads off but some couldn't be read
 # (with home-security-reminder-unreadable-message).
 home-security-reminder-unreadable-title = 保護がオンになっているか確認してください
-home-security-reminder-message = Atlas は現在インストールを実行していませんが、Windows セキュリティの一部の保護がまだオフになっています。Windows セキュリティを開き、次の保護を必ずオンにしてください: { $switches }。
-home-security-reminder-unreadable-message = Atlas は一部の保護スイッチを読み取れませんでした。Windows セキュリティで、次の保護がオンになっていることを確認してください: { $switches }。
+home-security-reminder-message = Zeropti OS は現在インストールを実行していませんが、Windows セキュリティの一部の保護がまだオフになっています。Windows セキュリティを開き、次の保護を必ずオンにしてください: { $switches }。
+home-security-reminder-unreadable-message = Zeropti OS は一部の保護スイッチを読み取れませんでした。Windows セキュリティで、次の保護がオンになっていることを確認してください: { $switches }。
 home-elevation-title = インストールには管理者権限が必要です
-home-state-error-title = Atlas のインストール情報を読み取れませんでした
-home-state-error-message = Atlas のバージョン、選択内容、履歴が正しく表示されない可能性があります。「もう一度確認」を選んで再試行してください。詳細: { $error }
-home-whats-new = Atlas { $version } の新機能
+home-state-error-title = Zeropti OS のインストール情報を読み取れませんでした
+home-state-error-message = Zeropti OS のバージョン、選択内容、履歴が正しく表示されない可能性があります。「もう一度確認」を選んで再試行してください。詳細: { $error }
+home-whats-new = Zeropti OS { $version } の新機能
 home-view-release = GitHub でリリース ノートを表示
 home-released = リリース日: { $date }
 home-show-less = 折りたたむ
 home-show-full-notes = リリース ノートをすべて表示
-home-your-install = Atlas のインストール情報
+home-your-install = Zeropti OS のインストール情報
 # Atlas is installed, but without the record Atlas Manager keeps (older versions didn't write one).
-home-install-unrecorded = この PC には Atlas のインストール方法の記録がないため、選択内容とインストール履歴を表示できません。
+home-install-unrecorded = この PC には Zeropti OS のインストール方法の記録がないため、選択内容とインストール履歴を表示できません。
 # Row label: how Atlas was set up.
 home-set-up = セットアップ方法
 home-set-up-during-oobe = Windows のセットアップ中
 home-history = インストール履歴
 # One history row. $version is text, $mode one of the history-mode-* messages, $date a formatted date and time.
-home-history-entry = Atlas { $version } · { $mode } · { $date }
-home-how-it-works = PC を Atlas 用に準備しましょう
-home-step-1-detail = Atlas が PC を確認し、保留中の Windows と Microsoft Store の更新プログラムをインストールして、インストール ファイルをダウンロードします。Store アプリが終了したり、PC の再起動が必要になったりすることがあるため、先に作業を保存してください。
+home-history-entry = Zeropti OS { $version } · { $mode } · { $date }
+home-how-it-works = PC を Zeropti OS 用に準備しましょう
+home-step-1-detail = Zeropti OS が PC を確認し、保留中の Windows と Microsoft Store の更新プログラムをインストールして、インストール ファイルをダウンロードします。Store アプリが終了したり、PC の再起動が必要になったりすることがあるため、先に作業を保存してください。
 # Tester build: the Atlas package is bundled, nothing is downloaded.
-home-step-1-detail-bundled = Atlas が PC を確認し、保留中の Windows と Microsoft Store の更新プログラムをインストールして、同梱のインストール ファイルを準備します。Store アプリが終了したり、PC の再起動が必要になったりすることがあるため、先に作業を保存してください。
+home-step-1-detail-bundled = Zeropti OS が PC を確認し、保留中の Windows と Microsoft Store の更新プログラムをインストールして、同梱のインストール ファイルを準備します。Store アプリが終了したり、PC の再起動が必要になったりすることがあるため、先に作業を保存してください。
 home-step-2-detail = Microsoft Defender とプロセッサの保護を残すかどうかと、Windows の更新プログラムのインストール方法を選び、必要に応じて追加オプションも選びます。
-home-step-3-detail = インストールを妨げないよう、Windows セキュリティの 4 つの保護スイッチをオフにします。手順は Atlas がご案内します。
+home-step-3-detail = インストールを妨げないよう、Windows セキュリティの 4 つの保護スイッチをオフにします。手順は Zeropti OS がご案内します。
 # Japanese has no plural forms; the same wording serves every count.
 home-step-4-detail = インストールには約 { $minutes } 分かかります。その後、PC の再起動が必要です。
 # Accessible name of a numbered step.
 home-step-a11y = 手順 { $number }: { $title }
 # Link buttons: say where they lead, not just the brand.
-home-github = GitHub で Atlas を見る
-home-discord = Discord の Atlas コミュニティに参加
+home-github = GitHub で Zeropti OS を見る
+home-discord = Discord の Zeropti OS コミュニティに参加
 home-report-problem = 問題を報告
 
 ## インストールの種類 (状態ドキュメントから)
@@ -190,7 +190,7 @@ history-mode-unknown = インストール
 
 ## ホーム ページの通知
 
-notice-settings-reset-title = Atlas は既定のアプリ設定を使用しています
+notice-settings-reset-title = Zeropti OS は既定のアプリ設定を使用しています
 # $error is a raw error message (text).
 notice-settings-unreadable = 保存されたアプリの設定を読み取れませんでした。Windows の設定は変更されていません。詳細: { $error }
 # $file is a file name (text).
@@ -198,18 +198,18 @@ notice-settings-damaged-kept = アプリの設定ファイルが破損してい�
 notice-settings-damaged = アプリの設定ファイルが破損していました。当面は既定の設定を使用します。詳細: { $error }
 notice-settings-not-saved-title = アプリの設定を保存できませんでした
 # $error is a raw error message (text).
-notice-settings-not-saved = Atlas は最新の変更を保存できなかったため、Atlas を閉じると変更が失われる可能性があります。別の Atlas ウィンドウが開いている場合は閉じてから、もう一度変更してください。詳細: { $error }
+notice-settings-not-saved = Zeropti OS は最新の変更を保存できなかったため、Zeropti OS を閉じると変更が失われる可能性があります。別の Zeropti OS ウィンドウが開いている場合は閉じてから、もう一度変更してください。詳細: { $error }
 notice-session-unreadable-title = 前回のインストールの状態を確認できませんでした
 # $path is a file path (text).
-notice-session-unreadable-message = 以前のインストールがまだ実行中かどうかを、Atlas は確認できませんでした。判断できない場合は、Atlas コミュニティに相談してください。実行中のインストールがないと確信できる場合に限り、{ $path } を削除してから再試行してください。詳細: { $error }
+notice-session-unreadable-message = 以前のインストールがまだ実行中かどうかを、Zeropti OS は確認できませんでした。判断できない場合は、Zeropti OS コミュニティに相談してください。実行中のインストールがないと確信できる場合に限り、{ $path } を削除してから再試行してください。詳細: { $error }
 
 ## 管理者への昇格
 
-elevation-declined = 許可が得られませんでした。再試行し、Atlas による変更を許可するかどうか Windows が確認したら「はい」を選んでください。
-elevation-declined-continue = 許可が得られませんでした。再試行し、Atlas による変更を許可するかどうか Windows が確認したら「はい」を選んでください。選択した設定は保存されています。
-elevation-draft-not-saved = 選択した設定を保存できなかったため、Atlas は再実行されていません。再試行してください。詳細: { $error }
+elevation-declined = 許可が得られませんでした。再試行し、Zeropti OS による変更を許可するかどうか Windows が確認したら「はい」を選んでください。
+elevation-declined-continue = 許可が得られませんでした。再試行し、Zeropti OS による変更を許可するかどうか Windows が確認したら「はい」を選んでください。選択した設定は保存されています。
+elevation-draft-not-saved = 選択した設定を保存できなかったため、Zeropti OS は再実行されていません。再試行してください。詳細: { $error }
 # Shown with the home-start-over button.
-elevation-taken-over = 別の Atlas ウィンドウがこのセットアップを使用しているため、Atlas は再実行されていません。そのウィンドウで続行するか、「最初からやり直す」を選んでここでもう一度セットアップしてください。
+elevation-taken-over = 別の Zeropti OS ウィンドウがこのセットアップを使用しているため、Zeropti OS は再実行されていません。そのウィンドウで続行するか、「最初からやり直す」を選んでここでもう一度セットアップしてください。
 
 ## インストールの流れ
 
@@ -217,9 +217,9 @@ step-ready = 準備
 step-options = 設定の選択
 step-security = Windows セキュリティ
 step-install = インストール
-install-title = Atlas のセットアップ
+install-title = Zeropti OS のセットアップ
 # Accessible name of the row of steps.
-stepper-label = Atlas セットアップの手順
+stepper-label = Zeropti OS セットアップの手順
 # Accessible name of one step. $status is one of the stepper-status-* messages.
 stepper-step-a11y = 手順 { $number }/{ $total }、{ $title }、{ $status }
 stepper-status-completed = 完了
@@ -237,20 +237,20 @@ step-heading-extras-a11y = { $heading }。{ $progress }
 ## 手順 1: 準備
 
 ready-banner-busy-title = PC を準備しています
-ready-banner-busy-message = Atlas が PC を確認し、インストール ファイルを準備しています。
+ready-banner-busy-message = Zeropti OS が PC を確認し、インストール ファイルを準備しています。
 ready-banner-blocked-title = PC の準備がまだできていません
 ready-banner-blocked-message = 「PC の確認」で示された項目に対処してから、「もう一度確認」を選んでください。
-ready-banner-no-package-title = 続行するには Atlas をダウンロードしてください
-ready-banner-no-package-message = 「インストール ファイル」で Atlas をダウンロードするか、Atlas パッケージ (.apbx) をお持ちの場合は「パッケージ ファイルを開く」を選んでください。
+ready-banner-no-package-title = 続行するには Zeropti OS をダウンロードしてください
+ready-banner-no-package-message = 「インストール ファイル」で Zeropti OS をダウンロードするか、Zeropti OS パッケージ (.apbx) をお持ちの場合は「パッケージ ファイルを開く」を選んでください。
 # Tester build: the bundled Atlas package couldn't be unpacked.
-ready-banner-no-package-bundled-title = 続行するには同梱の Atlas パッケージを準備してください
-ready-banner-no-package-bundled-message = このテスト ビルドに同梱された Atlas パッケージはまだ準備できていません。「インストール ファイル」カードを確認してください。
+ready-banner-no-package-bundled-title = 続行するには同梱の Zeropti OS パッケージを準備してください
+ready-banner-no-package-bundled-message = このテスト ビルドに同梱された Zeropti OS パッケージはまだ準備できていません。「インストール ファイル」カードを確認してください。
 ready-banner-updates-title = 続行するには Windows と Store アプリを更新してください
-ready-banner-updates-message = 「更新を確認してインストール」を選んでください。更新が終わると、Atlas が PC をもう一度確認します。
+ready-banner-updates-message = 「更新を確認してインストール」を選んでください。更新が終わると、Zeropti OS が PC をもう一度確認します。
 # While Windows and Store apps update. "Update Windows and Store apps" is prepare-title, the
 # card further down the page.
 ready-banner-updating-title = Windows と Store アプリを更新しています
-ready-banner-updating-message = 時間がかかることがあります。Atlas を開いたままにしてください。進行状況は「Windows と Store アプリの更新」で確認できます。
+ready-banner-updating-message = 時間がかかることがあります。Zeropti OS を開いたままにしてください。進行状況は「Windows と Store アプリの更新」で確認できます。
 # After Stop updating. "Check and install updates" is prepare-start, the card's button.
 ready-banner-updates-stopped-title = 更新を停止しました
 ready-banner-updates-stopped-message = 更新を完了するには、「Windows と Store アプリの更新」で「更新を確認してインストール」を選んでください。
@@ -275,17 +275,17 @@ ready-checks-passed = { $count } 項目は問題ありません
 
 package-title = インストール ファイル
 # $received and $total are formatted numbers of megabytes (text).
-package-downloading = Atlas { $version } をダウンロード中 · { $received } / { $total } MB
+package-downloading = Zeropti OS { $version } をダウンロード中 · { $received } / { $total } MB
 # Japanese has no plural forms; the same wording serves every count.
 package-unpacking-progress = 展開中 · { $done } / { $total } ファイル
 package-unpacking = 展開中
-package-looking = 最新の Atlas バージョンを確認しています。
+package-looking = 最新の Zeropti OS バージョンを確認しています。
 # Tester build: the bundled Atlas package is being unpacked, nothing is downloaded.
-package-looking-bundled = 同梱の Atlas パッケージを準備しています。
-package-none = Atlas をダウンロードして、インストール ファイルを入手してください。Atlas パッケージ (.apbx) をすでにお持ちの場合は、代わりにそれを開いてください。
+package-looking-bundled = 同梱の Zeropti OS パッケージを準備しています。
+package-none = Zeropti OS をダウンロードして、インストール ファイルを入手してください。Zeropti OS パッケージ (.apbx) をすでにお持ちの場合は、代わりにそれを開いてください。
 # The GitHub release check failed. "最新バージョンをダウンロード" is package-download-newest,
 # the button offered in this state; it checks again.
-package-release-failed = Atlas は最新バージョンを確認できませんでした。インターネット接続を確認してから「最新バージョンをダウンロード」を選ぶか、保存済みの Atlas パッケージ (.apbx) を開いてください。
+package-release-failed = Zeropti OS は最新バージョンを確認できませんでした。インターネット接続を確認してから「最新バージョンをダウンロード」を選ぶか、保存済みの Zeropti OS パッケージ (.apbx) を開いてください。
 # Short status words beside the card title.
 package-status-downloading = ダウンロード中
 package-status-unpacking = 展開中
@@ -297,24 +297,24 @@ package-status-missing = 未ダウンロード
 # Accessible name of the progress bar.
 package-progress = インストール ファイルの進行状況
 package-download-again = もう一度ダウンロード
-package-download-version = Atlas { $version } をダウンロード
+package-download-version = Zeropti OS { $version } をダウンロード
 package-download-newest = 最新バージョンをダウンロード
 package-cancel-download = ダウンロードをキャンセル
 package-open-file = パッケージ ファイルを開く
 # Where the package came from. $file is a file name, $path a folder path (text).
-package-from-release = Atlas { $version } を GitHub からダウンロードしました。インストールの準備ができています。
-package-from-file = Atlas { $version } を { $file } から読み込みました。インストールの準備ができています。
-package-unpacked = Atlas { $version } のインストール準備ができています。
+package-from-release = Zeropti OS { $version } を GitHub からダウンロードしました。インストールの準備ができています。
+package-from-file = Zeropti OS { $version } を { $file } から読み込みました。インストールの準備ができています。
+package-unpacked = Zeropti OS { $version } のインストール準備ができています。
 package-none-yet = インストール ファイルが選択されていません
-acquire-no-asset = Atlas { $version } にはダウンロードできるパッケージ ファイルがありません。続行するには、保存済みの Atlas パッケージ (.apbx) を開いてください。
-acquire-unsupported = このアプリでインストールできるのは Atlas 0.6.0 以降です。Atlas { $version } をインストールするには、代わりに AME Wizard を使ってください。
+acquire-no-asset = Zeropti OS { $version } にはダウンロードできるパッケージ ファイルがありません。続行するには、保存済みの Zeropti OS パッケージ (.apbx) を開いてください。
+acquire-unsupported = このアプリでインストールできるのは Zeropti OS 0.6.0 以降です。Zeropti OS { $version } をインストールするには、代わりに AME Wizard を使ってください。
 # A package new enough to include the installer script that this app drives, but without it.
-acquire-incomplete = Atlas { $version } には、このアプリでのインストールに必要なファイルが含まれていません。もう一度ダウンロードするか、別の Atlas パッケージ (.apbx) を開いてください。
-acquire-failed = インストール ファイルを準備できませんでした。もう一度ダウンロードするか、別の Atlas パッケージ (.apbx) を開いてください。詳細: { $error }
+acquire-incomplete = Zeropti OS { $version } には、このアプリでのインストールに必要なファイルが含まれていません。もう一度ダウンロードするか、別の Zeropti OS パッケージ (.apbx) を開いてください。
+acquire-failed = インストール ファイルを準備できませんでした。もう一度ダウンロードするか、別の Zeropti OS パッケージ (.apbx) を開いてください。詳細: { $error }
 # The download received nothing for a minute and was stopped.
-acquire-stalled = ダウンロードが応答しなくなりました。インターネット接続を確認してからもう一度ダウンロードするか、保存済みの Atlas パッケージ (.apbx) を開いてください。
+acquire-stalled = ダウンロードが応答しなくなりました。インターネット接続を確認してからもう一度ダウンロードするか、保存済みの Zeropti OS パッケージ (.apbx) を開いてください。
 # Tester build: the bundled Atlas package couldn't be unpacked. Try again is the only control offered.
-acquire-failed-bundled = 同梱の Atlas パッケージを準備できませんでした。「再試行」を選んでください。詳細: { $error }
+acquire-failed-bundled = 同梱の Zeropti OS パッケージを準備できませんでした。「再試行」を選んでください。詳細: { $error }
 
 ## システム チェック
 
@@ -342,48 +342,48 @@ check-fix-apps = インストールされているアプリを開く
 # Check box the user ticks when the Windows Update scan could not run.
 check-ack-updates = Windows Update で、インストール待ちの更新プログラムがないことを確認しました
 
-detail-admin-ok = Atlas には、インストールに必要な変更を行う権限があります。
-detail-admin-missing = Atlas を管理者として再実行し、Windows が許可を求めたら「はい」を選んでください。
+detail-admin-ok = Zeropti OS には、インストールに必要な変更を行う権限があります。
+detail-admin-missing = Zeropti OS を管理者として再実行し、Windows が許可を求めたら「はい」を選んでください。
 # $builds is a list of build numbers such as "26100 または 26200"; $build is this PC's (text).
-detail-build-unsupported = このバージョンの Atlas には Windows ビルド { $builds } が必要です。この PC のビルドは { $build } です。続行する前に、対応する Windows バージョンをインストールしてください。
-detail-build-missing = この Atlas パッケージには、対応する Windows ビルドが記載されていません。LocalTest ビルドではなく、パッケージの完全なビルドを使用してください。
+detail-build-unsupported = このバージョンの Zeropti OS には Windows ビルド { $builds } が必要です。この PC のビルドは { $build } です。続行する前に、対応する Windows バージョンをインストールしてください。
+detail-build-missing = この Zeropti OS パッケージには、対応する Windows ビルドが記載されていません。LocalTest ビルドではなく、パッケージの完全なビルドを使用してください。
 detail-updates-none = インストール待ちの Windows 更新プログラムはありません。
 # $titles lists up to two update names (text); $count is the total.
 detail-updates-pending =
     { $count ->
-        [1] 次の更新プログラムがインストール待ちです: { $titles }。「Windows と Store アプリの更新」で Atlas がインストールします。
-        [2] 次の { $count } 件の更新プログラムがインストール待ちです: { $titles }。「Windows と Store アプリの更新」で Atlas がインストールします。
-       *[other] { $titles } など、{ $count } 件の更新プログラムがインストール待ちです。「Windows と Store アプリの更新」で Atlas がインストールします。
+        [1] 次の更新プログラムがインストール待ちです: { $titles }。「Windows と Store アプリの更新」で Zeropti OS がインストールします。
+        [2] 次の { $count } 件の更新プログラムがインストール待ちです: { $titles }。「Windows と Store アプリの更新」で Zeropti OS がインストールします。
+       *[other] { $titles } など、{ $count } 件の更新プログラムがインストール待ちです。「Windows と Store アプリの更新」で Zeropti OS がインストールします。
     }
 detail-updates-unknown = Windows 更新プログラムを確認できませんでした。Windows Update を開き、インストール待ちの更新プログラムがなければ下でチェックを入れてください。 ({ $error })
 detail-reboot-none = 現在、Windows の再起動は必要ありません。
-detail-reboot-pending = 以前の変更を完了するため、Windows の再起動が必要です。「更新を確認してインストール」を選ぶと、まず再起動するよう Atlas が案内します。
+detail-reboot-pending = 以前の変更を完了するため、Windows の再起動が必要です。「更新を確認してインストール」を選ぶと、まず再起動するよう Zeropti OS が案内します。
 # $reasons: the pending-restart markers Windows set, from the prepare-reason-* names.
-detail-reboot-pending-reasons = 以前の変更を完了するため、Windows の再起動が必要です ({ $reasons })。「更新を確認してインストール」を選ぶと、まず再起動するよう Atlas が案内します。
+detail-reboot-pending-reasons = 以前の変更を完了するため、Windows の再起動が必要です ({ $reasons })。「更新を確認してインストール」を選ぶと、まず再起動するよう Zeropti OS が案内します。
 # Warning, not a block: $files lists up to three file paths Windows will replace or remove at the next restart.
 detail-reboot-file-renames = このまま続行できます。Windows には、次回の再起動時に置き換えまたは削除するファイルがあります ({ $files })。Xbox Gaming Services など一部のアプリは、再起動のたびにこの処理を予約します。
-detail-reboot-unknown = Windows に再起動が必要かどうかを確認できませんでした。PC を再起動し、Atlas を開き直してからもう一度確認してください。 ({ $error })
+detail-reboot-unknown = Windows に再起動が必要かどうかを確認できませんでした。PC を再起動し、Zeropti OS を開き直してからもう一度確認してください。 ({ $error })
 detail-antivirus-none = 他のウイルス対策ソフトは検出されませんでした。
 # $products is a list of product names (text).
 detail-antivirus-found = Microsoft Defender 以外のウイルス対策アプリは、インストールを妨げることがあります。{ $products } をアンインストールしてから、「もう一度確認」を選んでください。
 # Warning, not a block: Security Center still lists the product but its files are gone.
-detail-antivirus-stale = Windows セキュリティには { $products } がまだ表示されていますが、そのファイルはすでに削除されているため、インストールされていない状態です。Atlas はこのままインストールできます。
+detail-antivirus-stale = Windows セキュリティには { $products } がまだ表示されていますが、そのファイルはすでに削除されているため、インストールされていない状態です。Zeropti OS はこのままインストールできます。
 detail-antivirus-unknown = 他のウイルス対策ソフトを確認できませんでした。「もう一度確認」を選んでください。失敗が続く場合は、PC を再起動してからもう一度確認してください。 ({ $error })
-detail-internet-ok = インターネットに接続されています。Atlas がソフトウェアをダウンロードしてインストールする間、接続を維持してください。
+detail-internet-ok = インターネットに接続されています。Zeropti OS がソフトウェアをダウンロードしてインストールする間、接続を維持してください。
 detail-internet-missing = インターネットに接続してから、もう一度確認してください。
 detail-power-mains = PC は電源に接続されています。インストールが終わるまで接続したままにしてください。
 detail-power-battery = インストール中に電源が切れないよう、PC を電源に接続してください。
-detail-power-unknown = PC が電源に接続されているかどうかを、Atlas は確認できませんでした。ノート PC の場合は電源に接続してから、「もう一度確認」を選んでください。この状態が続く場合は、「レポートを送信」を選んでください。
-detail-activation-ok = Windows はライセンス認証されています。Atlas はこれを変更しません。
-detail-activation-missing = Windows はライセンス認証されていません。続行できますが、Atlas が代わりにライセンス認証を行うことはありません。
-detail-activation-no-licence = Windows からライセンス情報が報告されませんでした。続行できます。Atlas はライセンス認証の状態を変更しません。
-detail-activation-unknown = Windows のライセンス認証を確認できませんでした。続行できます。Atlas はライセンス認証の状態を変更しません。 ({ $error })
+detail-power-unknown = PC が電源に接続されているかどうかを、Zeropti OS は確認できませんでした。ノート PC の場合は電源に接続してから、「もう一度確認」を選んでください。この状態が続く場合は、「レポートを送信」を選んでください。
+detail-activation-ok = Windows はライセンス認証されています。Zeropti OS はこれを変更しません。
+detail-activation-missing = Windows はライセンス認証されていません。続行できますが、Zeropti OS が代わりにライセンス認証を行うことはありません。
+detail-activation-no-licence = Windows からライセンス情報が報告されませんでした。続行できます。Zeropti OS はライセンス認証の状態を変更しません。
+detail-activation-unknown = Windows のライセンス認証を確認できませんでした。続行できます。Zeropti OS はライセンス認証の状態を変更しません。 ({ $error })
 
 ## 手順 2: 設定の選択
 
 options-progress = 選択 { $number }/{ $total }
 options-progress-extras = 選択 { $number }/{ $total }: 追加オプション
-options-change-later = Microsoft Defender、プロセッサの保護、更新の設定は、後からデスクトップの Atlas フォルダーで変更できます。
+options-change-later = Microsoft Defender、プロセッサの保護、更新の設定は、後からデスクトップの Zeropti OS フォルダーで変更できます。
 # Short names for each decision (summary rows) and the question each screen asks.
 screen-defender-title = Microsoft Defender
 screen-defender-question = Microsoft Defender を残しますか?
@@ -439,23 +439,23 @@ playbook-option-browser-brave = Brave
 playbook-option-browser-librewolf = LibreWolf
 playbook-option-browser-firefox = Firefox
 playbook-option-browser-chrome = Chrome
-playbook-page-defender-enable-description = Microsoft Defender は Windows に組み込まれたウイルス対策です。削除するのは、リスクを理解したうえで、別のウイルス対策アプリを使う予定がある場合だけにしてください。どちらを選んでも、Atlas はスマート アプリ コントロール、拡張フィッシング保護、デバイスの検索をオフにします。
+playbook-page-defender-enable-description = Microsoft Defender は Windows に組み込まれたウイルス対策です。削除するのは、リスクを理解したうえで、別のウイルス対策アプリを使う予定がある場合だけにしてください。どちらを選んでも、Zeropti OS はスマート アプリ コントロール、拡張フィッシング保護、デバイスの検索をオフにします。
 playbook-page-mitigations-default-description = これらの保護はセキュリティの軽減策とも呼ばれ、Spectre や Meltdown などのプロセッサの欠陥や、アプリのバグを悪用する攻撃から PC を守ります。Windows の既定のまま維持することをおすすめします。
-playbook-page-auto-updates-disable-description = Windows の更新プログラムには、セキュリティ修正が含まれています。Windows に自動でインストールさせることも、自分でインストールすることもできます。どちらの場合も、Atlas は Windows を現在のバージョンのまま維持します。このバージョンにセキュリティ修正が提供されるのは、Microsoft のサポートが終了するまでです。また、Atlas は Microsoft Store アプリの自動更新をオフにするため、Store アプリは Microsoft Store で更新してください。
-playbook-page-browser-brave-description = インストールするブラウザーを選んでください。Atlas はブラウザーの設定を変更しません。
+playbook-page-auto-updates-disable-description = Windows の更新プログラムには、セキュリティ修正が含まれています。Windows に自動でインストールさせることも、自分でインストールすることもできます。どちらの場合も、Zeropti OS は Windows を現在のバージョンのまま維持します。このバージョンにセキュリティ修正が提供されるのは、Microsoft のサポートが終了するまでです。また、Zeropti OS は Microsoft Store アプリの自動更新をオフにするため、Store アプリは Microsoft Store で更新してください。
+playbook-page-browser-brave-description = インストールするブラウザーを選んでください。Zeropti OS はブラウザーの設定を変更しません。
 
 ## 手順 3: Windows セキュリティ
 
 security-banner-reading-title = Windows セキュリティを確認しています
-security-banner-reading-message = Atlas が下の 4 つの保護スイッチを確認しています。
+security-banner-reading-message = Zeropti OS が下の 4 つの保護スイッチを確認しています。
 security-banner-off-title = 4 つの保護スイッチはすべてオフです
 # Shown instead of the switch list when Microsoft Defender isn't on this PC and the user
 # chose to remove it.
 security-banner-absent-title = この PC に Microsoft Defender はインストールされていません
 security-banner-absent-message = この手順でオフにするものはありません。「続行」を選んでください。
-security-banner-off-message = 「続行」を選んで、セットアップ内容を確認し、Atlas をインストールしてください。
+security-banner-off-message = 「続行」を選んで、セットアップ内容を確認し、Zeropti OS をインストールしてください。
 security-banner-on-title = Windows セキュリティでウイルス対策の保護をオフにしてください
-security-banner-on-message = Microsoft Defender は、Atlas による変更をブロックすることがあります。「Windows セキュリティを開く」を選び、下に表示されているスイッチをそれぞれオフにしてください。Microsoft Defender を残す場合は、インストールが完了したらスイッチをオンに戻してください。
+security-banner-on-message = Microsoft Defender は、Zeropti OS による変更をブロックすることがあります。「Windows セキュリティを開く」を選び、下に表示されているスイッチをそれぞれオフにしてください。Microsoft Defender を残す場合は、インストールが完了したらスイッチをオンに戻してください。
 # The page name in Windows Security.
 security-list-title = ウイルスと脅威の防止の設定
 security-switch-off = オフ
@@ -469,20 +469,20 @@ security-a11y = { $title }: { $state }
 security-count-still-on = { $count } 個がまだオン
 security-count-unreadable = { $count } 個が読み取れません
 security-count-join = { $a }、{ $b }
-security-unknown-title = Atlas が読み取れなかったスイッチを確認してください
+security-unknown-title = Zeropti OS が読み取れなかったスイッチを確認してください
 security-unknown-message = Windows セキュリティで 4 つのスイッチがすべてオフになっていることを確認してから、下でチェックを入れてください。
 security-acknowledge = Windows セキュリティで、4 つのスイッチがすべてオフになっていることを確認しました
 security-unknown-unelevated-title = 保護の確認には管理者権限が必要です
-security-unknown-unelevated-message = Microsoft Defender の設定を確認できるよう、Atlas を管理者として再実行してください。
+security-unknown-unelevated-message = Microsoft Defender の設定を確認できるよう、Zeropti OS を管理者として再実行してください。
 # The four switches, named as Windows Security names them in Japanese.
 protection-tamper = 改ざん防止
-protection-tamper-why = Atlas による Defender のセキュリティ設定の変更がブロックされないよう、オフにしてください。
+protection-tamper-why = Zeropti OS による Defender のセキュリティ設定の変更がブロックされないよう、オフにしてください。
 protection-realtime = リアルタイム保護
-protection-realtime-why = スキャン中に Defender が Atlas のインストール ファイルをブロックしないよう、オフにしてください。
+protection-realtime-why = スキャン中に Defender が Zeropti OS のインストール ファイルをブロックしないよう、オフにしてください。
 protection-cloud = クラウド提供の保護
-protection-cloud-why = オンラインの脅威チェックが Atlas のインストール ファイルをブロックしないよう、オフにしてください。
+protection-cloud-why = オンラインの脅威チェックが Zeropti OS のインストール ファイルをブロックしないよう、オフにしてください。
 protection-samples = サンプルの自動送信
-protection-samples-why = オフにすると、Defender が Atlas のファイルを分析のために Microsoft へ自動送信しなくなります。
+protection-samples-why = オフにすると、Defender が Zeropti OS のファイルを分析のために Microsoft へ自動送信しなくなります。
 
 ## 手順 4: インストール
 
@@ -490,76 +490,76 @@ protection-samples-why = オフにすると、Defender が Atlas のファイル
 install-progress = インストールの進行状況
 # The installation's progress shown beside the bar. $percent is a whole number from 0 to 99.
 install-percent = { $percent }%
-outcome-succeeded-title = Atlas がインストールされました
+outcome-succeeded-title = Zeropti OS がインストールされました
 outcome-lost-title = インストール結果を確認できませんでした
 outcome-failed-title = インストールが完了しませんでした
 outcome-requirements = この PC はインストール要件を満たしていませんでした。インストールによる変更はありません。「準備」に戻って、もう一度確認を実行してください。
 # The -resumed variants follow a retry of an installation an earlier attempt had already started applying.
 outcome-requirements-resumed = この PC はインストール要件を満たしていなかったため、今回の試行は停止しました。以前の試行ですでに変更の適用が始まっています。「準備」に戻って、もう一度確認を実行してください。
-outcome-not-elevated = Atlas に管理者権限がありませんでした。インストールによる変更はありません。Atlas を管理者として再実行してから、もう一度お試しください。
-outcome-not-elevated-resumed = Atlas に管理者権限がなかったため、今回の試行は停止しました。以前の試行ですでに変更の適用が始まっています。Atlas を管理者として再実行してから、もう一度お試しください。
+outcome-not-elevated = Zeropti OS に管理者権限がありませんでした。インストールによる変更はありません。Zeropti OS を管理者として再実行してから、もう一度お試しください。
+outcome-not-elevated-resumed = Zeropti OS に管理者権限がなかったため、今回の試行は停止しました。以前の試行ですでに変更の適用が始まっています。Zeropti OS を管理者として再実行してから、もう一度お試しください。
 # The installer's live check found Windows or Store updates unfinished. Get ready offers the
 # update check again; "更新を確認してインストール" is prepare-start, its button in that state.
-outcome-preparation-stale = Windows と Store アプリが最新の状態であることを Atlas が確認できなかったため、Windows を変更する前にインストールを停止しました。「準備」に戻って「更新を確認してインストール」を選んでください。
-outcome-preparation-stale-resumed = Windows と Store アプリが最新の状態であることを Atlas が確認できなかったため、今回の試行は停止しました。ただし、以前の試行ですでに変更の適用が始まっています。「準備」に戻って「更新を確認してインストール」を選んでください。
+outcome-preparation-stale = Windows と Store アプリが最新の状態であることを Zeropti OS が確認できなかったため、Windows を変更する前にインストールを停止しました。「準備」に戻って「更新を確認してインストール」を選んでください。
+outcome-preparation-stale-resumed = Windows と Store アプリが最新の状態であることを Zeropti OS が確認できなかったため、今回の試行は停止しました。ただし、以前の試行ですでに変更の適用が始まっています。「準備」に戻って「更新を確認してインストール」を選んでください。
 outcome-failed-preflight = 変更を加える前にインストールが停止しました。もう一度試すことができます。再び停止する場合は、「レポートを送信」を選んでください。
 outcome-failed-staging = ファイルの準備中、Windows を変更する前にインストールが停止しました。もう一度試すことができます。再び停止する場合は、「レポートを送信」を選んでください。
 outcome-failed-applying = 一部の変更はすでに適用されている可能性があります。もう一度試すことができます。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
 outcome-failed-applying-defender-removed = 一部の変更はすでに適用されている可能性があります。もう一度試すことができます。インストールが再び停止する場合は、「レポートを送信」を選んでください。
 outcome-failed-resumed = 今回の試行は途中で停止しましたが、以前の試行ですでに変更の適用が始まっています。もう一度試すことができます。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
 outcome-failed-resumed-defender-removed = 今回の試行は途中で停止しましたが、以前の試行ですでに変更の適用が始まっています。もう一度試すことができます。インストールが再び停止する場合は、「レポートを送信」を選んでください。
-outcome-failed-repeated = 今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Atlas チームが原因を調べられるように、「レポートを送信」を選んでください。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
-outcome-failed-repeated-defender-removed = 今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Atlas チームが原因を調べられるように、「レポートを送信」を選んでください。
-outcome-failed-repeated-apps = Windows が依然として { $apps } を削除しなかったため、今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Atlas チームが原因を調べられるように、「レポートを送信」を選んでください。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
-outcome-failed-repeated-apps-defender-removed = Windows が依然として { $apps } を削除しなかったため、今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Atlas チームが原因を調べられるように、「レポートを送信」を選んでください。
+outcome-failed-repeated = 今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Zeropti OS チームが原因を調べられるように、「レポートを送信」を選んでください。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
+outcome-failed-repeated-defender-removed = 今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Zeropti OS チームが原因を調べられるように、「レポートを送信」を選んでください。
+outcome-failed-repeated-apps = Windows が依然として { $apps } を削除しなかったため、今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Zeropti OS チームが原因を調べられるように、「レポートを送信」を選んでください。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
+outcome-failed-repeated-apps-defender-removed = Windows が依然として { $apps } を削除しなかったため、今回の試行は前回と同じエラーで停止しました。一部の変更はすでに適用されている可能性があります。何も変えずにもう一度試しても解決する可能性は低いです。Zeropti OS チームが原因を調べられるように、「レポートを送信」を選んでください。
 outcome-not-started = インストーラーが時間内に起動しませんでした。インストールによる変更はありません。もう一度試すことができます。
 outcome-lost = インストーラーは結果を報告せずに停止しました。一部の変更はすでに適用されている可能性があります。もう一度試すことができます。ここで中止する場合は、オフにした保護のうちまだ利用できるものを Windows セキュリティでオンに戻してください。
 outcome-lost-defender-removed = インストーラーは結果を報告せずに停止しました。一部の変更はすでに適用されている可能性があります。もう一度試すことができます。再び停止する場合は、「レポートを送信」を選んでください。
-restart-now-message = Atlas のセットアップを完了するため、Windows を再起動しています。
+restart-now-message = Zeropti OS のセットアップを完了するため、Windows を再起動しています。
 # Japanese has no plural forms; the same wording serves every count.
-restart-countdown = Atlas のセットアップを完了するため、{ $seconds } 秒後に Windows を再起動します。先に作業を保存するには、「後で再起動」を選んでください。
-restart-stopped = 自動再起動をキャンセルしました。作業を保存してから PC を再起動し、Atlas のセットアップを完了してください。
-restart-needed = 作業を保存してから PC を再起動し、Atlas のセットアップを完了してください。
+restart-countdown = Zeropti OS のセットアップを完了するため、{ $seconds } 秒後に Windows を再起動します。先に作業を保存するには、「後で再起動」を選んでください。
+restart-stopped = 自動再起動をキャンセルしました。作業を保存してから PC を再起動し、Zeropti OS のセットアップを完了してください。
+restart-needed = 作業を保存してから PC を再起動し、Zeropti OS のセットアップを完了してください。
 restart-dont-now = 後で再起動
 restart-now = 今すぐ再起動
-restart-start-failed = Atlas は PC を再起動できませんでした。作業を保存してから、スタート メニューから再起動してください。詳細: { $error }
+restart-start-failed = Zeropti OS は PC を再起動できませんでした。作業を保存してから、スタート メニューから再起動してください。詳細: { $error }
 preflight-title = インストールは開始されていません
-preflight-invalid-options = 選択した設定を Atlas で使用できませんでした。「設定の選択」に戻って内容を確認し、再試行してください。詳細: { $error }
+preflight-invalid-options = 選択した設定を Zeropti OS で使用できませんでした。「設定の選択」に戻って内容を確認し、再試行してください。詳細: { $error }
 # $problems is a sentence or two built from preflight-problem and preflight-security.
 preflight-changed = 前回の確認の後で PC の状態が変わりました。次の問題を解決してから再試行してください。{ $problems }
 preflight-problem = { $title }: { $detail }
 # $summary is the Windows Security summary such as "2 個がまだオン".
 preflight-security = Windows セキュリティ: { $summary }。
-preflight-busy = 別の Atlas ウィンドウがインストールを開始しています。少し待ってから、もう一度「Atlas をインストール」を選んでください。
+preflight-busy = 別の Zeropti OS ウィンドウがインストールを開始しています。少し待ってから、もう一度「Zeropti OS をインストール」を選んでください。
 # Shown with the home-start-over button.
-preflight-taken-over = 別の Atlas ウィンドウがこのセットアップを使用しているため、インストールは開始されていません。そのウィンドウで続行するか、「最初からやり直す」を選んでここでもう一度セットアップしてください。
-preflight-record-unreadable = 前回のインストールがまだ実行中かどうかを確認できなかったため、Atlas は新しいインストールを開始していません。「準備」に戻って、次に行うことを確認してください。詳細: { $error }
-preflight-refused = インストーラーを起動できませんでした。インストールによる変更はありません。再試行するには「Atlas をインストール」を選んでください。問題が続く場合は、「レポートを送信」を選んでください。詳細: { $error }
+preflight-taken-over = 別の Zeropti OS ウィンドウがこのセットアップを使用しているため、インストールは開始されていません。そのウィンドウで続行するか、「最初からやり直す」を選んでここでもう一度セットアップしてください。
+preflight-record-unreadable = 前回のインストールがまだ実行中かどうかを確認できなかったため、Zeropti OS は新しいインストールを開始していません。「準備」に戻って、次に行うことを確認してください。詳細: { $error }
+preflight-refused = インストーラーを起動できませんでした。インストールによる変更はありません。再試行するには「Zeropti OS をインストール」を選んでください。問題が続く場合は、「レポートを送信」を選んでください。詳細: { $error }
 # Instead of preflight-refused when retrying an installation an earlier attempt had already started applying.
-preflight-refused-resumed = インストーラーを起動できなかったため、今回の試行は停止しました。以前の試行ですでに変更の適用が始まっています。再試行するには「Atlas をインストール」を選んでください。問題が続く場合は、「レポートを送信」を選んでください。詳細: { $error }
+preflight-refused-resumed = インストーラーを起動できなかったため、今回の試行は停止しました。以前の試行ですでに変更の適用が始まっています。再試行するには「Zeropti OS をインストール」を選んでください。問題が続く場合は、「レポートを送信」を選んでください。詳細: { $error }
 go-to-ready = 「準備」に戻る
 go-to-options = 「設定の選択」に戻る
 # Replaces Continue on a choice opened from a Change link on the Install step, while Continue leads straight back there.
 go-to-install = 「インストール」に戻る
 output-problem-title = インストールの進行状況を読み取れませんでした
-output-problem-message = Atlas はログを読み取れませんでした。インストールが停止したとは限りません。PC の電源を切らずに、ログ ファイルを開いてみてください。詳細: { $error }
+output-problem-message = Zeropti OS はログを読み取れませんでした。インストールが停止したとは限りません。PC の電源を切らずに、ログ ファイルを開いてみてください。詳細: { $error }
 install-elevate-title = インストールには管理者権限が必要です
 install-no-package-title = 先にインストール ファイルを選んでください
-install-no-package-message = 「準備」に戻って Atlas をダウンロードするか、保存済みの Atlas パッケージ (.apbx) を開いてください。
+install-no-package-message = 「準備」に戻って Zeropti OS をダウンロードするか、保存済みの Zeropti OS パッケージ (.apbx) を開いてください。
 # Tester build variant of install-no-package-message.
-install-no-package-bundled-message = 「準備」に戻って、このテスト ビルドに同梱された Atlas パッケージを準備してください。
+install-no-package-bundled-message = 「準備」に戻って、このテスト ビルドに同梱された Zeropti OS パッケージを準備してください。
 # Step 4 when step 1 is incomplete for this session (checks or Windows updates), with go-to-ready as the button.
 install-not-ready-title = 先に「準備」を完了してください
-install-not-ready-message = インストールを始める前に、Atlas が PC の確認と Windows の更新を完了する必要があります。
+install-not-ready-message = インストールを始める前に、Zeropti OS が PC の確認と Windows の更新を完了する必要があります。
 install-security-title = インストール前にウイルス対策の保護を確認してください
 install-security-reading = 4 つの保護スイッチをもう一度確認しています。
 install-security-message = { $summary }。インストールする前に、Windows セキュリティを開いて 4 つのスイッチがすべてオフになっていることを確認してください。
 summary-try-again = 再試行前の確認
-summary-ready = Atlas のセットアップ内容を確認
+summary-ready = Zeropti OS のセットアップ内容を確認
 summary-activation = ライセンス認証
-summary-activation-ok = ライセンス認証済み。Atlas はこれを変更しません。
-summary-activation-missing = ライセンス認証されていません。続行できますが、Atlas が Windows のライセンス認証を行うことはありません。
-summary-activation-unknown = Atlas は Windows のライセンス認証の状態を変更しません。
+summary-activation-ok = ライセンス認証済み。Zeropti OS はこれを変更しません。
+summary-activation-missing = ライセンス認証されていません。続行できますが、Zeropti OS が Windows のライセンス認証を行うことはありません。
+summary-activation-unknown = Zeropti OS は Windows のライセンス認証の状態を変更しません。
 summary-duration = 推定時間
 # Japanese has no plural forms; the same wording serves every count.
 summary-duration-value = { $minutes } 分、その後に再起動
@@ -573,14 +573,14 @@ summary-not-chosen = まだ選択されていません
 summary-change-a11y = { $title } を変更
 footer-still-checking = インストールの準備中
 footer-fix-items = 続行するには、「PC の確認」の項目に対処してください
-footer-need-package = 続行するには、Atlas をダウンロードするか Atlas パッケージを開いてください
+footer-need-package = 続行するには、Zeropti OS をダウンロードするか Zeropti OS パッケージを開いてください
 # Tester build variant of footer-need-package.
-footer-need-package-bundled = 続行するには、同梱の Atlas パッケージを準備してください
+footer-need-package-bundled = 続行するには、同梱の Zeropti OS パッケージを準備してください
 footer-reading-security = 保護スイッチを確認中
 footer-security-pending = 続行するには、4 つのスイッチをすべてオフにしてください
-footer-security-confirm = 続行するには、Atlas が読み取れなかったスイッチを確認してください
+footer-security-confirm = 続行するには、Zeropti OS が読み取れなかったスイッチを確認してください
 footer-install-ready = 先に作業を保存し、アプリを閉じてください
-button-install = Atlas をインストール
+button-install = Zeropti OS をインストール
 # Japanese has no plural forms; the same wording serves every count.
 log-earlier-lines = これより前の { $count } 行はログ ファイルにあります。
 # Appended when the log is copied. $path is a file path (text).
@@ -589,13 +589,13 @@ log-full-log-note = (完全なログ: { $path })
 ## インストール中の画面
 
 installing-checking-title = 最終確認
-installing-checking-line = 変更を加える前に、Atlas が PC を確認しています。少し時間がかかる場合があります。
-installing-title = Atlas をインストールしています
+installing-checking-line = 変更を加える前に、Zeropti OS が PC を確認しています。少し時間がかかる場合があります。
+installing-title = Zeropti OS をインストールしています
 installing-phase-preflight = PC を確認し、インストール ファイルを準備しています。
 installing-phase-staging = インストール ファイルを準備しています。PC の電源を切らないでください。
 installing-phase-applying = 選択した設定に従って Windows を設定しています。PC の電源を切らず、電源に接続したままにしてください。
 installing-phase-done = インストールを完了しています。PC の電源を切らないでください。
-installing-installed-title = Atlas がインストールされました
+installing-installed-title = Zeropti OS がインストールされました
 # $time is a formatted clock time.
 installing-started-just-now = { $time } に開始 (経過 1 分未満)
 # Japanese has no plural forms; the same wording serves every count.
@@ -604,16 +604,16 @@ installing-restart-auto = インストールが完了すると、PC は自動的
 
 ## 再起動後の「Atlas がインストールされました」ウィンドウ
 
-installed-title-version = Atlas { $version } がインストールされました
-installed-title = Atlas がインストールされました
-installed-ready = セットアップが完了しました。Atlas を適用した PC をお使いいただけます。
+installed-title-version = Zeropti OS { $version } がインストールされました
+installed-title = Zeropti OS がインストールされました
+installed-ready = セットアップが完了しました。Zeropti OS を適用した PC をお使いいただけます。
 installed-security-message = Microsoft Defender を残しましたが、その保護の一部がまだオフになっています。Windows セキュリティを開き、次の保護を必ずオンにしてください: { $switches }。
 installed-defender-removed-title = Microsoft Defender は削除されました
 installed-defender-removed-message = 別のウイルス対策アプリをインストールするまで、PC はウイルス対策による保護を受けられません。SmartScreen も削除されたため、認識されないアプリやダウンロードしたファイルを開く前に、Windows が警告することはありません。
 # Home and the "Atlas is installed" window, after an installation that kept Microsoft Defender,
 # when it is missing and no Atlas package removed it. Its title is security-banner-missing-title;
 # "Report a problem" is home-report-problem, its button.
-installed-defender-missing-message = Microsoft Defender を残すことを選びましたが、Defender が見つかりません。Atlas が削除したものではありません。他のウイルス対策アプリを使っていない場合は、ウイルス対策アプリをインストールして PC を保護してください。Defender をご自身で削除していない場合は、「問題を報告」を選んでください。
+installed-defender-missing-message = Microsoft Defender を残すことを選びましたが、Defender が見つかりません。Zeropti OS が削除したものではありません。他のウイルス対策アプリを使っていない場合は、ウイルス対策アプリをインストールして PC を保護してください。Defender をご自身で削除していない場合は、「問題を報告」を選んでください。
 
 ## 設定
 
@@ -622,7 +622,7 @@ settings-theme = アプリのテーマ
 settings-theme-system = Windows に合わせる
 settings-theme-light = ライト
 settings-theme-dark = ダーク
-settings-theme-contrast-note = Atlas は Windows のコントラスト テーマの配色を使用しています。
+settings-theme-contrast-note = Zeropti OS は Windows のコントラスト テーマの配色を使用しています。
 settings-theme-mica-note = 半透明の背景を表示するには、Windows と同じライトまたはダークのテーマを選んでください。
 settings-language = 言語
 settings-language-system = Windows に合わせる
@@ -637,22 +637,22 @@ preview-notice = { $language }はプレビュー翻訳のため、誤りが含�
 preview-notice-switch = 英語に切り替える
 preview-notice-language = 言語を変更
 # $tag is a language tag (text).
-settings-language-unavailable = { $tag } はこのバージョンの Atlas では利用できません。現在は英語で表示しています。選択した言語は保存されています。
+settings-language-unavailable = { $tag } はこのバージョンの Zeropti OS では利用できません。現在は英語で表示しています。選択した言語は保存されています。
 # $languages is the Windows display-language list (text).
-settings-language-windows-unmatched = Atlas は Windows の表示言語 ({ $languages }) にまだ対応していません。現在は英語で表示しています。
+settings-language-windows-unmatched = Zeropti OS は Windows の表示言語 ({ $languages }) にまだ対応していません。現在は英語で表示しています。
 settings-language-windows-unavailable = Windows の表示言語を確認できませんでした。現在は英語で表示しています。詳細: { $error }
 # $locale is the regional format's own name, for example "日本語 (日本)".
 settings-language-formats = 数値、日付、時刻は Windows の地域設定の形式 ({ $locale }) に従います。
 # Instead of settings-language-formats when the regional format writes dates or times
 # right to left. $locale is the format's English name, for example "Arabic (Saudi Arabia)".
-settings-language-formats-numbers-only = 数値は Windows の地域設定の形式 ({ $locale }) に従います。Atlas はまだ右から左に書くテキストを表示できないため、日付と時刻には標準の形式を使用します。
-settings-language-contribute = GitHub で Atlas の翻訳に協力する
+settings-language-formats-numbers-only = 数値は Windows の地域設定の形式 ({ $locale }) に従います。Zeropti OS はまだ右から左に書くテキストを表示できないため、日付と時刻には標準の形式を使用します。
+settings-language-contribute = GitHub で Zeropti OS の翻訳に協力する
 settings-restart-label = インストール後に PC を自動的に再起動する
 settings-restart-locked = この設定はインストールが終わってから変更できます。
 settings-restart-description = オンにすると、インストールの完了後 1 分以内に PC が再起動し、開いているアプリはすべて閉じられます。インストールする前に作業を保存してください。
 settings-help = ヘルプとフィードバック
 settings-about = バージョン情報
-settings-about-app = Atlas Manager
+settings-about-app = Zeropti Manager
 settings-about-licence = ライセンス
 settings-about-licence-value = GPL-3.0、無料のオープン ソース
 settings-view-source = GitHub でソース コードを表示
@@ -674,28 +674,28 @@ consequence-uninstall-edge = Microsoft Edge ブラウザーを削除します。
 consequence-uninstall-edge-data = Microsoft Edge と、この PC の Edge のお気に入り、履歴、保存したパスワードを削除します。Microsoft アカウントに同期されていないデータは失われます。別のブラウザーがあることを確認するか、下で選んでください。
 # Under Remove Microsoft Edge in the Install step's summary, with a caution glyph.
 caution-uninstall-edge = この PC の Edge のお気に入り、履歴、保存したパスワードを削除します。
-consequence-install-another-browser = 下でブラウザーを選ぶと、Atlas がインストールします。
-consequence-install-toolbox = Atlas Toolbox を追加すると、Atlas の設定を管理しやすくなります。Toolbox はベータ版のため、一部の機能は未完成の場合があります。
+consequence-install-another-browser = 下でブラウザーを選ぶと、Zeropti OS がインストールします。
+consequence-install-toolbox = Atlas Toolbox を追加すると、Zeropti OS の設定を管理しやすくなります。Toolbox はベータ版のため、一部の機能は未完成の場合があります。
 consequence-install-eclean = セットアップ後の PC を整える、AtlasOS 開発チームのメンテナンス ツールです。不要なファイルやスタートアップ アプリを確認できます。アカウントとインターネット接続が必要です。
 
 # Introduction on the home page before Atlas is installed.
-home-intro = Atlas は Windows を調整して、バックグラウンドの動作や気を散らす要素を減らします。Windows を新規インストールしたら、ご自身のアプリやファイルを追加する前に Atlas をインストールしてください。
+home-intro = Zeropti OS は Windows を調整して、バックグラウンドの動作や気を散らす要素を減らします。Windows を新規インストールしたら、ご自身のアプリやファイルを追加する前に Zeropti OS をインストールしてください。
 
 ## ISO creation (Beta)
 iso-home-title = Windows インストール メディア
-iso-home-description = Atlas を含む Windows のインストール ファイル (ISO) を作成して、この PC や別の PC での Windows の再インストールに使用できます。
-iso-open = Atlas ISO を作成
-iso-title = Atlas ISO を作成
+iso-home-description = Zeropti OS を含む Windows のインストール ファイル (ISO) を作成して、この PC や別の PC での Windows の再インストールに使用できます。
+iso-open = Zeropti OS ISO を作成
+iso-title = Zeropti OS ISO を作成
 iso-beta = ベータ
 iso-beta-description = PC で使用する前に、仮想マシンで ISO をテストしてください。Windows のインストール前にファイルをバックアップしてください。
-iso-admin-description = Windows ISO を読み取って新しい ISO を作成するには、Atlas に管理者権限が必要です。「管理者として再実行」を選び、Windows で確認が表示されたら「はい」を選んでください。
-iso-files-description = Atlas は、Windows の再インストールに使えるよう、Atlas を追加した Windows 11 ISO のコピーを作成します。Microsoft からダウンロードした Windows 11 ISO を選び、最新の Atlas パッケージをダウンロードするかお持ちのパッケージ (.apbx) を選んでから、新しい ISO の保存先を選んでください。
+iso-admin-description = Windows ISO を読み取って新しい ISO を作成するには、Zeropti OS に管理者権限が必要です。「管理者として再実行」を選び、Windows で確認が表示されたら「はい」を選んでください。
+iso-files-description = Zeropti OS は、Windows の再インストールに使えるよう、Zeropti OS を追加した Windows 11 ISO のコピーを作成します。Microsoft からダウンロードした Windows 11 ISO を選び、最新の Zeropti OS パッケージをダウンロードするかお持ちのパッケージ (.apbx) を選んでから、新しい ISO の保存先を選んでください。
 # Tester build: no package picker.
-iso-files-description-bundled = Atlas は、このテスト ビルドに同梱された Atlas パッケージを Windows 11 ISO に追加したコピーを作成します。Microsoft からダウンロードした Windows 11 ISO を選んでから、新しい ISO の保存先を選んでください。
+iso-files-description-bundled = Zeropti OS は、このテスト ビルドに同梱された Zeropti OS パッケージを Windows 11 ISO に追加したコピーを作成します。Microsoft からダウンロードした Windows 11 ISO を選んでから、新しい ISO の保存先を選んでください。
 iso-source = Windows ISO
 iso-source-download = Microsoft から Windows 11 をダウンロード
 # $minimum is the first Atlas version that can be used (text, such as 0.6.0).
-iso-package = Atlas パッケージ ({ $minimum } 以降)
+iso-package = Zeropti OS パッケージ ({ $minimum } 以降)
 iso-output = 新しい ISO の保存先
 iso-no-file = ファイル未選択
 iso-browse = 参照
@@ -704,28 +704,28 @@ iso-save-as = 名前を付けて保存
 # that button's text and $field the field's label.
 iso-pick-a11y = { $action }: { $field }
 iso-inspect = ファイルを確認
-iso-mode-title = Atlas をどのようにセットアップしますか?
-iso-mode-interactive = サインイン後に Atlas の選択内容を決定
-iso-mode-interactive-description = サインインすると Atlas が開き、更新、設定の選択、Atlas のインストールを順にご案内します。
-iso-mode-before = Atlas の選択内容を今すぐ決定
-iso-mode-before-description = Atlas は選択内容を ISO に保存します。サインインすると Atlas が開いて更新の手順を案内し、その後、この選択内容で Atlas をインストールできます。
-iso-package-unsupported-title = 新しいバージョンの Atlas パッケージを選んでください
+iso-mode-title = Zeropti OS をどのようにセットアップしますか?
+iso-mode-interactive = サインイン後に Zeropti OS の選択内容を決定
+iso-mode-interactive-description = サインインすると Zeropti OS が開き、更新、設定の選択、Zeropti OS のインストールを順にご案内します。
+iso-mode-before = Zeropti OS の選択内容を今すぐ決定
+iso-mode-before-description = Zeropti OS は選択内容を ISO に保存します。サインインすると Zeropti OS が開いて更新の手順を案内し、その後、この選択内容で Zeropti OS をインストールできます。
+iso-package-unsupported-title = 新しいバージョンの Zeropti OS パッケージを選んでください
 # "サインイン後に Atlas の選択内容を決定" is iso-mode-interactive.
-iso-package-unsupported = この Atlas パッケージでは、Atlas の選択内容を ISO に保存できません。新しいバージョンのパッケージを選ぶか、「サインイン後に Atlas の選択内容を決定」を選んでください。
+iso-package-unsupported = この Zeropti OS パッケージでは、Zeropti OS の選択内容を ISO に保存できません。新しいバージョンのパッケージを選ぶか、「サインイン後に Zeropti OS の選択内容を決定」を選んでください。
 # Shown when Check files refuses the Atlas package; $minimum as for iso-package.
-iso-failed-package-unsupported = この Atlas パッケージは ISO の作成に使用できません。Atlas { $minimum } 以降のパッケージを選んでください。
+iso-failed-package-unsupported = この Zeropti OS パッケージは ISO の作成に使用できません。Zeropti OS { $minimum } 以降のパッケージを選んでください。
 # Tester build: the bundled package cannot be swapped, so the only way on is the after-sign-in
 # mode. Also the Your choices footer hint for any package that can't save choices.
-iso-package-unsupported-bundled-title = この ISO には Atlas の選択内容を保存できません
+iso-package-unsupported-bundled-title = この ISO には Zeropti OS の選択内容を保存できません
 # "サインイン後に Atlas の選択内容を決定" is iso-mode-interactive.
-iso-package-unsupported-bundled = このテスト ビルドに同梱された Atlas パッケージは、ISO でのセットアップに対応していません。代わりに「サインイン後に Atlas の選択内容を決定」を選んでください。
-iso-atlas-options = Atlas の選択内容
+iso-package-unsupported-bundled = このテスト ビルドに同梱された Zeropti OS パッケージは、ISO でのセットアップに対応していません。代わりに「サインイン後に Zeropti OS の選択内容を決定」を選んでください。
+iso-atlas-options = Zeropti OS の選択内容
 iso-review = ISO の内容を確認
-iso-review-description = ISO を作成しても、この PC には何もインストールされず、元の ISO も変更されません。作成後は、Atlas で新しい ISO を USB ドライブに書き込み、その USB から Windows を再インストールできます。
+iso-review-description = ISO を作成しても、この PC には何もインストールされず、元の ISO も変更されません。作成後は、Zeropti OS で新しい ISO を USB ドライブに書き込み、その USB から Windows を再インストールできます。
 iso-review-files = ファイル
 iso-step-windows = Windows のセットアップ
 iso-step-review = 確認
-iso-review-package = Atlas パッケージ
+iso-review-package = Zeropti OS パッケージ
 iso-review-output = 新しい ISO
 iso-review-editions = エディション
 iso-architecture-x64 = x64
@@ -740,7 +740,7 @@ iso-create = ISO を作成
 iso-progress-title = ISO を作成しています
 iso-stage-inspect = Windows ISO を確認中
 iso-stage-copy = Windows ファイルをコピー中
-iso-stage-add-atlas = Atlas を追加中
+iso-stage-add-atlas = Zeropti OS を追加中
 iso-stage-master = ISO ファイルを書き込み中
 iso-stage-verify = 新しい ISO を確認中
 iso-stage-cleanup = 最終処理中
@@ -751,7 +751,7 @@ iso-stage-status-current = 進行中
 # The stage where creating the ISO stopped with an error.
 iso-stage-status-failed = 失敗
 iso-stage-status-not-started = 未開始
-iso-progress-description = Atlas を開いたままにしてください。大きなイメージの処理には時間がかかる場合があります。
+iso-progress-description = Zeropti OS を開いたままにしてください。大きなイメージの処理には時間がかかる場合があります。
 iso-cancel = 作成をキャンセル
 iso-cancelling = 安全にキャンセルできる時点を待っています
 iso-cancelled = ISO の作成をキャンセルしました
@@ -763,7 +763,7 @@ iso-failed = ISO の作成を完了できませんでした
 iso-failed-description = ファイルが選択した場所にあり、保存先のドライブが接続されていることを確認してから、「ISO を作成」を選んでください。失敗が続く場合は、「レポートを送信」を選んでください。
 # Title while the Check files step fails; the messages below say why.
 iso-check-failed = ファイルを確認できませんでした
-iso-check-failed-description = ISO と Atlas パッケージが選択した場所にあり、ダウンロードが完了していることを確認してから、「ファイルを確認」を選んでください。失敗が続く場合は、「レポートを送信」を選んでください。
+iso-check-failed-description = ISO と Zeropti OS パッケージが選択した場所にあり、ダウンロードが完了していることを確認してから、「ファイルを確認」を選んでください。失敗が続く場合は、「レポートを送信」を選んでください。
 # Title when Windows refused the administrator relaunch (UAC declined); elevation-declined is the message.
 iso-elevation-title = ISO の作成には管理者権限が必要です
 # Typed reasons reported by the image worker.
@@ -773,23 +773,23 @@ iso-failed-space = 保存先ドライブの空き領域が不足しています�
 # Home and LTSC are the editions ISO creation drops; the others are examples it keeps.
 iso-failed-edition = この ISO には対応する Windows エディションが含まれていません。Windows Home と LTSC には対応していません。Pro、Education、Enterprise など、別のエディションを含む ISO を使用してください。
 iso-failed-customised = この ISO には autounattend.xml などのカスタム セットアップ ファイルがすでに含まれています。Microsoft が提供する未変更の Windows ISO を選んでください。
-iso-failed-windows-unsupported = この Windows イメージには、Atlas パッケージが対応していません。このパッケージが対応するバージョンの、未変更の 64 ビット版 Windows 11 ISO を使用してください。
+iso-failed-windows-unsupported = この Windows イメージには、Zeropti OS パッケージが対応していません。このパッケージが対応するバージョンの、未変更の 64 ビット版 Windows 11 ISO を使用してください。
 iso-failed-network-architecture = この PC のネットワーク ドライバーは、この ISO のアーキテクチャと一致しません。前の画面に戻って「この PC のネットワーク ドライバーを含める」をオフにするか、この PC 用の ISO を選んでください。
-iso-failed-unstaged = Atlas は作業フォルダーを準備できなかったため、何も変更されていません。もう一度お試しください。問題が続く場合は、「診断情報をエクスポート」を選んでバグ報告に添付してください。
-iso-failed-package-changed = ファイルの確認後に Atlas パッケージが変更されました。「ファイル」の横にある「変更」を選んでから、「ファイルを確認」を選んでください。
+iso-failed-unstaged = Zeropti OS は作業フォルダーを準備できなかったため、何も変更されていません。もう一度お試しください。問題が続く場合は、「診断情報をエクスポート」を選んでバグ報告に添付してください。
+iso-failed-package-changed = ファイルの確認後に Zeropti OS パッケージが変更されました。「ファイル」の横にある「変更」を選んでから、「ファイルを確認」を選んでください。
 iso-diagnostics = ログ フォルダーを開く
 iso-close-title = ISO の作成はまだ実行中です
 iso-close-message = 作成またはキャンセルが完了するまで、このウィンドウを開いたままにしてください。キャンセルは、現在の処理を安全に停止できる時点まで待機します。
 # On the ISO and USB pages while Atlas updates Windows, or puts back Windows Update settings,
 # from another page. Their controls are unavailable until it finishes.
-iso-locked = Atlas は Windows Update の処理中です。完了すると、ここで続行できます。
+iso-locked = Zeropti OS は Windows Update の処理中です。完了すると、ここで続行できます。
 prepare-title = Windows と Store アプリの更新
-prepare-description = インストール前に、Atlas は Windows、Microsoft Store、Store アプリを更新します。メモ帳、ペイント、ターミナルなど、開いている Store アプリは更新中に終了することがあるため、先に作業内容を保存してください。PC の再起動が必要になることもあります。
+prepare-description = インストール前に、Zeropti OS は Windows、Microsoft Store、Store アプリを更新します。メモ帳、ペイント、ターミナルなど、開いている Store アプリは更新中に終了することがあるため、先に作業内容を保存してください。PC の再起動が必要になることもあります。
 prepare-complete = インストールする Windows と Store の更新プログラムは、もう見つかりませんでした。
 prepare-reboot-title = 続行するには PC を再起動してください
-prepare-reboot = 更新プログラムのインストールを完了するには、PC の再起動が必要です。Atlas はここまでの選択内容を保存し、サインイン後に再び開きます。
+prepare-reboot = 更新プログラムのインストールを完了するには、PC の再起動が必要です。Zeropti OS はここまでの選択内容を保存し、サインイン後に再び開きます。
 # $reasons: the pending-restart markers Windows set, from the prepare-reason-* names.
-prepare-reboot-reasons = 更新プログラムのインストールを完了するには、PC の再起動が必要です ({ $reasons })。Atlas はここまでの選択内容を保存し、サインイン後に再び開きます。
+prepare-reboot-reasons = 更新プログラムのインストールを完了するには、PC の再起動が必要です ({ $reasons })。Zeropti OS はここまでの選択内容を保存し、サインイン後に再び開きます。
 # Under the restart message: the button restarts Windows without a countdown.
 prepare-reboot-save-work = 先に作業を保存し、アプリを閉じてください。「再起動して続行」を選ぶと、PC はすぐに再起動します。
 # Shown instead of another restart when Windows asks for one again right after restarting.
@@ -805,7 +805,7 @@ prepare-failed = 「再試行」を選んでください。再び失敗する場
 prepare-failed-title = 一部の更新を完了できませんでした
 # The update run ended without writing any result, for example after Atlas was closed
 # while it ran. "再試行" is common-try-again, the button beside it.
-prepare-ended-unconfirmed = 更新が結果を報告する前に停止したため、Windows と Store アプリが最新の状態であることを Atlas は確認できません。「再試行」を選んで、更新を確認してください。
+prepare-ended-unconfirmed = 更新が結果を報告する前に停止したため、Windows と Store アプリが最新の状態であることを Zeropti OS は確認できません。「再試行」を選んで、更新を確認してください。
 prepare-unconfirmed-title = 更新の結果を確認できませんでした
 # "更新を確認してインストール" is prepare-start, its button in this state.
 prepare-cancelled = 更新を停止しました。一部の更新プログラムはすでにインストールされている可能性があります。続行する前に、「更新を確認してインストール」を選んで更新を完了してください。
@@ -815,7 +815,7 @@ prepare-windows-install = Windows の更新プログラムをインストール�
 prepare-windows-repair = 先に Windows を修復しています。更新プログラムのインストールを妨げる可能性のある破損があると Windows が報告しています。30 分以上かかることがあります。
 prepare-store-search = Microsoft Store を確認しています…
 prepare-store-install = Microsoft Store とアプリを更新しています…
-prepare-stop-description = 現在の手順が完了すると、Atlas は更新を停止します。それまで Atlas を開いたままにしてください。
+prepare-stop-description = 現在の手順が完了すると、Zeropti OS は更新を停止します。それまで Zeropti OS を開いたままにしてください。
 prepare-stop = 更新を停止
 prepare-restart = 再起動して続行
 prepare-start = 更新を確認してインストール
@@ -837,7 +837,7 @@ prepare-drivers-auto = Windows Update から取得する
 prepare-drivers-auto-detail = Windows がハードウェアに適したドライバーを探します。通常はこちらをおすすめします。
 prepare-drivers-manual = 自分でインストールする
 prepare-drivers-manual-detail = Windows Update はドライバーをインストールしなくなるため、PC やデバイスのメーカーから入手する必要があります。インストール済みのドライバーは保持されます。
-prepare-drivers-description = ドライバーは、グラフィックス、サウンド、Wi-Fi などのハードウェアを Windows で使えるようにするものです。更新後にこの設定を変更した場合は、Atlas がもう一度更新を確認する必要があります。
+prepare-drivers-description = ドライバーは、グラフィックス、サウンド、Wi-Fi などのハードウェアを Windows で使えるようにするものです。更新後にこの設定を変更した場合は、Zeropti OS がもう一度更新を確認する必要があります。
 prepare-network-needed = 更新には、従量制課金接続ではないインターネット接続が必要です。Wi-Fi またはイーサネットに接続してから、「再試行」を選んでください。Wi-Fi ネットワークが表示されない場合は、先にネットワーク ドライバーをインストールしてください。
 # Connected, but Windows found no internet access (a captive portal, or DNS or firewall filtering).
 prepare-network-limited = Windows の報告によると、このネットワークはインターネットに接続できません。ネットワークからサインインを求められた場合はサインインするか、ルーターのほか、DNS やファイアウォールによるフィルタリングも確認してから、再試行してください。
@@ -847,7 +847,7 @@ prepare-network-settings = ネットワーク設定を開く
 iso-target-title = どの PC に Windows を再インストールしますか?
 iso-target-this = この PC
 # Under This PC (iso-target-this), before it's chosen.
-iso-target-this-description = Atlas は、この PC の Wi-Fi とイーサネットのドライバーを ISO に追加できます。これにより、Windows を再インストールした直後からインターネットに接続できます。
+iso-target-this-description = Zeropti OS は、この PC の Wi-Fi とイーサネットのドライバーを ISO に追加できます。これにより、Windows を再インストールした直後からインターネットに接続できます。
 iso-target-other = 別の PC
 iso-copy-network = この PC のネットワーク ドライバーを含める
 iso-network-detail = Windows のインストール時に、この PC の Wi-Fi とイーサネットのドライバーを再利用します。再インストール後は Wi-Fi に接続し直してください。
@@ -861,14 +861,14 @@ iso-network-failed = ネットワーク ドライバーを準備できません�
 # drivers that come with Windows, so none were added.
 iso-network-inbox = この PC のネットワーク アダプターは Windows 付属のドライバーを使用しているため、ISO に含める必要はありません。
 iso-mode-desktop = デスクトップを開く前にセットアップを完了
-iso-mode-desktop-description = Atlas は選択内容を ISO に保存します。サインイン後、Windows デスクトップが開く前に、Atlas が更新とインストールを完了します。
-desktop-setup-description = PC のセットアップを完了しましょう。Atlas の選択内容は保存されています。必要に応じて Windows に戻れます。
+iso-mode-desktop-description = Zeropti OS は選択内容を ISO に保存します。サインイン後、Windows デスクトップが開く前に、Zeropti OS が更新とインストールを完了します。
+desktop-setup-description = PC のセットアップを完了しましょう。Zeropti OS の選択内容は保存されています。必要に応じて Windows に戻れます。
 desktop-setup-exit = Windows で続ける
 
 # Windows installation USB (Beta)
 usb-title = インストール USB を作成
 usb-existing = 既存の ISO から USB を作成
-usb-description = ISO を USB ドライブに書き込んで、その USB から Windows を再インストールできるようにします。Atlas も同時にインストールするには、Atlas で作成した ISO を使用してください。
+usb-description = ISO を USB ドライブに書き込んで、その USB から Windows を再インストールできるようにします。Zeropti OS も同時にインストールするには、Zeropti OS で作成した ISO を使用してください。
 # Button that opens the file picker for an ISO, and the Open button of that picker, on the USB
 # and ISO pages.
 usb-choose-iso = ISO を選択
@@ -887,14 +887,14 @@ usb-detail-separator = { " · " }
 usb-review = USB を確認
 usb-erase-title = この USB ドライブを消去しますか?
 usb-erase-description = { $drive } ({ $size } GB) の内容は、すべてのファイルとパーティションを含め、完全に消去されます。残しておきたいものは、先に別のドライブにコピーしてください。ISO ファイルは保持されます。
-usb-layout = Atlas はドライブの最大 32 GB を使用し、残りの領域は使用しません。この USB ドライブは、Windows 11 に必要な UEFI モードで起動する PC で使用できます。
+usb-layout = Zeropti OS はドライブの最大 32 GB を使用し、残りの領域は使用しません。この USB ドライブは、Windows 11 に必要な UEFI モードで起動する PC で使用できます。
 usb-ack = この USB ドライブの内容がすべて消去されることを理解しました
 usb-write = 消去して USB を作成
 usb-stage-prepare = インストール ファイルを準備しています…
 usb-stage-format = USB をフォーマットしています…
 usb-stage-copy = インストール ファイルをコピーしています…
 usb-stage-verify = USB を検証しています…
-usb-working = Atlas を開いたまま、USB ドライブを接続しておいてください。キャンセルすると、作成途中の USB ドライブは Windows のインストールに使用できません。
+usb-working = Zeropti OS を開いたまま、USB ドライブを接続しておいてください。キャンセルすると、作成途中の USB ドライブは Windows のインストールに使用できません。
 # Titles of the error bar, the success bar and the close prompt while a USB is being written.
 usb-failed-title = USB の作成を完了できませんでした
 usb-complete-title = USB の準備ができました
@@ -903,58 +903,58 @@ usb-close-title = USB の作成はまだ実行中です
 usb-failed = ドライブはすでに消去されている可能性があるため、まだ Windows のインストールには使用できません。ドライブが接続されていることを確認してから、「USB を確認」を選んで再試行してください。接続し直した場合は、先に「一覧を更新」を選んでドライブを選択し直してください。
 # Before anything on the drive was changed: in general, then for the reasons the writer reports.
 usb-failed-unchanged = USB ドライブは変更されていません。「ログ フォルダーを開く」を選んで原因を確認してから、「USB を確認」を選んで再試行してください。
-usb-failed-iso = この ISO はインストール USB の作成に使用できません。Atlas で作成した ISO か、Atlas が対応するバージョンの Microsoft 提供の Windows 11 ISO を選んでください。USB ドライブは変更されていません。
-usb-failed-location = ISO または Atlas Manager が、この USB ドライブ、ネットワーク上の場所、またはリンクされたフォルダーにあります。そのファイルをこの PC のローカル フォルダーに移動してから、再試行してください。USB ドライブは変更されていません。
+usb-failed-iso = この ISO はインストール USB の作成に使用できません。Zeropti OS で作成した ISO か、Zeropti OS が対応するバージョンの Microsoft 提供の Windows 11 ISO を選んでください。USB ドライブは変更されていません。
+usb-failed-location = ISO または Zeropti Manager が、この USB ドライブ、ネットワーク上の場所、またはリンクされたフォルダーにあります。そのファイルをこの PC のローカル フォルダーに移動してから、再試行してください。USB ドライブは変更されていません。
 usb-failed-space = Windows ドライブの空き領域が不足しているため、インストール ファイルを準備できません。空き領域を確保してから、再試行してください。USB ドライブは変更されていません。
 usb-failed-fit = インストール ファイルがこの USB ドライブに収まりません。容量の大きいドライブを使用して、再試行してください。USB ドライブは変更されていません。
 usb-failed-drive-changed = 一覧を読み取った後に、USB ドライブが取り外されたか、接続し直されたか、別のドライブに交換されました。「一覧を更新」を選んでドライブを選択し直してから、「USB を確認」を選んでください。USB ドライブは変更されていません。
 usb-cancelled = ドライブに不完全なインストール ファイルが残っている可能性があります。Windows のインストール前に作成し直してください。
 usb-cancelled-title = USB の作成をキャンセルしました
 usb-cancelled-unchanged = USB ドライブは変更されていません。
-usb-complete = Atlas がすべてのファイルを確認しました。「USB を取り出す」を選んでから、再インストールする PC のファイルをバックアップしてください。その PC にドライブを接続し、ブート メニューを使って USB ドライブから起動してください (多くの場合、PC の起動時に F12、F11、Esc のいずれかのキーで表示できます)。
+usb-complete = Zeropti OS がすべてのファイルを確認しました。「USB を取り出す」を選んでから、再インストールする PC のファイルをバックアップしてください。その PC にドライブを接続し、ブート メニューを使って USB ドライブから起動してください (多くの場合、PC の起動時に F12、F11、Esc のいずれかのキーで表示できます)。
 usb-eject = USB を取り出す
 usb-ejected = USB ドライブを取り外せるようになりました。再インストールする PC のファイルをバックアップしてください。その後、ブート メニューを使って、その PC を USB ドライブから起動してください (多くの場合、起動時に F12、F11、Esc のいずれかのキーで表示できます)。
 usb-eject-failed = USB を使用しているファイルやウィンドウを閉じてから、もう一度お試しください。
 usb-eject-failed-title = USB を取り出せませんでした
-ready-fresh-title = Atlas は新規インストールした Windows 向けです
+ready-fresh-title = Zeropti OS は新規インストールした Windows 向けです
 ready-fresh-description = この PC の Windows をすでに使用している場合は、続行する前にファイルをバックアップして Windows を再インストールしてください。対応するバージョンを再インストールできるよう、先に「PC の確認」で「Windows の互換性」に問題がないことを確認してください。
 # Home, LTSC and Server are the editions the check refuses; the others are examples of
 # editions it accepts. Keep edition names as Windows shows them.
 detail-edition-unsupported = Windows 11 の Home、LTSC、Server エディションには対応していません。Pro、Education、Enterprise など、別のエディションを使用してください。Windows がエディションを識別できなかった場合は、続行する前に問題を解決してください。
 install-source-title = インストールできません
-install-source-unsupported = Atlas { $source } から { $target } へ直接更新することはできません。このバージョンを使用するには、ファイルをバックアップしてから Windows を再インストールしてください。
+install-source-unsupported = Zeropti OS { $source } から { $target } へ直接更新することはできません。このバージョンを使用するには、ファイルをバックアップしてから Windows を再インストールしてください。
 # Before a package is chosen, so the version on offer isn't known yet.
-install-source-unsupported-any = Atlas { $source } から直接更新することはできません。新しいバージョンを使用するには、ファイルをバックアップしてから Windows を再インストールしてください。
+install-source-unsupported-any = Zeropti OS { $source } から直接更新することはできません。新しいバージョンを使用するには、ファイルをバックアップしてから Windows を再インストールしてください。
 # "パッケージ ファイルを開く" is package-open-file. $folder is a folder path (text).
-install-source-resume = Atlas { $target } のインストールが完了していません。このインストールを完了できるのは Atlas { $target } のパッケージだけです。「パッケージ ファイルを開く」を選び、その Atlas パッケージ (.apbx) を選択してください。Atlas がダウンロードした場合は、{ $folder } にあります。
+install-source-resume = Zeropti OS { $target } のインストールが完了していません。このインストールを完了できるのは Zeropti OS { $target } のパッケージだけです。「パッケージ ファイルを開く」を選び、その Zeropti OS パッケージ (.apbx) を選択してください。Zeropti OS がダウンロードした場合は、{ $folder } にあります。
 # Tester build: only the bundled Atlas package can be installed.
-install-source-resume-bundled = Atlas { $target } のインストールが完了していません。このテスト ビルドは同梱の Atlas パッケージしかインストールできないため、Atlas Manager のリリース ビルドで Atlas { $target } のパッケージを使用して、このインストールを完了してください。
-install-source-unknown = この PC に何がインストールされているかを Atlas が確認できなかったため、今はインストールを行いません。Atlas チームが対応できるよう、「レポートを送信」を選んでください。
+install-source-resume-bundled = Zeropti OS { $target } のインストールが完了していません。このテスト ビルドは同梱の Zeropti OS パッケージしかインストールできないため、Zeropti Manager のリリース ビルドで Zeropti OS { $target } のパッケージを使用して、このインストールを完了してください。
+install-source-unknown = この PC に何がインストールされているかを Zeropti OS が確認できなかったため、今はインストールを行いません。Zeropti OS チームが対応できるよう、「レポートを送信」を選んでください。
 # $problem is one of the install-source-* messages; $error is a raw error message (text).
 install-source-details = { $problem }詳細: { $error }
 iso-edition-selection = 対応するエディションのみが含まれます。Windows のセットアップでは、Windows ライセンスをお持ちのエディションを選択してください。
 detail-windows-preview = Insider ビルドには対応していません。Windows 11 の一般公開版を使用してください。
 detail-windows-release-unknown = この Windows ビルドが一般公開版かどうかを確認できませんでした。インターネットに接続して、もう一度確認してください。
 # $build is this PC's Windows build and update number, such as 26300.9807 (text).
-detail-windows-release-unlisted = ビルド { $build } は Microsoft の Windows 11 一般公開版の一覧に含まれていないため、Atlas はまだこのビルドにインストールできません。Release Preview ビルドやその他のプレビュー ビルドには対応していません。Microsoft がこのビルドを一覧に追加したら、「もう一度確認」を選んでください。
-iso-release-unknown = この ISO が、Atlas パッケージが対応する Windows 11 の一般公開版であることを Atlas は確認できませんでした。インターネットに接続してから、もう一度「ファイルを確認」を選んでください。それでも失敗する場合は、Microsoft から ISO をダウンロードし直してください。
+detail-windows-release-unlisted = ビルド { $build } は Microsoft の Windows 11 一般公開版の一覧に含まれていないため、Zeropti OS はまだこのビルドにインストールできません。Release Preview ビルドやその他のプレビュー ビルドには対応していません。Microsoft がこのビルドを一覧に追加したら、「もう一度確認」を選んでください。
+iso-release-unknown = この ISO が、Zeropti OS パッケージが対応する Windows 11 の一般公開版であることを Zeropti OS は確認できませんでした。インターネットに接続してから、もう一度「ファイルを確認」を選んでください。それでも失敗する場合は、Microsoft から ISO をダウンロードし直してください。
 iso-release-unlisted = この ISO の Windows 11 ビルドは、Microsoft の一般公開版の一覧に含まれていません。Release Preview ビルドやその他のプレビュー ビルドには対応していません。Microsoft から ISO をダウンロードするか、Microsoft がこのビルドを一覧に追加してから、もう一度「ファイルを確認」を選んでください。
-prepare-previous-worker = 以前に開始した更新がまだ実行中です。Atlas は完了するまで待機します。完了後に、もう一度更新を確認できます。
+prepare-previous-worker = 以前に開始した更新がまだ実行中です。Zeropti OS は完了するまで待機します。完了後に、もう一度更新を確認できます。
 
 ready-used-windows-title = この PC の Windows はすでに使用されているようです
-ready-used-windows-description = この PC の Windows は、インストールから 1 週間以上経過しているか、すでに複数のアプリが入っています。この状態での Atlas のインストールはサポート対象外で、行わないことを強くおすすめします。既存のアプリや設定が正しく動作しなくなる可能性があります。また、Atlas は OneDrive を削除するため、OneDrive 内のファイルは同期されなくなり、デスクトップ、ドキュメント、ピクチャのフォルダーが空に見える場合があります。先にファイルをバックアップして Windows を再インストールするか、リスクを受け入れる場合にのみ続行してください。
+ready-used-windows-description = この PC の Windows は、インストールから 1 週間以上経過しているか、すでに複数のアプリが入っています。この状態での Zeropti OS のインストールはサポート対象外で、行わないことを強くおすすめします。既存のアプリや設定が正しく動作しなくなる可能性があります。また、Zeropti OS は OneDrive を削除するため、OneDrive 内のファイルは同期されなくなり、デスクトップ、ドキュメント、ピクチャのフォルダーが空に見える場合があります。先にファイルをバックアップして Windows を再インストールするか、リスクを受け入れる場合にのみ続行してください。
 ready-used-windows-dismiss = このまま続行
 
-prepare-resumed = PC が再起動し、Atlas はここまでの選択内容を復元しました。Atlas をインストールする前に、「更新を続ける」を選んで更新を完了してください。
+prepare-resumed = PC が再起動し、Zeropti OS はここまでの選択内容を復元しました。Zeropti OS をインストールする前に、「更新を続ける」を選んで更新を完了してください。
 prepare-continue = 更新を続ける
-prepare-saving-restart = 選択内容を保存し、Windows の再起動後に Atlas を開くよう設定しています…
+prepare-saving-restart = 選択内容を保存し、Windows の再起動後に Zeropti OS を開くよう設定しています…
 prepare-restart-save-failed = 選択内容を保存できませんでした。再起動する前にもう一度お試しください。
-prepare-restart-registration-failed = 選択内容は保存されましたが、再起動後に Atlas が自動で開くよう設定できませんでした。もう一度試すか、ご自身で PC を再起動し、サインイン後に Atlas を開いてください。
-prepare-restart-source-linked = 選択内容は保存されましたが、Atlas Manager がリンクされたフォルダーにある間は、再起動後に Atlas が自動で開くよう設定できません。Atlas を閉じ、Atlas Manager をこの PC のローカル フォルダーに移動してください。その後、そこから開くか、ご自身で PC を再起動し、サインイン後にそこから開いてください。
-prepare-restart-failed = Atlas は PC を再起動できませんでした。もう一度試すか、スタート メニューから再起動してください。選択内容は保存されており、サインイン後に Atlas が再び開きます。
+prepare-restart-registration-failed = 選択内容は保存されましたが、再起動後に Zeropti OS が自動で開くよう設定できませんでした。もう一度試すか、ご自身で PC を再起動し、サインイン後に Zeropti OS を開いてください。
+prepare-restart-source-linked = 選択内容は保存されましたが、Zeropti Manager がリンクされたフォルダーにある間は、再起動後に Zeropti OS が自動で開くよう設定できません。Zeropti OS を閉じ、Zeropti Manager をこの PC のローカル フォルダーに移動してください。その後、そこから開くか、ご自身で PC を再起動し、サインイン後にそこから開いてください。
+prepare-restart-failed = Zeropti OS は PC を再起動できませんでした。もう一度試すか、スタート メニューから再起動してください。選択内容は保存されており、サインイン後に Zeropti OS が再び開きます。
 diagnostics-export = 診断情報をエクスポート
 diagnostics-exporting = 診断情報を収集中…
-diagnostics-privacy = Atlas チームに非公開でレポートを送信するか、助けを求めるときに共有できる診断情報の ZIP をエクスポートできます。Atlas は、ZIP からユーザー名、PC 名、メール アドレスを削除します。
+diagnostics-privacy = Zeropti OS チームに非公開でレポートを送信するか、助けを求めるときに共有できる診断情報の ZIP をエクスポートできます。Zeropti OS は、ZIP からユーザー名、PC 名、メール アドレスを削除します。
 # Title of the result bar after an export; its button is iso-open-folder.
 diagnostics-saved = 診断情報の ZIP を作成しました
 diagnostics-failed-title = 診断情報をエクスポートできませんでした
@@ -964,28 +964,28 @@ diagnostics-failed = PC のディスクに空き領域があることを確認�
 ## Tester builds (embedded-playbook feature)
 
 # One line of chrome under the title bar on a release-candidate build.
-rc-banner = Atlas { $release } テスト ビルド。このアプリは同梱の Atlas パッケージのみをインストールします。
+rc-banner = Zeropti OS { $release } テスト ビルド。このアプリは同梱の Zeropti OS パッケージのみをインストールします。
 home-status-bundled = テスト ビルド { $release }
-package-bundled = このテスト ビルドに同梱された Atlas { $version } のインストール準備ができています。
+package-bundled = このテスト ビルドに同梱された Zeropti OS { $version } のインストール準備ができています。
 rc-about-release = テスト ビルド
 rc-about-commit = ソース コミット
-rc-about-package = 同梱の Atlas パッケージ (SHA-256)
-iso-package-bundled = このテスト ビルドに同梱された Atlas パッケージ
+rc-about-package = 同梱の Zeropti OS パッケージ (SHA-256)
+iso-package-bundled = このテスト ビルドに同梱された Zeropti OS パッケージ
 prepare-percent = この段階の { $percent }% が完了
 prepare-count = 完了した更新: { $completed } / { $total }
 prepare-bytes = 約 { $total } MB 中 { $downloaded } MB をダウンロード済み
 prepare-elapsed = 経過時間: { $minutes } 分 { $seconds } 秒
 prepare-progress-waiting = 更新サービスを待っています。この手順では進捗率を取得できません。
-prepare-progress-unchanged = { $minutes } 分間、進捗がありません。大きな更新には時間がかかることがあるため、Atlas を開いたままにしてください。詳細を確認するには、「ログ フォルダーを開く」を選んでください。
-prepare-report-delayed = { $seconds } 秒間、Windows から進捗が報告されていません。更新はまだ実行中の可能性があるため、Atlas を開いたままにしてください。
+prepare-progress-unchanged = { $minutes } 分間、進捗がありません。大きな更新には時間がかかることがあるため、Zeropti OS を開いたままにしてください。詳細を確認するには、「ログ フォルダーを開く」を選んでください。
+prepare-report-delayed = { $seconds } 秒間、Windows から進捗が報告されていません。更新はまだ実行中の可能性があるため、Zeropti OS を開いたままにしてください。
 
 prepare-affected-app = 対象のアプリ
 prepare-app-in-use = { $app } を閉じてから、再試行してください。開いている間は、Windows がこのアプリを更新できません。ウィンドウが見つからない場合は、タスク マネージャーで終了してください。それでも失敗する場合は、PC を再起動し、{ $app } を開く前に再試行してください。
 prepare-install-busy = 別のインストールまたは必要な再起動により、更新がブロックされています。他のインストールが終わるのを待ち、Windows から再起動を求められた場合は PC を再起動してから、再試行してください。
-prepare-failed-component-store = Windows のコンポーネント ストアに更新プログラムのインストールを妨げる破損があると Windows が報告しており、Atlas では修復できませんでした。PC を再起動してから、「再試行」を選んでください。それでも更新に失敗する場合は、ファイルをバックアップしてから、Atlas ISO で Windows を再インストールしてください。
-prepare-failed-component-store-unrepairable = Windows のコンポーネント ストアに修復できない破損があると Windows が報告しているため、更新プログラムをインストールできません。ファイルをバックアップしてから、Atlas ISO で Windows を再インストールしてください。
+prepare-failed-component-store = Windows のコンポーネント ストアに更新プログラムのインストールを妨げる破損があると Windows が報告しており、Zeropti OS では修復できませんでした。PC を再起動してから、「再試行」を選んでください。それでも更新に失敗する場合は、ファイルをバックアップしてから、Zeropti OS ISO で Windows を再インストールしてください。
+prepare-failed-component-store-unrepairable = Windows のコンポーネント ストアに修復できない破損があると Windows が報告しているため、更新プログラムをインストールできません。ファイルをバックアップしてから、Zeropti OS ISO で Windows を再インストールしてください。
 # Causes the update worker names. The worker's own English message is shown below as a detail.
-prepare-failed-session-owner = Atlas は、Windows にサインインしているアカウントとは別のアカウントで実行されています。管理者アカウントで Windows にサインインし、そのアカウントから Atlas を開いてから、再試行してください。
+prepare-failed-session-owner = Zeropti OS は、Windows にサインインしているアカウントとは別のアカウントで実行されています。管理者アカウントで Windows にサインインし、そのアカウントから Zeropti OS を開いてから、再試行してください。
 prepare-failed-store-missing = お使いのアカウントでは Microsoft Store がセットアップされていません。Microsoft Store を一度開くか、見つからない場合は再インストールしてから、再試行してください。
 prepare-failed-store-battery = バッテリーを節約するため、Microsoft Store が更新を一時停止しました。PC を電源に接続してから、再試行してください。
 prepare-failed-store-network = PC が従量制課金接続ではないネットワークに接続されるまで、Microsoft Store は更新を一時停止しています。従量制課金接続ではない Wi-Fi またはイーサネットに接続してから、再試行してください。
@@ -993,25 +993,25 @@ prepare-failed-store-timeout = Store アプリの更新が完了していませ�
 prepare-failed-store-passes = Microsoft Store から新しい更新プログラムが提供され続けました。Microsoft Store で残りの更新を完了してから、再試行してください。
 prepare-failed-manual-updates = 一部の Windows 更新プログラムは Windows Update で完了する必要があります。Windows Update を開いて完了してから、再試行してください。
 prepare-failed-windows-passes = Windows Update から新しい更新プログラムが提供され続けました。Windows Update で残りの更新を完了してから、再試行してください。
-prepare-failed-source-linked = Atlas Manager がリンクされたフォルダーにあります。Atlas を閉じ、Atlas Manager をこの PC のローカル フォルダーに移動してから、そこから開いてください。
+prepare-failed-source-linked = Zeropti Manager がリンクされたフォルダーにあります。Zeropti OS を閉じ、Zeropti Manager をこの PC のローカル フォルダーに移動してから、そこから開いてください。
 prepare-error-code = エラー コード: { $code }
 prepare-open-store = Microsoft Store を開く
 
 check-user-account = ユーザー アカウント
 detail-user-account-ok = UAC が有効で、アカウントのインストール準備が整っています。
 detail-user-account-not-ready = ユーザー アカウント制御 (UAC) を有効にし、PC を再起動してから、もう一度お試しください。組み込みの Administrator アカウントを使用している場合は、別の管理者アカウントでサインインしてください。
-detail-user-account-work-or-school = 職場または学校アカウント (Microsoft Entra ID) からは Atlas をインストールできません。ローカル アカウントまたは Microsoft アカウントでサインインしてから、再試行してください。
-detail-user-account-unknown = Atlas はユーザー アカウントを確認できませんでした。PC を再起動し、Atlas を開き直してからもう一度確認してください。この状態が続く場合は、「レポートを送信」を選んでください。Windows の報告: { $error }
+detail-user-account-work-or-school = 職場または学校アカウント (Microsoft Entra ID) からは Zeropti OS をインストールできません。ローカル アカウントまたは Microsoft アカウントでサインインしてから、再試行してください。
+detail-user-account-unknown = Zeropti OS はユーザー アカウントを確認できませんでした。PC を再起動し、Zeropti OS を開き直してからもう一度確認してください。この状態が続く場合は、「レポートを送信」を選んでください。Windows の報告: { $error }
 
 footer-prepare-required = 続行するには、Windows と Store アプリの更新を完了してください
 footer-prepare-stopping = 現在の手順の完了後に更新を停止します…
 resume-choices-title = 前回のインストールを再開
-resume-choices-detail = 前回のインストールを完了するため、Atlas は前回の選択内容を復元しました。インストールが完了するまで、「設定の選択」でこれらを変更することはできません。
+resume-choices-detail = 前回のインストールを完了するため、Zeropti OS は前回の選択内容を復元しました。インストールが完了するまで、「設定の選択」でこれらを変更することはできません。
 
 ## Voluntary reports
 report-title = レポートを送信
 report-received = レポートを受信しました
-report-reference = このレポートについて Atlas チームに問い合わせる場合に備えて、この参照番号を控えておいてください。連絡先を入力した場合はチームから返信することがありますが、返信は保証されません。
+report-reference = このレポートについて Zeropti OS チームに問い合わせる場合に備えて、この参照番号を控えておいてください。連絡先を入力した場合はチームから返信することがありますが、返信は保証されません。
 # Accessible name of the Copy button beside the report reference.
 report-copy-reference = 参照番号をコピー
 report-another = 別のレポートを送信
@@ -1026,18 +1026,18 @@ report-message-placeholder = 次の操作をしようとしました…
 report-contact = 連絡先 (任意)
 report-contact-placeholder = メール アドレスまたは Discord ユーザー名
 report-attach = 診断情報を添付
-report-attach-description = 原因の特定に役立つログとシステムの詳細情報です。Atlas は、ユーザー名、PC 名、メール アドレス、既知のパスワードやキーを削除します。エラーの詳細、ハードウェアのモデル、アプリ名は残ります。送信前に ZIP の内容を確認できます。
+report-attach-description = 原因の特定に役立つログとシステムの詳細情報です。Zeropti OS は、ユーザー名、PC 名、メール アドレス、既知のパスワードやキーを削除します。エラーの詳細、ハードウェアのモデル、アプリ名は残ります。送信前に ZIP の内容を確認できます。
 report-prepare = 診断情報を準備
 report-review = ZIP を確認
 report-prepare-failed-title = 診断情報を準備できませんでした
 # $error is a raw error message (text).
 report-prepare-failed = 診断情報をもう一度準備するか、「診断情報を添付」をオフにして、診断情報なしでレポートを送信してください。詳細: { $error }
-report-privacy = レポートは reports.atlasos.net の Atlas チームに非公開で送信されます。メッセージと連絡先は、入力したとおりに送信されます。チームは調査のために他社の AI サービスを利用することがあります。AI サービスにはメッセージと診断情報が渡されますが、連絡先は渡されません。レポートは 90 日後に削除されます。また、サーバーのセキュリティ ログに IP アドレスが記録される場合があります。
+report-privacy = レポートは reports.atlasos.net の Zeropti OS チームに非公開で送信されます。メッセージと連絡先は、入力したとおりに送信されます。チームは調査のために他社の AI サービスを利用することがあります。AI サービスにはメッセージと診断情報が渡されますが、連絡先は渡されません。レポートは 90 日後に削除されます。また、サーバーのセキュリティ ログに IP アドレスが記録される場合があります。
 report-website = プライバシーとレポート サイト
-report-consent = このレポートと添付した診断情報を Atlas チームに送信することに同意します
+report-consent = このレポートと添付した診断情報を Zeropti OS チームに送信することに同意します
 report-failed = メッセージは保持されています。インターネット接続を確認してから「再試行」を選ぶか、レポート サイトからレポートを送信してください。
 report-failed-busy = レポート サービスが混み合っています。メッセージは保持されています。しばらくしてから再試行してください。
-report-failed-outdated = このバージョンの Atlas Manager ではレポートを送信できなくなりました。メッセージは保持されているので、レポート サイトにコピーしてください。診断情報を添付していた場合は、「ZIP を確認」を選び、その ZIP もレポート サイトで添付してください。
+report-failed-outdated = このバージョンの Zeropti Manager ではレポートを送信できなくなりました。メッセージは保持されているので、レポート サイトにコピーしてください。診断情報を添付していた場合は、「ZIP を確認」を選び、その ZIP もレポート サイトで添付してください。
 report-failed-diagnostics = 準備した診断情報を送信できません。メッセージは保持されています。診断情報をもう一度準備するか、「診断情報を添付」をオフにしてください。
 # Link under a report that wasn't sent.
 report-failed-website = レポート サイトを開く
@@ -1055,164 +1055,164 @@ report-validation-consent = このレポートの送信に同意してくださ�
 report-failed-title = レポートを送信できませんでした
 
 ## Windows version update
-home-plan-intro = この更新は 2 段階で行われます。ファイルとアプリはそのまま残ります。Windows の更新によって Atlas の変更が元に戻された場合は、Atlas が適用し直します。
+home-plan-intro = この更新は 2 段階で行われます。ファイルとアプリはそのまま残ります。Windows の更新によって Zeropti OS の変更が元に戻された場合は、Zeropti OS が適用し直します。
 home-plan-windows-title = Windows 11 バージョン { $release }
-home-plan-windows-detail = Atlas が Windows Update からインストールします。インストールを完了するため、PC が再起動します。
-home-plan-windows-optional = 推奨。Atlas が Windows Update からインストールします。インストールを完了するため、PC が再起動します。
-home-plan-atlas-title = Atlas { $version }
-home-plan-atlas-detail = Atlas がファイルを更新し、選択内容はそのまま引き継ぎます。最後に PC が再起動します。
+home-plan-windows-detail = Zeropti OS が Windows Update からインストールします。インストールを完了するため、PC が再起動します。
+home-plan-windows-optional = 推奨。Zeropti OS が Windows Update からインストールします。インストールを完了するため、PC が再起動します。
+home-plan-atlas-title = Zeropti OS { $version }
+home-plan-atlas-detail = Zeropti OS がファイルを更新し、選択内容はそのまま引き継ぎます。最後に PC が再起動します。
 home-end-of-updates-title = Windows 11 バージョン { $current } のセキュリティ更新プログラムの提供は { $date } に終了します
 home-end-of-updates-past-title = Windows 11 バージョン { $current } のセキュリティ更新プログラムの提供は終了しました
-home-end-of-updates-message = Atlas { $version } に更新すると、この PC は Windows 11 バージョン { $release } にも移行します。このバージョンには { $until } までセキュリティ更新プログラムが提供されます。
-install-windows-edition = Atlas { $version } は Windows 11 Pro、Enterprise、Education に対応しています。この PC の Windows は { $product } のため、Atlas をインストールできません。
-install-windows-edition-ending = Atlas { $version } は Windows 11 Pro、Enterprise、Education に対応しています。この PC の Windows は { $product } のため、Atlas をインストールできません。Windows 11 バージョン { $current } のセキュリティ更新プログラムの提供は { $date } に終了します。Windows Update で、この PC を新しいバージョンに移行できます。
-install-windows-no-path = Atlas { $version } には Windows 11 バージョン { $releases } が必要ですが、この PC の Windows から Windows Update でそのバージョンに移行することはできません。Atlas { $version } を使用するには、ファイルをバックアップしてから、Atlas ISO で Windows を再インストールしてください。
-home-update-access-title = Atlas の更新のため、Windows Update の設定が変更されています
-home-update-access-not-offered = Atlas はこの PC を Windows 11 バージョン { $release } に移行するために Windows Update をオンにしましたが、Windows Update ではまだ提供されていません。「もう一度確認」または「設定を元に戻す」を選んでください。
-home-update-access-before = Atlas はこの PC を Windows 11 バージョン { $release } に移行するために Windows Update をオンにしましたが、まだ完了していません。更新を続行するか、「設定を元に戻す」を選んでください。
-home-update-access-after = この PC には Windows 11 バージョン { $release } がインストールされています。Atlas のインストールを完了するか、「設定を元に戻す」を選んでください。
-home-update-access-plain = Atlas は更新プログラムをインストールするために Windows Update をオンにしましたが、まだ完了していません。更新を続行するか、「設定を元に戻す」を選んでください。
-home-update-access-unreadable = Atlas は、変更した Windows Update の設定の記録を読み取れないため、何も変更せず、元にも戻しません。Atlas チームが対応できるよう、「レポートを送信」を選んでください。
-home-update-access-failed = Atlas は設定を元に戻せませんでした。もう一度試すか、「レポートを送信」を選んでください。詳細: { $error }
-home-update-access-install-active = 先に Atlas のインストールを完了してください。インストールの最後に、これらの設定は元に戻されます。
+home-end-of-updates-message = Zeropti OS { $version } に更新すると、この PC は Windows 11 バージョン { $release } にも移行します。このバージョンには { $until } までセキュリティ更新プログラムが提供されます。
+install-windows-edition = Zeropti OS { $version } は Windows 11 Pro、Enterprise、Education に対応しています。この PC の Windows は { $product } のため、Zeropti OS をインストールできません。
+install-windows-edition-ending = Zeropti OS { $version } は Windows 11 Pro、Enterprise、Education に対応しています。この PC の Windows は { $product } のため、Zeropti OS をインストールできません。Windows 11 バージョン { $current } のセキュリティ更新プログラムの提供は { $date } に終了します。Windows Update で、この PC を新しいバージョンに移行できます。
+install-windows-no-path = Zeropti OS { $version } には Windows 11 バージョン { $releases } が必要ですが、この PC の Windows から Windows Update でそのバージョンに移行することはできません。Zeropti OS { $version } を使用するには、ファイルをバックアップしてから、Zeropti OS ISO で Windows を再インストールしてください。
+home-update-access-title = Zeropti OS の更新のため、Windows Update の設定が変更されています
+home-update-access-not-offered = Zeropti OS はこの PC を Windows 11 バージョン { $release } に移行するために Windows Update をオンにしましたが、Windows Update ではまだ提供されていません。「もう一度確認」または「設定を元に戻す」を選んでください。
+home-update-access-before = Zeropti OS はこの PC を Windows 11 バージョン { $release } に移行するために Windows Update をオンにしましたが、まだ完了していません。更新を続行するか、「設定を元に戻す」を選んでください。
+home-update-access-after = この PC には Windows 11 バージョン { $release } がインストールされています。Zeropti OS のインストールを完了するか、「設定を元に戻す」を選んでください。
+home-update-access-plain = Zeropti OS は更新プログラムをインストールするために Windows Update をオンにしましたが、まだ完了していません。更新を続行するか、「設定を元に戻す」を選んでください。
+home-update-access-unreadable = Zeropti OS は、変更した Windows Update の設定の記録を読み取れないため、何も変更せず、元にも戻しません。Zeropti OS チームが対応できるよう、「レポートを送信」を選んでください。
+home-update-access-failed = Zeropti OS は設定を元に戻せませんでした。もう一度試すか、「レポートを送信」を選んでください。詳細: { $error }
+home-update-access-install-active = 先に Zeropti OS のインストールを完了してください。インストールの最後に、これらの設定は元に戻されます。
 home-continue-update = 更新を続行
 home-put-back = 設定を元に戻す
 home-putting-back = 設定を元に戻しています…
 windows-card-title = Windows 11 バージョン { $release }
-windows-card-required = Atlas { $version } には、より新しいバージョンの Windows が必要です。下で Windows を更新するときに、Atlas は Windows Update から Windows 11 バージョン { $release } もインストールします。
+windows-card-required = Zeropti OS { $version } には、より新しいバージョンの Windows が必要です。下で Windows を更新するときに、Zeropti OS は Windows Update から Windows 11 バージョン { $release } もインストールします。
 windows-card-question = この PC でどのバージョンの Windows を使用しますか?
 windows-choice-move = Windows 11 バージョン { $release } に更新
 windows-choice-move-detail = 推奨。{ $date } までセキュリティ更新プログラムが提供されます。再起動が 1 回増えます。
 windows-choice-keep = Windows 11 バージョン { $current } を維持
-windows-choice-keep-detail = PC はこのバージョンのままです。Windows Update によって新しいバージョンに移行されることはないため、後で移行するには Atlas Manager でもう一度更新する必要があります。
+windows-choice-keep-detail = PC はこのバージョンのままです。Windows Update によって新しいバージョンに移行されることはないため、後で移行するには Zeropti Manager でもう一度更新する必要があります。
 windows-card-facts = 変更内容
-windows-fact-keep = ファイルとアプリはそのまま残ります。更新によって Atlas の変更が元に戻された場合は、インストール時に Atlas が適用し直します。
+windows-fact-keep = ファイルとアプリはそのまま残ります。更新によって Zeropti OS の変更が元に戻された場合は、インストール時に Zeropti OS が適用し直します。
 windows-fact-restart = 完了するまでに、PC はさらに 1 回以上再起動します。
-transition-offer-expectation = Windows Update でこのバージョンが提供されるまで、通常は数分ですが、最大 2 時間かかることがあります。Atlas が自動で確認しながら待機します。
+transition-offer-expectation = Windows Update でこのバージョンが提供されるまで、通常は数分ですが、最大 2 時間かかることがあります。Zeropti OS が自動で確認しながら待機します。
 windows-fact-stays = その後、Windows はバージョン { $release } のままになり、自動的に新しいバージョンに移行することはありません。
 windows-fact-removed = バージョン { $release } には、Windows PowerShell 2.0 と WMIC ツールが含まれていません。
 # "設定" > "Windows Update" > "更新の履歴" and "設定" > "システム" > "回復" > "戻す" are the
 # labels Japanese Windows 11 shows.
-windows-card-undo = 後で元に戻すには、「設定」の「Windows Update」>「更新の履歴」から更新プログラムをアンインストールしてください。更新時に Windows が再インストールされた場合は、代わりに 10 日以内に「設定」の「システム」>「回復」で「戻す」を選んでください。Atlas { $version } はバージョン { $current } に対応していないため、Atlas { $version } をインストールした後は元に戻さないでください。
+windows-card-undo = 後で元に戻すには、「設定」の「Windows Update」>「更新の履歴」から更新プログラムをアンインストールしてください。更新時に Windows が再インストールされた場合は、代わりに 10 日以内に「設定」の「システム」>「回復」で「戻す」を選んでください。Zeropti OS { $version } はバージョン { $current } に対応していないため、Zeropti OS { $version } をインストールした後は元に戻さないでください。
 windows-card-undo-optional = 後で元に戻すには、「設定」の「Windows Update」>「更新の履歴」から更新プログラムをアンインストールしてください。更新時に Windows が再インストールされた場合は、代わりに 10 日以内に「設定」の「システム」>「回復」で「戻す」を選んでください。
 windows-terms = Windows 11 バージョン { $release } のマイクロソフト ソフトウェア ライセンス条項に同意します
 windows-terms-link = ライセンス条項を読む
 windows-card-locked = バージョン { $current } のままにするには、「キャンセル」を選んでから「更新を停止」を選んでください。
-prepare-description-transition = インストール前に、Atlas は保留中の Windows 更新プログラムをインストールし、次に Windows 11 バージョン { $release } をインストールしてから、Microsoft Store と Store アプリを更新します。開いている Store アプリは更新中に終了することがあるため、先にそのアプリでの作業を保存してください。PC は少なくとも 1 回再起動します。
+prepare-description-transition = インストール前に、Zeropti OS は保留中の Windows 更新プログラムをインストールし、次に Windows 11 バージョン { $release } をインストールしてから、Microsoft Store と Store アプリを更新します。開いている Store アプリは更新中に終了することがあるため、先にそのアプリでの作業を保存してください。PC は少なくとも 1 回再起動します。
 prepare-start-transition = Windows をバージョン { $release } に更新
 prepare-needs-terms = 「Windows 11 バージョン { $release }」でライセンス条項に同意すると利用できます。
 ready-banner-not-offered-message = 現在できることは、「Windows と Store アプリの更新」で確認してください。
 ready-banner-transition-failed-message = 次に行うことは、「Windows と Store アプリの更新」で確認してください。
 ready-banner-terms-title = 続行するにはライセンス条項に同意してください
 ready-banner-terms-message = ライセンス条項は、このページの下にある「Windows 11 バージョン { $release }」にあります。同意したら、「Windows をバージョン { $release } に更新」を選んでください。
-access-notice-title = Atlas は一時的に Windows Update をオンにします
-access-off = この PC では Windows Update がオフになっています。Windows の更新中は、Atlas がオンに戻します。
-access-paused = この PC では Windows の更新が一時停止されています。Windows の更新中は、Atlas が一時停止を解除します。
-access-delayed = この PC では毎月の更新プログラムが延期されています。Windows の更新中は、Atlas が延期を解除します。
-access-back-chosen = Atlas { $version } のインストールが完了すると、これらの設定は選択したとおりに戻ります。
-access-back = Atlas { $version } のインストールが完了すると、これらの設定は元の状態に戻ります。
-access-back-stop = それより前に停止した場合も、Atlas が元に戻します。
-prepare-reboot-transition = Windows 11 バージョン { $release } がインストールされました。インストールを完了するには、「再起動して続行」を選んでください。サインイン後に Atlas が再び開きます。
-prepare-reboot-commit = バージョン { $release } のインストールを完了するには、Windows をもう一度再起動する必要があります。サインイン後に Atlas が再び開きます。
+access-notice-title = Zeropti OS は一時的に Windows Update をオンにします
+access-off = この PC では Windows Update がオフになっています。Windows の更新中は、Zeropti OS がオンに戻します。
+access-paused = この PC では Windows の更新が一時停止されています。Windows の更新中は、Zeropti OS が一時停止を解除します。
+access-delayed = この PC では毎月の更新プログラムが延期されています。Windows の更新中は、Zeropti OS が延期を解除します。
+access-back-chosen = Zeropti OS { $version } のインストールが完了すると、これらの設定は選択したとおりに戻ります。
+access-back = Zeropti OS { $version } のインストールが完了すると、これらの設定は元の状態に戻ります。
+access-back-stop = それより前に停止した場合も、Zeropti OS が元に戻します。
+prepare-reboot-transition = Windows 11 バージョン { $release } がインストールされました。インストールを完了するには、「再起動して続行」を選んでください。サインイン後に Zeropti OS が再び開きます。
+prepare-reboot-commit = バージョン { $release } のインストールを完了するには、Windows をもう一度再起動する必要があります。サインイン後に Zeropti OS が再び開きます。
 prepare-restart-commit-failed = Windows は再起動時にバージョン { $release } のインストールを完了する準備ができなかったため、PC は再起動されませんでした。もう一度試すには、「再起動して続行」を選んでください。
 prepare-reason-feature-update = 新しい Windows バージョン
 prepare-reason-feature-commit = 新しい Windows バージョンの完了処理
-prepare-resumed-transition = PC が再起動しました。「更新を続ける」を選ぶと、Windows 11 バージョン { $release } のインストールが完了したことを Atlas が確認し、残りの更新プログラムをインストールします。
-prepare-waiting-offer = Windows Update で Windows 11 バージョン { $release } が提供されるのを待っています。通常は数分で提供されますが、最大 2 時間かかることがあります。PC は引き続き使用できますが、Atlas は開いたままにしてください。
-prepare-resumed-before-move = 更新プログラムのインストールを完了するため、PC が再起動しました。「更新を続ける」を選ぶと、Atlas が残りの更新プログラムをインストールし、その後 Windows 11 バージョン { $release } をインストールします。
+prepare-resumed-transition = PC が再起動しました。「更新を続ける」を選ぶと、Windows 11 バージョン { $release } のインストールが完了したことを Zeropti OS が確認し、残りの更新プログラムをインストールします。
+prepare-waiting-offer = Windows Update で Windows 11 バージョン { $release } が提供されるのを待っています。通常は数分で提供されますが、最大 2 時間かかることがあります。PC は引き続き使用できますが、Zeropti OS は開いたままにしてください。
+prepare-resumed-before-move = 更新プログラムのインストールを完了するため、PC が再起動しました。「更新を続ける」を選ぶと、Zeropti OS が残りの更新プログラムをインストールし、その後 Windows 11 バージョン { $release } をインストールします。
 prepare-not-offered-title = Windows Update で Windows 11 バージョン { $release } が提供されるのを待っています
 prepare-transition-failed-title = Windows をバージョン { $release } に移行できませんでした
 prepare-failed-feature-not-offered = Windows Update で Windows 11 バージョン { $release } が PC に提供されるまで、時間がかかることがあります。PC は現在もバージョン { $current } です。
-prepare-offer-rechecking = Atlas は 10 分ごとに再確認し、Windows Update で提供され次第、自動で続行します。「もう一度確認」を選ぶこともできます。
+prepare-offer-rechecking = Zeropti OS は 10 分ごとに再確認し、Windows Update で提供され次第、自動で続行します。「もう一度確認」を選ぶこともできます。
 prepare-offer-waited = { $minutes } 分間待機しています。
 prepare-offer-next-check = 次の確認は { $minutes } 分後です。
 prepare-offer-checking-now = 確認しています。
 prepare-offer-check-again = 今すぐ確認するには、「もう一度確認」を選んでください。
 prepare-offer-wait-ended-title = Windows Update で Windows 11 バージョン { $release } がまだ提供されていません
-prepare-offer-wait-ended = Windows Update で 2 時間以内に Windows 11 バージョン { $release } が提供されなかったため、Atlas は待機を終了し、Windows Update の設定を元に戻しました。後で「もう一度確認」を選んでください。待てない場合は、ファイルをバックアップしてから、Atlas ISO で Windows を再インストールしてください。
+prepare-offer-wait-ended = Windows Update で 2 時間以内に Windows 11 バージョン { $release } が提供されなかったため、Zeropti OS は待機を終了し、Windows Update の設定を元に戻しました。後で「もう一度確認」を選んでください。待てない場合は、ファイルをバックアップしてから、Zeropti OS ISO で Windows を再インストールしてください。
 # $error is the raw error.
-prepare-offer-wait-put-back-failed = Windows Update で 2 時間以内に Windows 11 バージョン { $release } が提供されず、Atlas は Windows Update の設定を元に戻せませんでした。もう一度試すには、「設定を元に戻す」を選んでください。詳細: { $error }
-prepare-failed-feature-hardware = この PC は Windows 11 のハードウェア要件 ({ $missing }) を満たしていないため、Windows Update でバージョン { $release } に移行することはできません。PC は現在もバージョン { $current } です。Atlas { $version } を使用するには、ファイルをバックアップしてから、Atlas ISO で Windows を再インストールしてください。
+prepare-offer-wait-put-back-failed = Windows Update で 2 時間以内に Windows 11 バージョン { $release } が提供されず、Zeropti OS は Windows Update の設定を元に戻せませんでした。もう一度試すには、「設定を元に戻す」を選んでください。詳細: { $error }
+prepare-failed-feature-hardware = この PC は Windows 11 のハードウェア要件 ({ $missing }) を満たしていないため、Windows Update でバージョン { $release } に移行することはできません。PC は現在もバージョン { $current } です。Zeropti OS { $version } を使用するには、ファイルをバックアップしてから、Zeropti OS ISO で Windows を再インストールしてください。
 hardware-tpm = TPM 2.0
 hardware-uefi = UEFI ファームウェア
 prepare-failed-feature-hidden = この PC では、Windows Update で Windows 11 バージョン { $release } が非表示になっています。非表示にしたときのツールで再表示してから、「再試行」を選んでください。
-prepare-failed-feature-disk-space = この更新には、ドライブ { $drive } に { $needed } GB 以上の空き領域が必要ですが、現在の空き領域は { $free } GB です。Atlas は何も変更していません。空き領域を確保してから、「再試行」を選んでください。
-prepare-failed-feature-servicing = Windows のコンポーネント ストアに修復できない破損があると Windows が報告しているため、Atlas は何も変更していません。Windows を修復してから、「再試行」を選んでください。
-prepare-failed-feature-managed = この PC は組織の更新サーバーから更新プログラムを受け取っているため、Atlas はバージョン { $release } に移行できません。Atlas は何も変更していません。
-prepare-failed-feature-policy = Atlas が { $setting } を変更しても、この PC 上の何かが繰り返し変更前の状態に戻すため、Atlas は Windows を更新できません。この PC が組織によって管理されている場合は、管理者に問い合わせてください。停止すると、Atlas は変更した内容を元に戻します。
-prepare-failed-feature-blocked = Atlas が変更していない設定によって、Windows Update を実行できません: { $setting }。Windows Update を実行できるようにこの設定を変更してから、「再試行」を選んでください。
+prepare-failed-feature-disk-space = この更新には、ドライブ { $drive } に { $needed } GB 以上の空き領域が必要ですが、現在の空き領域は { $free } GB です。Zeropti OS は何も変更していません。空き領域を確保してから、「再試行」を選んでください。
+prepare-failed-feature-servicing = Windows のコンポーネント ストアに修復できない破損があると Windows が報告しているため、Zeropti OS は何も変更していません。Windows を修復してから、「再試行」を選んでください。
+prepare-failed-feature-managed = この PC は組織の更新サーバーから更新プログラムを受け取っているため、Zeropti OS はバージョン { $release } に移行できません。Zeropti OS は何も変更していません。
+prepare-failed-feature-policy = Zeropti OS が { $setting } を変更しても、この PC 上の何かが繰り返し変更前の状態に戻すため、Zeropti OS は Windows を更新できません。この PC が組織によって管理されている場合は、管理者に問い合わせてください。停止すると、Zeropti OS は変更した内容を元に戻します。
+prepare-failed-feature-blocked = Zeropti OS が変更していない設定によって、Windows Update を実行できません: { $setting }。Windows Update を実行できるようにこの設定を変更してから、「再試行」を選んでください。
 prepare-failed-feature-rolled-back = Windows は再起動中にバージョン { $release } のインストールを完了できず、バージョン { $current } に戻りました。ファイルとアプリに影響はありません。「再試行」または「レポートを送信」を選んでください。
-prepare-failed-feature-components-lost = Windows の更新後に Atlas の変更の一部が失われていますが、Windows が再インストールされた形跡はないため、Atlas は何が起きたのかを判断できません。Atlas { $version } はインストールされていません。Atlas チームが対応できるよう、「レポートを送信」を選んでください。
-prepare-failed-feature-build = Atlas による更新中に、この PC の Windows のバージョンが変わりました。「設定を元に戻す」を選んでから、ホームからやり直してください。
-prepare-failed-feature-journal = Atlas は、変更した Windows Update の設定の記録を読み取れないため、何も変更せず、元にも戻しません。Atlas チームが対応できるよう、「レポートを送信」を選んでください。
+prepare-failed-feature-components-lost = Windows の更新後に Zeropti OS の変更の一部が失われていますが、Windows が再インストールされた形跡はないため、Zeropti OS は何が起きたのかを判断できません。Zeropti OS { $version } はインストールされていません。Zeropti OS チームが対応できるよう、「レポートを送信」を選んでください。
+prepare-failed-feature-build = Zeropti OS による更新中に、この PC の Windows のバージョンが変わりました。「設定を元に戻す」を選んでから、ホームからやり直してください。
+prepare-failed-feature-journal = Zeropti OS は、変更した Windows Update の設定の記録を読み取れないため、何も変更せず、元にも戻しません。Zeropti OS チームが対応できるよう、「レポートを送信」を選んでください。
 # $setting is the name of a Windows Update policy value, such as TargetReleaseVersionInfo.
-prepare-failed-feature-pin = この PC の Windows Update ポリシー { $setting } に Atlas が記録できない値が設定されているため、Atlas は何も変更していません。Atlas チームが対応できるよう、「レポートを送信」を選んでください。
+prepare-failed-feature-pin = この PC の Windows Update ポリシー { $setting } に Zeropti OS が記録できない値が設定されているため、Zeropti OS は何も変更していません。Zeropti OS チームが対応できるよう、「レポートを送信」を選んでください。
 prepare-failed-feature-terms = Windows 11 バージョン { $release } のライセンス条項に同意してから、「再試行」を選んでください。
 prepare-failed-feature-failed = Windows はバージョン { $release } をインストールできませんでした。PC は現在もバージョン { $current } です。「再試行」を選んでください。再び失敗する場合は、「レポートを送信」を選んでください。
 prepare-check-again = もう一度確認
 prepare-keep-version = バージョン { $current } を維持
-stop-update-title = Atlas { $version } への更新を停止しますか?
+stop-update-title = Zeropti OS { $version } への更新を停止しますか?
 stop-update-title-windows = Windows の更新を停止しますか?
-stop-update-before = Atlas は変更した Windows Update の設定を元に戻します。Windows がすでにインストールした更新プログラムはそのまま残り、PC は Windows 11 バージョン { $current } のままです。
-stop-update-after = PC は Windows 11 バージョン { $release } のままです。Atlas は変更した Windows Update の設定を元に戻します。
-stop-update-access = Atlas は変更した Windows Update の設定を元に戻します。Windows がすでにインストールした更新プログラムはそのまま残ります。
+stop-update-before = Zeropti OS は変更した Windows Update の設定を元に戻します。Windows がすでにインストールした更新プログラムはそのまま残り、PC は Windows 11 バージョン { $current } のままです。
+stop-update-after = PC は Windows 11 バージョン { $release } のままです。Zeropti OS は変更した Windows Update の設定を元に戻します。
+stop-update-access = Zeropti OS は変更した Windows Update の設定を元に戻します。Windows がすでにインストールした更新プログラムはそのまま残ります。
 stop-update-keep = 更新を継続
 # Dialog shown when the window is closed while Windows Update is turned on for an update; its
 # buttons are window-close-keep and window-close-put-back.
-window-close-update-access-title = Atlas を閉じますか?
-window-close-update-access-message = Atlas は閉じる前に、変更した Windows Update の設定を元に戻します。更新はホームからもう一度開始できます。
+window-close-update-access-title = Zeropti OS を閉じますか?
+window-close-update-access-message = Zeropti OS は閉じる前に、変更した Windows Update の設定を元に戻します。更新はホームからもう一度開始できます。
 window-close-put-back = 元に戻して閉じる
 # When putting the settings back before closing failed. The reason comes first, then this
 # message; the buttons are window-close-keep and window-close-close.
 window-close-put-back-failed-title = 設定を元に戻さずに閉じますか?
-window-close-put-back-failed-message = 今 Atlas を閉じると、Windows Update の設定は Atlas が変更したままになります。次に Atlas を開くと、ホームから設定を元に戻せます。
+window-close-put-back-failed-message = 今 Zeropti OS を閉じると、Windows Update の設定は Zeropti OS が変更したままになります。次に Zeropti OS を開くと、ホームから設定を元に戻せます。
 installed-update-off-again = 選択したとおり、Windows Update は再びオフになりました。オフの間、PC はセキュリティ更新プログラムを受け取りません。
 installed-update-paused-again = 選択したとおり、Windows の更新は再び一時停止されました。一時停止中、PC はセキュリティ更新プログラムを受け取りません。
-detail-build-transition = この PC の Windows は Windows 11 バージョン { $current } で、このバージョンの Atlas は対応していません。下で Windows を更新するときに、Atlas が Windows をバージョン { $release } に移行します。
-report-transition-intro = Atlas のための Windows の更新が完了しませんでした。Atlas チーム向けの詳細:
+detail-build-transition = この PC の Windows は Windows 11 バージョン { $current } で、このバージョンの Zeropti OS は対応していません。下で Windows を更新するときに、Zeropti OS が Windows をバージョン { $release } に移行します。
+report-transition-intro = Zeropti OS のための Windows の更新が完了しませんでした。Zeropti OS チーム向けの詳細:
 mode-rebase = Windows の更新後の再インストール
 history-mode-rebase = Windows 更新後の再インストール
 ready-rebase-title = 更新時に Windows が再インストールされました
-ready-rebase-message = Windows 11 バージョン { $release } がこの PC の以前の Windows を置き換えたため、Atlas の変更の一部が失われています。Atlas { $version } は、Atlas { $previous } での選択内容に従って、それらを適用し直します。
-update-path-update-title = Atlas { $version } にどのように更新しますか?
-update-path-reinstall-title = Atlas { $version } をどのように再インストールしますか?
+ready-rebase-message = Windows 11 バージョン { $release } がこの PC の以前の Windows を置き換えたため、Zeropti OS の変更の一部が失われています。Zeropti OS { $version } は、Zeropti OS { $previous } での選択内容に従って、それらを適用し直します。
+update-path-update-title = Zeropti OS { $version } にどのように更新しますか?
+update-path-reinstall-title = Zeropti OS { $version } をどのように再インストールしますか?
 update-path-keep = 選択内容を維持する
-update-path-keep-detail = Atlas は、すべての選択をこの PC の現在の設定のまま維持し、どれも変更しません。こちらのほうが早く完了します。
+update-path-keep-detail = Zeropti OS は、すべての選択をこの PC の現在の設定のまま維持し、どれも変更しません。こちらのほうが早く完了します。
 update-path-choose = 選択をやり直す
-update-path-choose-detail = この PC の現在の設定を出発点に、すべての選択をもう一度行います。Atlas は新規インストールと同じように各選択を適用します。アプリ、ファイル、スタート メニュー、タスク バー、テーマはそのまま残ります。Atlas フォルダーで変更した設定のうち、これらの選択に含まれないものもそのまま残ります。
+update-path-choose-detail = この PC の現在の設定を出発点に、すべての選択をもう一度行います。Zeropti OS は新規インストールと同じように各選択を適用します。アプリ、ファイル、スタート メニュー、タスク バー、テーマはそのまま残ります。Zeropti OS フォルダーで変更した設定のうち、これらの選択に含まれないものもそのまま残ります。
 update-path-now-title = この PC の現在の選択内容
-update-path-unknown = PC から判断できないため、Atlas がお尋ねします
-update-path-differs = { $choices } について、前回のインストールに関する Atlas の記録がこの PC と一致しません。この一覧には、PC の現在の設定が表示されています。
+update-path-unknown = PC から判断できないため、Zeropti OS がお尋ねします
+update-path-differs = { $choices } について、前回のインストールに関する Zeropti OS の記録がこの PC と一致しません。この一覧には、PC の現在の設定が表示されています。
 keep-choices-title = 選択内容の維持
-keep-choices-partial = Atlas はこの PC の現在の設定を維持します。次の項目は PC から判断できないため、選んでください: { $missing }
+keep-choices-partial = Zeropti OS はこの PC の現在の設定を維持します。次の項目は PC から判断できないため、選んでください: { $missing }
 choose-again-title = 選択のやり直し
-choose-again-detail = 各選択では、最初にこの PC の現在の設定が選択されています。選んだ内容は、インストール中に Atlas が適用します。
+choose-again-detail = 各選択では、最初にこの PC の現在の設定が選択されています。選んだ内容は、インストール中に Zeropti OS が適用します。
 option-now = この PC の現在の設定
-change-defender-enable = Atlas は Microsoft Defender を復元します。再起動後に、Windows セキュリティで Defender の保護をオンにしてください。
-change-mitigations-default = Atlas はプロセッサの保護を Windows の既定どおりにオンに戻します。再起動後に有効になります。
+change-defender-enable = Zeropti OS は Microsoft Defender を復元します。再起動後に、Windows セキュリティで Defender の保護をオンにしてください。
+change-mitigations-default = Zeropti OS はプロセッサの保護を Windows の既定どおりにオンに戻します。再起動後に有効になります。
 change-mitigations-all-on = 現在、プロセッサの保護はすべてオンになっています。保護を維持すると、すべてオンのままになります。
-change-auto-updates-default = Atlas は、Windows が更新プログラムを再び自動的にインストールするようにします。
-change-hibernation-on = Atlas は休止状態をオンに戻します。
-change-power-saving-on = Atlas は省電力機能をオンに戻し、以前の電源プランに戻します。以前の電源プランがない場合は「バランス」にします。
-change-core-isolation-on = Atlas は仮想化ベースのセキュリティ (VBS) をオンに戻します。ただし、この PC のポリシーで管理されている場合は変更しません。再起動後に有効になります。
-change-remove-snipping-tool = この PC のすべてのユーザーから Snipping Tool を削除します。Atlas では後から元に戻せませんが、Microsoft Store から再インストールできます。
-fixed-uninstall-edge = Microsoft Edge はすでに削除されており、Atlas を更新しても元に戻りません。再インストールするには、Atlas フォルダーにある「Install or Remove Edge」を使用してください。
-fixed-installed = { $app } はインストール済みです。Atlas はアプリをアンインストールしません。削除するには、Windows の「設定」で「インストールされているアプリ」を開いてください。
-browser-also = { $installed } はそのまま残り、Atlas が { $browser } もインストールします。
-summary-update-path = Atlas の更新方法
+change-auto-updates-default = Zeropti OS は、Windows が更新プログラムを再び自動的にインストールするようにします。
+change-hibernation-on = Zeropti OS は休止状態をオンに戻します。
+change-power-saving-on = Zeropti OS は省電力機能をオンに戻し、以前の電源プランに戻します。以前の電源プランがない場合は「バランス」にします。
+change-core-isolation-on = Zeropti OS は仮想化ベースのセキュリティ (VBS) をオンに戻します。ただし、この PC のポリシーで管理されている場合は変更しません。再起動後に有効になります。
+change-remove-snipping-tool = この PC のすべてのユーザーから Snipping Tool を削除します。Zeropti OS では後から元に戻せませんが、Microsoft Store から再インストールできます。
+fixed-uninstall-edge = Microsoft Edge はすでに削除されており、Zeropti OS を更新しても元に戻りません。再インストールするには、Zeropti OS フォルダーにある「Install or Remove Edge」を使用してください。
+fixed-installed = { $app } はインストール済みです。Zeropti OS はアプリをアンインストールしません。削除するには、Windows の「設定」で「インストールされているアプリ」を開いてください。
+browser-also = { $installed } はそのまま残り、Zeropti OS が { $browser } もインストールします。
+summary-update-path = Zeropti OS の更新方法
 step-heading-update-path-a11y = { $heading }。{ $question }
-security-banner-removed-title = この PC の Microsoft Defender は Atlas によって削除されています
-security-banner-restore-title = このインストールで Atlas が Microsoft Defender を復元します
+security-banner-removed-title = この PC の Microsoft Defender は Zeropti OS によって削除されています
+security-banner-restore-title = このインストールで Zeropti OS が Microsoft Defender を復元します
 security-banner-restore-message = Defender はまだ実行されていないため、この手順でオフにするものはありません。再起動後に、Windows セキュリティで Defender の保護をオンにしてください。「続行」を選んでください。
 security-banner-missing-title = Microsoft Defender が見つかりません
-security-banner-missing-message = Atlas が削除したものではないため、Atlas では復元できません。続行できますが、別のウイルス対策アプリをインストールするか Windows を修復するまで、PC はウイルス対策による保護を受けられません。
+security-banner-missing-message = Zeropti OS が削除したものではないため、Zeropti OS では復元できません。続行できますが、別のウイルス対策アプリをインストールするか Windows を修復するまで、PC はウイルス対策による保護を受けられません。
 installed-defender-not-restored-title = Microsoft Defender は削除されたままです
-installed-defender-not-restored-message = Microsoft Defender を残すことを選びましたが、以前の Atlas の更新で復元されなかったため、PC はウイルス対策による保護を受けていません。復元するには、Atlas を更新または再インストールして「選択をやり直す」を選択してください。または、デスクトップの Atlas フォルダーで「7. Security」>「Defender」を開き、「Toggle Defender」を実行して「Enable Windows Defender」を選んでから、PC を再起動してください。
+installed-defender-not-restored-message = Microsoft Defender を残すことを選びましたが、以前の Zeropti OS の更新で復元されなかったため、PC はウイルス対策による保護を受けていません。復元するには、Zeropti OS を更新または再インストールして「選択をやり直す」を選択してください。または、デスクトップの Zeropti OS フォルダーで「7. Security」>「Defender」を開き、「Toggle Defender」を実行して「Enable Windows Defender」を選んでから、PC を再起動してください。
 choices-not-applied-title = 一部の選択が反映されませんでした
-choices-not-applied-message = { $choices } について、Atlas はこの PC の現在の設定を記録しました。理由はインストール ログで確認できます。
-rebase-choices-title = Atlas { $previous } からの選択内容
-rebase-choices-detail = Atlas は Atlas { $previous } での選択内容を使用するため、ここで選ぶものはありません。後で変更するには、「Atlas を再インストール」を選んでから、「選択をやり直す」を選択してください。
-rebase-choices-partial = Atlas は Atlas { $previous } での選択内容を使用します。次の項目は見つからなかったため、確認してください: { $missing }
+choices-not-applied-message = { $choices } について、Zeropti OS はこの PC の現在の設定を記録しました。理由はインストール ログで確認できます。
+rebase-choices-title = Zeropti OS { $previous } からの選択内容
+rebase-choices-detail = Zeropti OS は Zeropti OS { $previous } での選択内容を使用するため、ここで選ぶものはありません。後で変更するには、「Zeropti OS を再インストール」を選んでから、「選択をやり直す」を選択してください。
+rebase-choices-partial = Zeropti OS は Zeropti OS { $previous } での選択内容を使用します。次の項目は見つからなかったため、確認してください: { $missing }
 restart-other-title = この PC に別のユーザーがサインインしています
 restart-others-title = この PC に他のユーザーが複数サインインしています
 restart-others-message = 再起動すると、サインインしているユーザーのアプリが閉じられ、保存されていない作業は失われます。サインイン中: { $names }。
@@ -1220,11 +1220,11 @@ restart-others-keep = 再起動しない
 restart-others-restart = このまま再起動
 prepare-store-self-update = 先に Microsoft Store を更新しています。この PC の Microsoft Store は最新ではありません。
 prepare-store-repair = Microsoft Store を修復しています。数分かかることがあります。
-prepare-store-updated = Microsoft Store が最新ではなかったため、Atlas はアプリより先に Microsoft Store を更新しました。
-prepare-store-bootstrapped = Microsoft Store が自身を更新できなかったため、Atlas は Microsoft から最新のアプリ インストーラーと Microsoft Store をインストールしました。
-prepare-store-repaired = Microsoft Store が動作していなかったため、Atlas が修復しました。
-prepare-store-skipped-removed = この PC では Microsoft Store がオフになっているため、Atlas は Store アプリの更新をスキップしました。
-prepare-failed-store-repair-failed = Microsoft Store がこの PC でアプリのインストールや更新を行えず、Atlas は修復できませんでした。Store が壊れた状態で Atlas をインストールすると、Store とそのアプリが壊れたままになる可能性があるため、Atlas には Store が正常に動作している必要があります。もう一度試すには、「Microsoft Store を修復」を選んでください。それでも動作しない場合は、ファイルをバックアップしてから Atlas ISO で Windows を再インストールするか、「レポートを送信」を選んでください。
+prepare-store-updated = Microsoft Store が最新ではなかったため、Zeropti OS はアプリより先に Microsoft Store を更新しました。
+prepare-store-bootstrapped = Microsoft Store が自身を更新できなかったため、Zeropti OS は Microsoft から最新のアプリ インストーラーと Microsoft Store をインストールしました。
+prepare-store-repaired = Microsoft Store が動作していなかったため、Zeropti OS が修復しました。
+prepare-store-skipped-removed = この PC では Microsoft Store がオフになっているため、Zeropti OS は Store アプリの更新をスキップしました。
+prepare-failed-store-repair-failed = Microsoft Store がこの PC でアプリのインストールや更新を行えず、Zeropti OS は修復できませんでした。Store が壊れた状態で Zeropti OS をインストールすると、Store とそのアプリが壊れたままになる可能性があるため、Zeropti OS には Store が正常に動作している必要があります。もう一度試すには、「Microsoft Store を修復」を選んでください。それでも動作しない場合は、ファイルをバックアップしてから Zeropti OS ISO で Windows を再インストールするか、「レポートを送信」を選んでください。
 prepare-repair-store = Microsoft Store を修復
 
 screen-keyboard-title = キーボードの言語

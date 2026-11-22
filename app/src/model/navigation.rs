@@ -61,6 +61,13 @@ impl AppModel {
         if !self.can_navigate(page) {
             return;
         }
+        // Zeropti OS: reports are never sent to the Atlas team's service
+        // (reports.atlasos.net). Every "Send a report" entry point opens the
+        // Zeropti support on Discord instead; Export diagnostics stays local.
+        if page == Page::Report {
+            cx.open_url(crate::services::system::links::DISCORD);
+            return;
+        }
         if page != self.page {
             if page == Page::Report {
                 self.report_return = self.page;
