@@ -749,7 +749,7 @@ Add-Section -Title '5. Spot checks (imperative work the drift check cannot verif
         $lines += ('{0,-46} {1}' -f $value, (Get-RegistryValueOrNull -Path 'HKCU:\Control Panel\Desktop' -Name $value))
     }
     $lines += ('{0,-46} {1}' -f 'CurrentTheme', (Get-RegistryValueOrNull -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes' -Name 'CurrentTheme'))
-    $lines += Test-PathState -Label 'Atlas desktop shortcut' -Path (Join-Path ([Environment]::GetFolderPath('DesktopDirectory')) 'Atlas.lnk')
+    $lines += Test-PathState -Label 'Atlas desktop shortcut' -Path (Join-Path ([Environment]::GetFolderPath('DesktopDirectory')) 'Zeropti OS.lnk')
     $sid = [Security.Principal.WindowsIdentity]::GetCurrent().User.Value
     $marker = Get-RegistryValueOrNull -Path 'HKCU:\SOFTWARE\AtlasOS\UserSetup' -Name $sid
     $lines += ('{0,-46} {1}' -f 'User setup marker (2 = complete)', $(if ($null -eq $marker) { '(none)' } else { $marker }))

@@ -356,7 +356,7 @@ if (-not (Test-Path -LiteralPath $atlasFolderIcon -PathType Leaf)) {
     throw "The Atlas folder icon is missing at '$atlasFolderIcon'."
 }
 New-AtlasShortcut -Source $atlasDesktop `
-    -Destination (Join-Path $desktopPath 'Atlas.lnk') `
+    -Destination (Join-Path $desktopPath 'Zeropti OS.lnk') `
     -Icon "$atlasFolderIcon,0"
 
 function Invoke-AtlasDesktopCommand {

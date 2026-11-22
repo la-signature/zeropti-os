@@ -4,7 +4,7 @@ $windir = [Environment]::GetFolderPath('Windows')
 Write-AtlasStep -Text 'Creating Desktop and Start Menu shortcuts...'
 
 # Default user
-$defaultShortcut = "$(Get-UserPath)\Atlas.lnk"
+$defaultShortcut = "$(Get-UserPath)\Zeropti OS.lnk"
 New-AtlasShortcut -Source "$windir\AtlasDesktop" -Destination $defaultShortcut -Icon "$windir\AtlasModules\Other\atlas-folder.ico,0"
 
 # Do not enumerate or write loaded user profiles from TrustedInstaller. The installing

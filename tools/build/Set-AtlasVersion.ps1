@@ -90,7 +90,7 @@ if ($bumpConf) {
             # Keep everything before "v<number>" (e.g. "Atlas ") and any trailing " (dev)".
             $suffix = ''
             if ($line -match '\(dev\)') { $suffix = ' (dev)' }
-            $line -replace '(<Title>\s*).*?(\s*</Title>)', "`${1}Atlas v$Version$suffix`${2}"
+            $line -replace '(<Title>\s*).*?(\s*</Title>)', "`${1}Zeropti OS v$Version$suffix`${2}"
         }
         else {
             $line

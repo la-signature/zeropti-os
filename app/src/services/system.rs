@@ -725,8 +725,8 @@ pub mod links {
     pub const POWER: &str = "ms-settings:powersleep";
     pub const ACTIVATION: &str = "ms-settings:activation";
     pub const DOCS: &str = "https://docs.atlasos.net/";
-    pub const GITHUB: &str = "https://github.com/Atlas-OS/Atlas";
-    pub const RELEASES: &str = "https://github.com/Atlas-OS/Atlas/releases";
+    pub const GITHUB: &str = "https://github.com/la-signature/zeropti-os";
+    pub const RELEASES: &str = "https://github.com/la-signature/zeropti-os/releases";
     pub const DISCORD: &str = "https://discord.atlasos.net/";
 }
 

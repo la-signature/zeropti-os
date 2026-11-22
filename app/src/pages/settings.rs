@@ -44,7 +44,7 @@ fn combo_width(labels: &[String], window: &Window) -> Pixels {
 }
 
 /// Where translations are contributed.
-const TRANSLATIONS_URL: &str = "https://github.com/Atlas-OS/Atlas/tree/main/app/i18n";
+const TRANSLATIONS_URL: &str = "https://github.com/la-signature/zeropti-os/tree/main/app/i18n";
 
 pub struct SettingsPage {
     model: Entity<AppModel>,

@@ -9,10 +9,11 @@ use std::time::{Duration, SystemTime, UNIX_EPOCH};
 use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
 
-const LATEST_URL: &str = "https://api.github.com/repos/Atlas-OS/Atlas/releases/latest";
+// Zeropti OS : versions publiées sur le fork, pas sur le dépôt Atlas d'origine.
+const LATEST_URL: &str = "https://api.github.com/repos/la-signature/zeropti-os/releases/latest";
 /// Sent on every request the app makes of its own accord (GitHub and, in the
 /// stable build, Microsoft's release page), so a server sees one identity.
-pub(crate) const USER_AGENT: &str = concat!("AtlasApp/", env!("CARGO_PKG_VERSION"));
+pub(crate) const USER_AGENT: &str = concat!("ZeroptiManager/", env!("CARGO_PKG_VERSION"));
 
 #[derive(Clone, Debug, Deserialize)]
 pub struct Release {
