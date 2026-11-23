@@ -80,9 +80,9 @@ foreach ($component in $requestedComponents) {
     }
     catch {
         if ($component -in @('Toolbox', 'Eclean')) {
-            $appName = if ($component -ceq 'Toolbox') { 'Atlas Toolbox' } else { 'eclean' }
+            $appName = if ($component -ceq 'Toolbox') { 'Zeropti Toolbox' } else { 'eclean' }
             $downloadUrl = if ($component -ceq 'Toolbox') {
-                'https://github.com/Atlas-OS/atlas-toolbox/releases/latest'
+                'https://github.com/la-signature/zeropti-toolbox/releases/latest'
             } else {
                 'https://eclean.gg/atlasos/'
             }

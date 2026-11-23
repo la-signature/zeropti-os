@@ -94,8 +94,9 @@ function Install-AtlasToolboxPackage {
     Import-Module -Name $downloadModule -ErrorAction Stop
 
     # Toolbox tracks its latest stable release so its updates don't need an Atlas
-    # release. It is unsigned: trust rests on the pinned Atlas-OS owner and repository
-    # IDs, and GitHub's per-asset SHA-256 and size tie the download to that release.
+    # release. It is unsigned: trust rests on the pinned owner and repository IDs of
+    # Zeropti Toolbox (la-signature/zeropti-toolbox, based on AtlasOS Toolbox), and
+    # GitHub's per-asset SHA-256 and size tie the download to that release.
     # A bundled installer is held to its manifest's SHA-256 and size the same way.
     $bundledToolbox = Get-AtlasBundledToolbox
     $bundled = $null -ne $bundledToolbox
@@ -104,15 +105,15 @@ function Install-AtlasToolboxPackage {
     }
     else {
         Get-AtlasLatestGitHubReleaseAsset `
-            -Owner 'Atlas-OS' `
-            -Repository 'atlas-toolbox' `
+            -Owner 'la-signature' `
+            -Repository 'zeropti-toolbox' `
             -AssetName 'AtlasToolbox-Setup.exe' `
-            -ExpectedRepositoryId 929016610 `
-            -ExpectedOwnerId 78708182
+            -ExpectedRepositoryId 1468848295 `
+            -ExpectedOwnerId 344856440
     }
 
     if (Test-AtlasToolboxInstallation -ExpectedVersion $toolboxRelease.Version) {
-        Write-AtlasNote -Text "AtlasOS Toolbox $($toolboxRelease.Version) is already installed."
+        Write-AtlasNote -Text "Zeropti Toolbox $($toolboxRelease.Version) is already installed."
         return
     }
 
@@ -131,7 +132,7 @@ function Install-AtlasToolboxPackage {
             }
         }
         else {
-            Write-AtlasStep -Text "Downloading AtlasOS Toolbox $($toolboxRelease.Version)..."
+            Write-AtlasStep -Text "Downloading Zeropti Toolbox $($toolboxRelease.Version)..."
             Invoke-AtlasPinnedDownload `
                 -Uri $toolboxRelease.Uri `
                 -Destination $toolboxPath `
@@ -139,7 +140,7 @@ function Install-AtlasToolboxPackage {
                 -ExpectedBytes $toolboxRelease.Size | Out-Null
         }
 
-        Write-AtlasStep -Text "Installing AtlasOS Toolbox $($toolboxRelease.Version)..."
+        Write-AtlasStep -Text "Installing Zeropti Toolbox $($toolboxRelease.Version)..."
         $originalTemp = [Environment]::GetEnvironmentVariable('TEMP', 'Process')
         $originalTmp = [Environment]::GetEnvironmentVariable('TMP', 'Process')
         try {

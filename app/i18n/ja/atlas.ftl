@@ -433,7 +433,7 @@ playbook-option-disable-core-isolation = 仮想化ベースのセキュリティ
 playbook-option-remove-snipping-tool = Snipping Tool を削除する
 playbook-option-uninstall-edge = Microsoft Edge を削除する
 playbook-option-install-another-browser = ブラウザーをインストールする
-playbook-option-install-toolbox = Atlas Toolbox をインストールする
+playbook-option-install-toolbox = Zeropti Toolbox をインストールする
 playbook-option-install-eclean = eclean をインストールする
 playbook-option-browser-brave = Brave
 playbook-option-browser-librewolf = LibreWolf
@@ -675,7 +675,7 @@ consequence-uninstall-edge-data = Microsoft Edge と、この PC の Edge のお
 # Under Remove Microsoft Edge in the Install step's summary, with a caution glyph.
 caution-uninstall-edge = この PC の Edge のお気に入り、履歴、保存したパスワードを削除します。
 consequence-install-another-browser = 下でブラウザーを選ぶと、Zeropti OS がインストールします。
-consequence-install-toolbox = Atlas Toolbox を追加すると、Zeropti OS の設定を管理しやすくなります。Toolbox はベータ版のため、一部の機能は未完成の場合があります。
+consequence-install-toolbox = Zeropti Toolbox を追加すると、Zeropti OS の設定を管理しやすくなります。Toolbox はベータ版のため、一部の機能は未完成の場合があります。
 consequence-install-eclean = セットアップ後の PC を整える、AtlasOS 開発チームのメンテナンス ツールです。不要なファイルやスタートアップ アプリを確認できます。アカウントとインターネット接続が必要です。
 
 # Introduction on the home page before Atlas is installed.

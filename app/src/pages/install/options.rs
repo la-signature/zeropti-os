@@ -459,7 +459,7 @@ mod tests {
                 assert_eq!(note("auto-updates-default").change, line("change-auto-updates-default"));
                 assert!(note("auto-updates-disable").now && note("auto-updates-disable").change.is_none());
                 assert_eq!(note("uninstall-edge").fixed, line("fixed-uninstall-edge"));
-                assert_eq!(note("install-toolbox").fixed, Some(t!("fixed-installed", app = "Atlas Toolbox")));
+                assert_eq!(note("install-toolbox").fixed, Some(t!("fixed-installed", app = "Zeropti Toolbox")));
                 assert_eq!(note("install-another-browser").fixed, Some(t!("fixed-installed", app = "Brave")));
                 assert!(note("browser-brave").now && note("browser-brave").change.is_none());
                 // Ticked as the PC has them: nothing changes until cleared.

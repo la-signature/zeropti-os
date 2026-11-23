@@ -504,7 +504,7 @@ change-remove-snipping-tool = Removes Snipping Tool for everyone on this PC. Zer
 # Under a box Choose again shows ticked and can't clear, saying why. Install or Remove Edge
 # is a file name in the Atlas folder, in English on every PC.
 fixed-uninstall-edge = Microsoft Edge is already removed, and updating Zeropti OS can't put it back. To install it again, use Install or Remove Edge in the Zeropti OS folder.
-# The same for an app Atlas installed. $app is its name, such as Atlas Toolbox or Brave.
+# The same for an app Atlas installed. $app is its name, such as Zeropti Toolbox or Brave.
 # "Installed apps" is the page of that name in Windows Settings.
 fixed-installed = { $app } is installed. Zeropti OS doesn't uninstall apps; to remove it, go to Installed apps in Windows Settings.
 # Under the browser chosen when another browser Atlas offers is already installed.
@@ -529,7 +529,7 @@ playbook-option-disable-core-isolation = Turn off virtualisation-based security 
 playbook-option-remove-snipping-tool = Remove Snipping Tool
 playbook-option-uninstall-edge = Remove Microsoft Edge
 playbook-option-install-another-browser = Install a browser
-playbook-option-install-toolbox = Install Atlas Toolbox
+playbook-option-install-toolbox = Install Zeropti Toolbox
 playbook-option-install-eclean = Install eclean
 playbook-option-browser-brave = Brave
 playbook-option-browser-librewolf = LibreWolf
@@ -845,7 +845,7 @@ consequence-uninstall-edge-data = Removes Microsoft Edge and deletes your Edge b
 # Under Remove Microsoft Edge in the Install step's summary, with a caution glyph.
 caution-uninstall-edge = Deletes your Edge bookmarks, history and saved passwords on this PC.
 consequence-install-another-browser = Choose a browser below and Zeropti OS will install it for you.
-consequence-install-toolbox = Add Atlas Toolbox to help manage your Zeropti OS settings. Toolbox is in beta, so some features may be unfinished.
+consequence-install-toolbox = Add Zeropti Toolbox to help manage your Zeropti OS settings. Toolbox is in beta, so some features may be unfinished.
 consequence-install-eclean = A maintenance tool from the team behind AtlasOS, for keeping your PC tidy after setup. Review junk files and startup apps. Requires an account and an internet connection.
 
 # Introduction on the home page before Atlas is installed.

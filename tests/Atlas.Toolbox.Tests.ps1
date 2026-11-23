@@ -91,11 +91,11 @@ Describe 'Atlas Toolbox latest-channel integrity contract' {
         Should -Invoke Invoke-AtlasPinnedDownload -Times 0 -Exactly
         Should -Invoke Get-AtlasLatestGitHubReleaseAsset -Times 1 -Exactly `
             -ParameterFilter {
-                $Owner -ceq 'Atlas-OS' -and
-                $Repository -ceq 'atlas-toolbox' -and
+                $Owner -ceq 'la-signature' -and
+                $Repository -ceq 'zeropti-toolbox' -and
                 $AssetName -ceq 'AtlasToolbox-Setup.exe' -and
-                $ExpectedRepositoryId -eq 929016610 -and
-                $ExpectedOwnerId -eq 78708182
+                $ExpectedRepositoryId -eq 1468848295 -and
+                $ExpectedOwnerId -eq 344856440
             }
     }
 

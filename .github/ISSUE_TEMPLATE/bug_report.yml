@@ -57,8 +57,8 @@ body:
     label: Atlas Version
     description: Run winver to see your Windows version.
     options:
-    - Atlas v0.6.0 for Windows 11 25H2
-    - Atlas v0.6.0 for Windows 11 26H2
+    - Atlas v0.6.1 for Windows 11 25H2
+    - Atlas v0.6.1 for Windows 11 26H2
   validations:
     required: true
 

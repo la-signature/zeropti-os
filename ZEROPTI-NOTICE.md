@@ -39,3 +39,10 @@ et la logique d'installation est inchangée.
   (workflow `release.yml`, exécuté seulement dans ce dépôt).
 - Les noms internes (dossiers `AtlasModules`, `AtlasDesktop`, `AtlasOS`, modules PowerShell, identifiants du paquet)
   sont volontairement conservés pour ne pas casser l'installation ni les mises à jour.
+
+## Zeropti Toolbox (novembre 2026, version 0.6.1)
+
+- Zeropti OS installe **Zeropti Toolbox** (https://github.com/la-signature/zeropti-toolbox, version modifiée
+  d'AtlasOS Toolbox, GPLv3) au lieu d'Atlas Toolbox : `Toolbox-Package.ps1` télécharge `AtlasToolbox-Setup.exe`
+  depuis ce dépôt (identifiants du dépôt et du propriétaire épinglés), et les textes disent « Zeropti Toolbox ».
+- Version 0.6.1 (mise à jour possible depuis 0.6.0).

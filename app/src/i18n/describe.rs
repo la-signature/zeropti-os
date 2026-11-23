@@ -750,8 +750,8 @@ pub fn change_line(name: &str, package_text: &str, chosen: bool, facts: &Facts) 
     })
 }
 
-/// The Atlas Toolbox's name, which is the same in every language.
-const TOOLBOX: &str = "Atlas Toolbox";
+/// The Toolbox's name, which is the same in every language (Zeropti Toolbox, based on Atlas Toolbox).
+const TOOLBOX: &str = "Zeropti Toolbox";
 
 /// Why an update can't change an option, for the box Your choices shows
 /// ticked and disabled. `label` names an option, such as a browser. Keeping
@@ -1580,7 +1580,7 @@ mod tests {
             assert_eq!(fixed_reason(&FixedChoice::EdgeRemoved, label), Some(t!("fixed-uninstall-edge")));
             assert_eq!(
                 fixed_reason(&FixedChoice::Installed("install-toolbox".into()), label),
-                Some(t!("fixed-installed", app = "Atlas Toolbox"))
+                Some(t!("fixed-installed", app = "Zeropti Toolbox"))
             );
             let brave = fixed_reason(&FixedChoice::Installed("browser-brave".into()), label).unwrap();
             assert!(brave.starts_with("Brave is installed."), "{brave}");

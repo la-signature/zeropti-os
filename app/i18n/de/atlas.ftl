@@ -10,7 +10,7 @@
 ###   (Manipulationsschutz, Echtzeitschutz, Cloudbasierter Schutz, Automatische
 ###   Übermittlung von Beispielen, Einstellungen für Viren- & Bedrohungsschutz).
 ### - Product names stay as they are: Atlas, Windows, Microsoft Defender,
-###   Windows-Sicherheit, Windows Update, GitHub, Discord, Atlas Toolbox,
+###   Windows-Sicherheit, Windows Update, GitHub, Discord, Zeropti Toolbox,
 ###   AME Wizard, Snipping Tool, LocalTest. German quotation marks („ “) mark
 ###   button and step names quoted inside sentences.
 ### - The .apbx file is the "Atlas-Paket" ("Paket" once that is clear; its file
@@ -443,7 +443,7 @@ playbook-option-disable-core-isolation = Virtualisierungsbasierte Sicherheit (VB
 playbook-option-remove-snipping-tool = Snipping Tool entfernen
 playbook-option-uninstall-edge = Microsoft Edge entfernen
 playbook-option-install-another-browser = Browser installieren
-playbook-option-install-toolbox = Atlas Toolbox installieren
+playbook-option-install-toolbox = Zeropti Toolbox installieren
 playbook-option-install-eclean = eclean installieren
 playbook-option-browser-brave = Brave
 playbook-option-browser-librewolf = LibreWolf
@@ -697,7 +697,7 @@ consequence-uninstall-edge-data = Entfernt Microsoft Edge und löscht Ihre Favor
 # Under Remove Microsoft Edge in the Install step's summary, with a caution glyph.
 caution-uninstall-edge = Löscht Ihre Favoriten, Ihren Verlauf und Ihre gespeicherten Kennwörter in Edge auf diesem PC.
 consequence-install-another-browser = Wählen Sie unten einen Browser aus; Zeropti OS installiert ihn für Sie.
-consequence-install-toolbox = Mit Atlas Toolbox verwalten Sie Ihre Zeropti-OS-Einstellungen. Toolbox ist in der Betaphase, einige Funktionen sind daher möglicherweise noch nicht fertig.
+consequence-install-toolbox = Mit Zeropti Toolbox verwalten Sie Ihre Zeropti-OS-Einstellungen. Toolbox ist in der Betaphase, einige Funktionen sind daher möglicherweise noch nicht fertig.
 consequence-install-eclean = Ein Wartungstool vom Team hinter AtlasOS, mit dem Sie Ihren PC nach der Einrichtung aufräumen können. Prüfen Sie überflüssige Dateien und Autostart-Apps. Erfordert ein Konto und eine Internetverbindung.
 
 # Introduction on the home page before Atlas is installed.

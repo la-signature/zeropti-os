@@ -434,7 +434,7 @@ playbook-option-disable-core-isolation = Nonaktifkan keamanan berbasis virtualis
 playbook-option-remove-snipping-tool = Hapus Snipping Tool
 playbook-option-uninstall-edge = Hapus Microsoft Edge
 playbook-option-install-another-browser = Instal browser
-playbook-option-install-toolbox = Instal Atlas Toolbox
+playbook-option-install-toolbox = Instal Zeropti Toolbox
 playbook-option-install-eclean = Instal eclean
 playbook-option-browser-brave = Brave
 playbook-option-browser-librewolf = LibreWolf
@@ -679,7 +679,7 @@ consequence-uninstall-edge-data = Menghapus Microsoft Edge serta favorit, riwaya
 # Under Remove Microsoft Edge in the Install step's summary, with a caution glyph.
 caution-uninstall-edge = Menghapus favorit, riwayat, dan kata sandi tersimpan Anda di Edge pada PC ini.
 consequence-install-another-browser = Pilih browser di bawah dan Zeropti OS akan menginstalnya untuk Anda.
-consequence-install-toolbox = Tambahkan Atlas Toolbox untuk membantu mengelola pengaturan Zeropti OS Anda. Toolbox masih dalam tahap beta, sehingga beberapa fitur mungkin belum selesai.
+consequence-install-toolbox = Tambahkan Zeropti Toolbox untuk membantu mengelola pengaturan Zeropti OS Anda. Toolbox masih dalam tahap beta, sehingga beberapa fitur mungkin belum selesai.
 consequence-install-eclean = Alat perawatan dari tim di balik AtlasOS untuk menjaga PC tetap rapi setelah penyiapan. Tinjau file sampah dan aplikasi startup. Memerlukan akun dan koneksi internet.
 
 # Introduction on the home page before Atlas is installed.

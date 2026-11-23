@@ -461,7 +461,7 @@ playbook-option-disable-core-isolation = Desativar a segurança baseada em virtu
 playbook-option-remove-snipping-tool = Remover a Ferramenta de Captura
 playbook-option-uninstall-edge = Remover o Microsoft Edge
 playbook-option-install-another-browser = Instalar um navegador
-playbook-option-install-toolbox = Instalar o Atlas Toolbox
+playbook-option-install-toolbox = Instalar o Zeropti Toolbox
 playbook-option-install-eclean = Instalar eclean
 playbook-option-browser-brave = Brave
 playbook-option-browser-librewolf = LibreWolf
@@ -750,7 +750,7 @@ consequence-uninstall-edge-data = Remove o Microsoft Edge e exclui os favoritos,
 # Under Remove Microsoft Edge in the Install step's summary, with a caution glyph.
 caution-uninstall-edge = Exclui os favoritos, o histórico e as senhas salvas do Edge neste PC.
 consequence-install-another-browser = Escolha um navegador abaixo e o Zeropti OS o instalará para você.
-consequence-install-toolbox = Adicione o Atlas Toolbox para ajudar a gerenciar as configurações do Zeropti OS. O Toolbox está em beta, então alguns recursos podem estar incompletos.
+consequence-install-toolbox = Adicione o Zeropti Toolbox para ajudar a gerenciar as configurações do Zeropti OS. O Toolbox está em beta, então alguns recursos podem estar incompletos.
 consequence-install-eclean = Uma ferramenta de manutenção da equipe do AtlasOS para manter seu PC organizado após a configuração. Revise arquivos desnecessários e aplicativos de inicialização. Requer uma conta e conexão com a internet.
 
 # Introduction on the home page before Atlas is installed.

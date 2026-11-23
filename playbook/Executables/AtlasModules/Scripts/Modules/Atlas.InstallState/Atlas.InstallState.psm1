@@ -1041,7 +1041,7 @@ $script:AtlasChoiceLabels = @{
     edge          = 'Remove Microsoft Edge'
     snippingTool  = 'Remove Snipping Tool'
     coreIsolation = 'Turn off virtualisation-based security (VBS)'
-    toolbox       = 'Install Atlas Toolbox'
+    toolbox       = 'Install Zeropti Toolbox'
     browser       = 'Browser'
     keyboard      = 'Keyboard languages'
 }
@@ -1104,7 +1104,7 @@ function Get-AtlasObservedOptionReason {
         'edge' { if (& $has 'uninstall-edge') { return "Microsoft Edge isn't installed" }; return 'Microsoft Edge is installed' }
         'snippingTool' { if (& $has 'remove-snipping-tool') { return 'no account has Snipping Tool' }; return 'Snipping Tool is installed' }
         'coreIsolation' { if (& $has 'disable-core-isolation') { return 'VBS is off' }; return 'VBS is on' }
-        'toolbox' { if (& $has 'install-toolbox') { return 'Atlas Toolbox is installed' }; return "Atlas Toolbox isn't installed" }
+        'toolbox' { if (& $has 'install-toolbox') { return 'Zeropti Toolbox is installed' }; return "Zeropti Toolbox isn't installed" }
         'browser' {
             $browser = @($Options | Where-Object { $_ -like 'browser-*' })
             if ($browser.Count -eq 0) { return "the chosen browser isn't installed" }

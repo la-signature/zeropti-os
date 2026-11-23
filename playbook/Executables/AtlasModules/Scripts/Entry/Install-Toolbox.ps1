@@ -43,17 +43,17 @@ if (-not [IO.File]::Exists($trustBootstrap)) {
 }
 . $trustBootstrap
 
-$title = 'Install AtlasOS Toolbox'
+$title = 'Install Zeropti Toolbox'
 $coreManifest = [IO.Path]::Combine($scriptsRoot, 'Modules', 'Atlas.Core', 'Atlas.Core.psd1')
 Import-Module -Name $coreManifest -ErrorAction Stop
 $packageHelper = [IO.Path]::Combine($scriptsRoot, 'Operations', 'Toolbox-Package.ps1')
-$explanation = 'Downloads and installs the latest AtlasOS Toolbox release from GitHub.'
+$explanation = 'Downloads and installs the latest Zeropti Toolbox release from GitHub.'
 if ([IO.File]::Exists($packageHelper)) {
     . $packageHelper
     # A damaged manifest is reported by the install below.
     $bundledToolbox = try { Get-AtlasBundledToolbox } catch { $null }
     if ($null -ne $bundledToolbox) {
-        $explanation = "Installs AtlasOS Toolbox $($bundledToolbox.Version), which comes with this Atlas test build."
+        $explanation = "Installs Zeropti Toolbox $($bundledToolbox.Version), which comes with this Atlas test build."
     }
 }
 if (-not $Silent) {
@@ -74,7 +74,7 @@ try {
     exit 0
 }
 catch {
-    Write-AtlasLog -Level Error -Message "Installing AtlasOS Toolbox failed: $($_.Exception.Message)" -ErrorRecord $_ -NoConsole:(-not $Silent)
+    Write-AtlasLog -Level Error -Message "Installing Zeropti Toolbox failed: $($_.Exception.Message)" -ErrorRecord $_ -NoConsole:(-not $Silent)
     if (-not $Silent) {
         Write-AtlasNotApplied -Title $title -Reason $_.Exception.Message -DetailsPath (Get-AtlasInstallLogPath)
         Wait-AtlasExit
