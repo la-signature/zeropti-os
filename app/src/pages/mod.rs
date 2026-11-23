@@ -1090,8 +1090,8 @@ pub(crate) mod testing {
     ) -> Entity<AppModel> {
         let model = new_model(cx, Machine::new(all_off()).environment(temp.path()));
         model.update(cx, |m, _| {
-            m.install_identity = Ok(InstallIdentity::Installed("0.6.0".into()));
-            m.atlas = Ok(options.map(|options| recorded("0.6.0", options)));
+            m.install_identity = Ok(InstallIdentity::Installed("0.6.1".into()));
+            m.atlas = Ok(options.map(|options| recorded("0.6.1", options)));
             m.pc_facts = facts;
             m.playbook = Some(PlaybookSource {
                 dir: temp.path().to_path_buf(),

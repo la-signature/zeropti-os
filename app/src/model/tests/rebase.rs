@@ -402,8 +402,8 @@ const ON_THE_PC: &[&str] = &[
 fn only_an_update_or_reinstall_of_an_installed_atlas_asks_how() {
     run_model_test(|mut cx| async move {
         let (_temp, machine, env) = fixture("update-path-when");
-        *machine.identity.lock().unwrap() = Some(InstallIdentity::Installed("0.6.0".into()));
-        *machine.state.lock().unwrap() = Some(recorded("0.6.0", CONTRADICTED));
+        *machine.identity.lock().unwrap() = Some(InstallIdentity::Installed("0.6.1".into()));
+        *machine.state.lock().unwrap() = Some(recorded("0.6.1", CONTRADICTED));
         let model = new_model(&mut cx, env);
         wait_for(&cx, &model, "startup recovery", |m| !m.recovering).await;
         let asks = |m: &AppModel| {
@@ -414,7 +414,7 @@ fn only_an_update_or_reinstall_of_an_installed_atlas_asks_how() {
         read(&cx, &model, |m| {
             assert!(asks(m));
             let choices = m.update_choices().unwrap();
-            assert_eq!((choices.previous.as_str(), choices.reinstall), ("0.6.0", true), "a reinstall");
+            assert_eq!((choices.previous.as_str(), choices.reinstall), ("0.6.1", true), "a reinstall");
         });
         *machine.identity.lock().unwrap() = Some(InstallIdentity::Installed("0.5.0".into()));
         act(&mut cx, &model, |m, _| m.refresh_atlas_state());

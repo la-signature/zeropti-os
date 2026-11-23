@@ -577,9 +577,9 @@ fn apply_update(model: &mut AppModel, state: &str) -> bool {
 /// on, and VBS off without its option. `path` is how this flow treats it.
 fn apply_contradicted(model: &mut AppModel, path: UpdatePath) {
     model.system = windows_pc(26300, "26H2", "Professional");
-    model.install_identity = Ok(InstallIdentity::Installed("0.6.0".into()));
+    model.install_identity = Ok(InstallIdentity::Installed("0.6.1".into()));
     model.atlas = serde_json::from_value(json!({
-        "schemaVersion": 1, "installedVersion": "0.6.0", "installedAt": "2026-10-27T18:00:00+00:00",
+        "schemaVersion": 1, "installedVersion": "0.6.1", "installedAt": "2026-10-27T18:00:00+00:00",
         "mode": "Reapply", "options": [
             "auto-updates-disable", "defender-enable", "disable-power-saving", "install-toolbox",
             "keyboard-single", "mitigations-disable", "uninstall-edge"

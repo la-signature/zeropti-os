@@ -113,7 +113,7 @@ fn a_newer_installed_version_is_judged_by_the_package_not_the_built_in_manifest(
         let (package, marker) = marking_package(&temp, 0);
         let model = new_model(&mut cx, env);
         wait_for(&cx, &model, "startup recovery", |m| !m.recovering).await;
-        for version in ["0.6.1", "0.6.0-hotfix"] {
+        for version in ["0.6.2", "0.6.1-hotfix"] {
             *machine.identity.lock().unwrap() = Some(Installed(version.into()));
             act(&mut cx, &model, |m, _| m.refresh_atlas_state());
             assert!(read(&cx, &model, |m| m.install_eligibility_problem().is_none()), "{version}");
@@ -178,7 +178,7 @@ fn a_tester_build_judges_the_install_identity_against_its_bundled_package() {
         let model = new_model(&mut cx, env);
         wait_for(&cx, &model, "startup recovery", |m| !m.recovering).await;
         for identity in [
-            atlas_state::InstallIdentity::Installed("0.6.1".into()),
+            atlas_state::InstallIdentity::Installed("0.6.2".into()),
             atlas_state::InstallIdentity::Resume("0.5.9".into(), Default::default()),
         ] {
             *machine.identity.lock().unwrap() = Some(identity.clone());

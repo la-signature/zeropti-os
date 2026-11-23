@@ -570,10 +570,10 @@ mod tests {
 
                 assert_eq!(
                     update_path_question(m),
-                    Some(t!("update-path-reinstall-title", version = "0.6.0"))
+                    Some(t!("update-path-reinstall-title", version = "0.6.1"))
                 );
                 m.install_identity = Ok(InstallIdentity::Installed("0.5.0".into()));
-                assert_eq!(update_path_question(m), Some(t!("update-path-update-title", version = "0.6.0")));
+                assert_eq!(update_path_question(m), Some(t!("update-path-update-title", version = "0.6.1")));
                 m.install_identity = Ok(InstallIdentity::Fresh);
                 assert_eq!(update_path_question(m), None, "a first install has no first screen");
             });
@@ -657,7 +657,7 @@ mod tests {
             let model = installed_model(&mut cx, &temp, Some(&["defender-enable"]), removed_pc());
             model.update(&mut cx, |m, cx| {
                 let heading = "Step 2 of 4: Your choices";
-                let question = t!("update-path-reinstall-title", version = "0.6.0");
+                let question = t!("update-path-reinstall-title", version = "0.6.1");
                 assert_eq!(
                     choice_heading_name(m, heading),
                     Some(t!("step-heading-update-path-a11y", heading = heading, question = question))
